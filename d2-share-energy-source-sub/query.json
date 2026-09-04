@@ -1,7 +1,7 @@
 {
   "id": "D2",
   "category": "dataset",
-  "query": "用 share-energy-source-sub.csv（能源结构宽表），做一个主要国家能源结构的堆叠面积图页面，可切换国家，展示煤/油/气/核/水/风/光占比演变。",
+  "query": "分析 share-energy-source-sub.csv（各国能源结构宽表），做一份主要国家能源结构演变的可视化报告，支持按国家查看。",
   "files": [
     {
       "file": "share-energy-source-sub.csv",

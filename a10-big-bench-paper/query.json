@@ -1,7 +1,7 @@
 {
   "id": "A10",
   "category": "paper",
-  "query": "读 big-bench-paper.pdf，做一份 BIG-bench 任务全景报告：用图表展示 200+ 任务按类别的分布、模型规模与任务表现的关系曲线。",
+  "query": "读 big-bench-paper.pdf，做一份 BIG-bench 任务全景报告，分析 200+ 任务的类别构成，以及模型规模与任务表现的关系。",
   "files": [
     {
       "file": "big-bench-paper.pdf",

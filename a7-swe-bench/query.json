@@ -1,7 +1,7 @@
 {
   "id": "A7",
   "category": "paper",
-  "query": "读 swe-bench.pdf 和 humaneval-paper.pdf，做一份\"代码能力评测基准\"对比报告，用图表展示两个基准的任务规模、通过率分布和历年模型成绩演进。",
+  "query": "读 swe-bench.pdf 和 humaneval-paper.pdf，做一份\"代码能力评测基准\"对比报告，分析两个基准的任务规模、模型通过率与历年成绩演进。",
   "files": [
     {
       "file": "swe-bench.pdf",

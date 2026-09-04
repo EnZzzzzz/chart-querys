@@ -1,7 +1,7 @@
 {
   "id": "E5",
   "category": "special-form",
-  "query": "用 plotly-global-precipitation.csv（1 万行格点数据）或 vega-annual-precip.json 网格，做一张全球降水热力图页面。",
+  "query": "分析 plotly-global-precipitation.csv（1 万行格点降水数据，或 vega-annual-precip.json），做一份全球降水空间分布的可视化页面。",
   "files": [
     {
       "file": "plotly-global-precipitation.csv",

@@ -1,7 +1,7 @@
 {
   "id": "D7",
   "category": "dataset",
-  "query": "用 mayo-pbc-liver-survival.csv 和 ncctg-lung-cancer-survival.csv，做一份医学统计图表页面：生存曲线、分组对比、协变量分布。",
+  "query": "分析 mayo-pbc-liver-survival.csv 和 ncctg-lung-cancer-survival.csv 两份医学随访数据，做一份患者生存情况的可视化分析报告。",
   "files": [
     {
       "file": "mayo-pbc-liver-survival.csv",

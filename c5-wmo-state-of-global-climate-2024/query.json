@@ -1,7 +1,7 @@
 {
   "id": "C5",
   "category": "report-en",
-  "query": "Read wmo-state-of-global-climate-2024.pdf and create a climate dashboard page: temperature anomaly time series, sea level rise, greenhouse gas concentration, extreme events.",
+  "query": "Read wmo-state-of-global-climate-2024.pdf and create a climate dashboard page analyzing temperature anomalies, sea level rise, greenhouse gas concentrations, and extreme events.",
   "files": [
     {
       "file": "wmo-state-of-global-climate-2024.pdf",

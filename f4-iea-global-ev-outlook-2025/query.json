@@ -1,7 +1,7 @@
 {
   "id": "F4",
   "category": "cross-source",
-  "query": "结合 iea-global-ev-outlook-2025.pdf 和能源/排放数据集（co-emissions-per-capita.csv、share-electricity-low-carbon.csv），做一份\"电动车能减多少碳\"的数据报告。",
+  "query": "结合 iea-global-ev-outlook-2025.pdf 和能源/排放数据集（co-emissions-per-capita.csv、share-electricity-low-carbon.csv），做一份\"电动车能减多少碳\"的数据分析报告。",
   "files": [
     {
       "file": "iea-global-ev-outlook-2025.pdf",

@@ -1,7 +1,7 @@
 {
   "id": "A5",
   "category": "paper",
-  "query": "读 mmlu-paper.pdf，做一份报告分析 MMLU 基准的 57 个学科构成，用图表展示各学科题目数量分布、以及不同模型在不同学科大类上的表现差异。",
+  "query": "读 mmlu-paper.pdf，分析 MMLU 基准的 57 个学科构成，以及不同模型在不同学科大类上的表现差异，做一份数据丰富的图文报告。",
   "files": [
     {
       "file": "mmlu-paper.pdf",

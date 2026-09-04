@@ -1,7 +1,7 @@
 {
   "id": "C10",
   "category": "report-en",
-  "query": "读 wef-global-risks-report-2025.pdf，做一份全球风险全景报告：风险矩阵（概率×影响）散点图、各类风险年度排名变化。",
+  "query": "读 wef-global-risks-report-2025.pdf，做一份全球风险全景图文报告，分析各类风险的严重程度、发生可能性和年度排名变化。",
   "files": [
     {
       "file": "wef-global-risks-report-2025.pdf",

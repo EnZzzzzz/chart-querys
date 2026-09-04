@@ -1,7 +1,7 @@
 {
   "id": "E1",
   "category": "special-form",
-  "query": "用 plotly-us-counties-geojson.json（3221 个县边界）配合 plotly-2011-us-ag-exports.csv，做一张美国县级 choropleth 地图页面。",
+  "query": "分析 plotly-2011-us-ag-exports.csv，结合 plotly-us-counties-geojson.json 的县级边界数据，做一份美国各县农产品出口的可视化报告。",
   "files": [
     {
       "file": "plotly-us-counties-geojson.json",

@@ -1,7 +1,7 @@
 {
   "id": "A6",
   "category": "paper",
-  "query": "读 helm-benchmark.pdf，把 HELM 的场景分类体系（场景×指标）做成一张结构化的图解页面，并挑选论文中 3 个核心指标的模型排名做成条形图。",
+  "query": "读 helm-benchmark.pdf，解读 HELM 评测体系（场景×指标）的构成，并分析论文中几个核心指标上的模型排名，做一份图文报告。",
   "files": [
     {
       "file": "helm-benchmark.pdf",

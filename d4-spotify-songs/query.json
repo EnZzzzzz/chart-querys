@@ -1,7 +1,7 @@
 {
   "id": "D4",
   "category": "dataset",
-  "query": "用 spotify_songs.csv（3.3 万行音频特征），做一份\"流行音乐配方\"分析报告：danceability/energy/valence 等特征的分布、相关性散点矩阵、按流派的对比。",
+  "query": "分析 spotify_songs.csv（3.3 万首歌的音频特征），做一份\"流行音乐配方\"数据分析报告，看看哪些特征决定了流行度、流派之间有什么差异。",
   "files": [
     {
       "file": "spotify_songs.csv",

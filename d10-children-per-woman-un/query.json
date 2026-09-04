@@ -1,7 +1,7 @@
 {
   "id": "D10",
   "category": "dataset",
-  "query": "用 children-per-woman-un.csv 和 median-age.csv，做一份\"全球老龄化\"报告：生育率下降曲线、年龄中位数演变、两者关系的散点图。",
+  "query": "分析 children-per-woman-un.csv 和 median-age.csv，做一份\"全球老龄化\"数据报告，呈现生育率与年龄结构的长期变化及两者关系。",
   "files": [
     {
       "file": "children-per-woman-un.csv",

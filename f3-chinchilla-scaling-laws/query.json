@@ -1,7 +1,7 @@
 {
   "id": "F3",
   "category": "cross-source",
-  "query": "结合 chinchilla-scaling-laws.pdf 和 llama3-technical-report.pdf 的训练算力数据，做一份\"大模型军备竞赛算力账\"可视化报告。",
+  "query": "结合 chinchilla-scaling-laws.pdf 和 llama3-technical-report.pdf，做一份\"大模型军备竞赛算力账\"的可视化分析报告。",
   "files": [
     {
       "file": "chinchilla-scaling-laws.pdf",

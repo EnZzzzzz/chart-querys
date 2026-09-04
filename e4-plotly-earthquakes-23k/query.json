@@ -1,7 +1,7 @@
 {
   "id": "E4",
   "category": "special-form",
-  "query": "用 plotly-earthquakes-23k.csv（2.3 万条地震记录），做一个全球地震分布页面：地理散点图、震级分布直方图、逐年频次折线图。",
+  "query": "分析 plotly-earthquakes-23k.csv（2.3 万条地震记录），做一份全球地震活动的可视化报告，覆盖空间分布、震级和时间规律。",
   "files": [
     {
       "file": "plotly-earthquakes-23k.csv",

@@ -1,7 +1,7 @@
 {
   "id": "D11",
   "category": "dataset",
-  "query": "用 seaborn-titanic.csv 或 titanic-passengers.csv，做一份泰坦尼克生存分析页面：舱位×性别的生存率堆叠柱状图、年龄分布、票价分布。",
+  "query": "分析 seaborn-titanic.csv（或 titanic-passengers.csv），做一份泰坦尼克号乘客生存情况的可视化报告，看看舱位、性别、年龄、票价与生存的关系。",
   "files": [
     {
       "file": "seaborn-titanic.csv",

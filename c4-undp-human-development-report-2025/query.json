@@ -1,7 +1,7 @@
 {
   "id": "C4",
   "category": "report-en",
-  "query": "读 undp-human-development-report-2025.pdf，做一份人类发展指数报告：HDI 排名、各维度（健康/教育/收入）构成、近 20 年趋势。",
+  "query": "读 undp-human-development-report-2025.pdf，做一份人类发展指数图文报告，分析 HDI 排名、各维度构成和近 20 年趋势。",
   "files": [
     {
       "file": "undp-human-development-report-2025.pdf",

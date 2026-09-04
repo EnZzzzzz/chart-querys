@@ -1,7 +1,7 @@
 {
   "id": "B2",
   "category": "report-zh",
-  "query": "对比 cnnic-internet-report-49.pdf 和 cnnic-internet-report-56.pdf，做一份三年变迁报告，用折线图展示网民规模与普及率的演进，用对比柱状图展示各类应用使用率的变化。",
+  "query": "对比 cnnic-internet-report-49.pdf 和 cnnic-internet-report-56.pdf，做一份三年变迁报告，分析网民规模、普及率及各类应用使用率的变化。",
   "files": [
     {
       "file": "cnnic-internet-report-49.pdf",

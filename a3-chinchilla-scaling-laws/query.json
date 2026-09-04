@@ -1,7 +1,7 @@
 {
   "id": "A3",
   "category": "paper",
-  "query": "读 chinchilla-scaling-laws.pdf，做一份\"scaling laws 入门\"图文科普，把论文里的 compute-optimal 曲线、loss 随参数量/数据量变化的关系用折线图讲清楚。",
+  "query": "读 chinchilla-scaling-laws.pdf，做一份\"scaling laws 入门\"图文科普，把计算量、参数量、数据量与 loss 之间的关系讲清楚，关键数据关系都要可视化。",
   "files": [
     {
       "file": "chinchilla-scaling-laws.pdf",

@@ -1,7 +1,7 @@
 {
   "id": "B3",
   "category": "report-zh",
-  "query": "读 nda-digital-china-report-2024.pdf，做一份数字中国建设进展报告，把数字经济规模、数字基础设施等指标做成图表，突出同比增速。",
+  "query": "读 nda-digital-china-report-2024.pdf，做一份数字中国建设进展报告，分析数字经济规模、数字基础设施等核心指标及其增速。",
   "files": [
     {
       "file": "nda-digital-china-report-2024.pdf",

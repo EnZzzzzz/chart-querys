@@ -1,7 +1,7 @@
 {
   "id": "D6",
   "category": "dataset",
-  "query": "用 seaborn-diamonds.csv（5.4 万行），做一份钻石定价分析：克拉-价格散点图、切工×颜色的价格热力图、价格分布直方图。",
+  "query": "分析 seaborn-diamonds.csv（5.4 万颗钻石），做一份钻石定价因素分析报告：重量、切工、颜色、净度各自如何影响价格。",
   "files": [
     {
       "file": "seaborn-diamonds.csv",

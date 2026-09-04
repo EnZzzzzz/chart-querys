@@ -1,7 +1,7 @@
 {
   "id": "D8",
   "category": "dataset",
-  "query": "用 plotly-finance-charts-apple.csv（OHLC），做一个苹果股票行情页面：蜡烛图、成交量柱状图、移动平均线叠加。",
+  "query": "分析 plotly-finance-charts-apple.csv（苹果股票日线行情），做一份股价行情分析页面，覆盖价格、成交量和趋势。",
   "files": [
     {
       "file": "plotly-finance-charts-apple.csv",

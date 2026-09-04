@@ -1,7 +1,7 @@
 {
   "id": "D12",
   "category": "dataset",
-  "query": "用 measles.csv（6.6 万行学校接种率），做一份美国疫苗接种率报告：分州分布、学校类型对比、地理分布思路。",
+  "query": "分析 measles.csv（6.6 万所学校的接种率数据），做一份美国疫苗接种情况的可视化报告，分析州际差异和学校类型差异。",
   "files": [
     {
       "file": "measles.csv",

@@ -1,7 +1,7 @@
 {
   "id": "D9",
   "category": "dataset",
-  "query": "用 billboard.csv（Billboard Hot 100 冠军曲 1958–2025），做一份流行音乐史页面：每年冠军曲数量时序、连冠周数排行、艺人出现频次 Top 榜。",
+  "query": "分析 billboard.csv（Billboard Hot 100 冠军曲 1958–2025），做一份流行音乐史的可视化报告，挖掘冠军歌曲与艺人的年代规律。",
   "files": [
     {
       "file": "billboard.csv",

@@ -1,7 +1,7 @@
 {
   "id": "A4",
   "category": "paper",
-  "query": "对比阅读 qwen25-technical-report.pdf 和 deepseek-v3-technical-report.pdf，做一份两个模型的 benchmark 对比报告，按能力维度（数学、代码、语言理解）分组出雷达图或分组柱状图。",
+  "query": "对比阅读 qwen25-technical-report.pdf 和 deepseek-v3-technical-report.pdf，做一份两个模型的 benchmark 对比报告，按数学、代码、语言理解等能力维度组织。",
   "files": [
     {
       "file": "qwen25-technical-report.pdf",

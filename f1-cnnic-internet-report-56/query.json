@@ -1,7 +1,7 @@
 {
   "id": "F1",
   "category": "cross-source",
-  "query": "结合 cnnic-internet-report-56.pdf 和 number-of-internet-users.csv，做一份\"中国 vs 全球互联网普及\"对比报告。",
+  "query": "结合 cnnic-internet-report-56.pdf 和 number-of-internet-users.csv，做一份\"中国 vs 全球互联网普及\"的对比分析报告。",
   "files": [
     {
       "file": "cnnic-internet-report-56.pdf",
