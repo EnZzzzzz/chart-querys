@@ -1,0 +1,16 @@
+{
+  "id": "E6",
+  "category": "special-form",
+  "query": "用 vega-weather-multicity.csv（多城市逐日天气，2922 行），做一个多城市天气对比仪表盘：温度折线、降水柱状、天气类型日历热力图。",
+  "files": [
+    {
+      "file": "vega-weather-multicity.csv",
+      "source": ".cache/chart-data-corpus/datasets/misc/vega-weather-multicity.csv"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "calendar-heatmap"
+  ]
+}

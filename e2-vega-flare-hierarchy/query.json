@@ -1,0 +1,16 @@
+{
+  "id": "E2",
+  "category": "special-form",
+  "query": "用 vega-flare-hierarchy.json（层级数据），做一个树图/treemap/sunburst 页面，展示层级结构的三种图表形态对比。",
+  "files": [
+    {
+      "file": "vega-flare-hierarchy.json",
+      "source": ".cache/chart-data-corpus/datasets/misc/vega-flare-hierarchy.json"
+    }
+  ],
+  "chart_forms": [
+    "treemap",
+    "sunburst",
+    "tree"
+  ]
+}

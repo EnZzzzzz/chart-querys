@@ -1,0 +1,19 @@
+{
+  "id": "D3",
+  "category": "dataset",
+  "query": "用 sp500-returns-daily.csv 或 gold-silver-prices-daily.csv，做一个金融市场分析页面：价格/收益走势折线图、日收益率分布直方图、波动率滚动曲线。",
+  "files": [
+    {
+      "file": "sp500-returns-daily.csv",
+      "source": ".cache/chart-data-corpus/datasets/rdatasets/sp500-returns-daily.csv"
+    },
+    {
+      "file": "gold-silver-prices-daily.csv",
+      "source": ".cache/chart-data-corpus/datasets/rdatasets/gold-silver-prices-daily.csv"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "histogram"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "C3",
+  "category": "report-en",
+  "query": "Read iea-global-ev-outlook-2025.pdf and produce an EV market report: global EV sales trend, market share by country, battery demand forecast — every number as a chart.",
+  "files": [
+    {
+      "file": "iea-global-ev-outlook-2025.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/iea-global-ev-outlook-2025.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "pie"
+  ]
+}

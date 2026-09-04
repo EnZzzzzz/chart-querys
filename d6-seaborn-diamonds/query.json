@@ -1,0 +1,16 @@
+{
+  "id": "D6",
+  "category": "dataset",
+  "query": "用 seaborn-diamonds.csv（5.4 万行），做一份钻石定价分析：克拉-价格散点图、切工×颜色的价格热力图、价格分布直方图。",
+  "files": [
+    {
+      "file": "seaborn-diamonds.csv",
+      "source": ".cache/chart-data-corpus/datasets/misc/seaborn-diamonds.csv"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "heatmap",
+    "histogram"
+  ]
+}

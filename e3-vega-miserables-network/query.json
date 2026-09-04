@@ -1,0 +1,15 @@
+{
+  "id": "E3",
+  "category": "special-form",
+  "query": "用 vega-miserables-network.json（《悲惨世界》人物关系网络），做一个人物关系网络图页面，节点大小表示出场权重，支持拖拽。",
+  "files": [
+    {
+      "file": "vega-miserables-network.json",
+      "source": ".cache/chart-data-corpus/datasets/misc/vega-miserables-network.json"
+    }
+  ],
+  "chart_forms": [
+    "network",
+    "interactive"
+  ]
+}

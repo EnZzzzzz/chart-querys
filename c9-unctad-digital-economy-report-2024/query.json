@@ -1,0 +1,16 @@
+{
+  "id": "C9",
+  "category": "report-en",
+  "query": "Read unctad-digital-economy-report-2024.pdf and create a report on the digital economy: e-commerce growth, digital services trade, connectivity gaps between regions.",
+  "files": [
+    {
+      "file": "unctad-digital-economy-report-2024.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/unctad-digital-economy-report-2024.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "geo"
+  ]
+}

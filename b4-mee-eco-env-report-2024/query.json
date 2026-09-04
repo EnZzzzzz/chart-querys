@@ -1,0 +1,16 @@
+{
+  "id": "B4",
+  "category": "report-zh",
+  "query": "读 mee-eco-env-report-2024.pdf（生态环境部公报），做一份全国环境质量报告：分省空气质量、水质断面类别占比、重点城市排名，要有地理维度的对比和堆叠占比图。",
+  "files": [
+    {
+      "file": "mee-eco-env-report-2024.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/mee-eco-env-report-2024.pdf"
+    }
+  ],
+  "chart_forms": [
+    "geo",
+    "stacked-bar",
+    "bar"
+  ]
+}

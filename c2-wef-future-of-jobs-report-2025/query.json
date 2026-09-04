@@ -1,0 +1,15 @@
+{
+  "id": "C2",
+  "category": "report-en",
+  "query": "读 wef-future-of-jobs-report-2025.pdf，做一份\"未来就业\"中文图文报告：增长最快/消失最快的岗位 Top10、技能需求变化、各行业转型预期，全部图表化。",
+  "files": [
+    {
+      "file": "wef-future-of-jobs-report-2025.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/wef-future-of-jobs-report-2025.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "ranking"
+  ]
+}

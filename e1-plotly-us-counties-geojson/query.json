@@ -1,0 +1,19 @@
+{
+  "id": "E1",
+  "category": "special-form",
+  "query": "用 plotly-us-counties-geojson.json（3221 个县边界）配合 plotly-2011-us-ag-exports.csv，做一张美国县级 choropleth 地图页面。",
+  "files": [
+    {
+      "file": "plotly-us-counties-geojson.json",
+      "source": ".cache/chart-data-corpus/datasets/misc/plotly-us-counties-geojson.json"
+    },
+    {
+      "file": "plotly-2011-us-ag-exports.csv",
+      "source": ".cache/chart-data-corpus/datasets/misc/plotly-2011-us-ag-exports.csv"
+    }
+  ],
+  "chart_forms": [
+    "choropleth",
+    "geo"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "B7",
+  "category": "report-zh",
+  "query": "读 caict-cloud-computing-whitepaper-2022.pdf，做一份云计算产业报告：全球与中国云计算市场规模趋势、IaaS/PaaS/SaaS 结构占比、厂商份额。",
+  "files": [
+    {
+      "file": "caict-cloud-computing-whitepaper-2022.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/caict-cloud-computing-whitepaper-2022.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "pie",
+    "bar"
+  ]
+}

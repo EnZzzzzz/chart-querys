@@ -1,0 +1,16 @@
+{
+  "id": "B9",
+  "category": "report-zh",
+  "query": "读 iresearch-flexible-employment-report-2022.pdf，做一份中国灵活用工行业报告，包含市场规模趋势、行业渗透率、岗位类型分布等图表。",
+  "files": [
+    {
+      "file": "iresearch-flexible-employment-report-2022.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/iresearch-flexible-employment-report-2022.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "pie",
+    "bar"
+  ]
+}

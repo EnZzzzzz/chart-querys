@@ -1,0 +1,15 @@
+{
+  "id": "A1",
+  "category": "paper",
+  "query": "帮我读 llama3-technical-report.pdf，做一份中文图文解读报告，把各 benchmark 上 Llama 3 与竞品的对比数据全部做成柱状图，不要用表格罗列。",
+  "files": [
+    {
+      "file": "llama3-technical-report.pdf",
+      "source": ".cache/chart-data-corpus/papers/llama3-technical-report.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "grouped-bar"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "D5",
+  "category": "dataset",
+  "query": "用 nfl_2010-2017.csv（8.1 万行），做一份 NFL 数据报告：得分分布、主客场胜率、逐赛季趋势，图表密度要高。",
+  "files": [
+    {
+      "file": "nfl_2010-2017.csv",
+      "source": ".cache/chart-data-corpus/datasets/tidytuesday/nfl_2010-2017.csv"
+    }
+  ],
+  "chart_forms": [
+    "histogram",
+    "bar",
+    "line"
+  ]
+}

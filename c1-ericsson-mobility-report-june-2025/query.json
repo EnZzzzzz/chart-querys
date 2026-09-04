@@ -1,0 +1,16 @@
+{
+  "id": "C1",
+  "category": "report-en",
+  "query": "Read ericsson-mobility-report-june-2025.pdf and build a visual report on global 5G adoption: subscription forecasts by region, data traffic growth curves, and technology mix stacked charts.",
+  "files": [
+    {
+      "file": "ericsson-mobility-report-june-2025.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/ericsson-mobility-report-june-2025.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "stacked-area",
+    "bar"
+  ]
+}

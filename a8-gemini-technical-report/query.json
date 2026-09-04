@@ -1,0 +1,15 @@
+{
+  "id": "A8",
+  "category": "paper",
+  "query": "读 gemini-technical-report.pdf，做一份 Gemini 多模态能力的图文报告，把文本、图像、视频、音频各模态的 benchmark 结果分板块可视化。",
+  "files": [
+    {
+      "file": "gemini-technical-report.pdf",
+      "source": ".cache/chart-data-corpus/papers/gemini-technical-report.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "grouped-bar"
+  ]
+}

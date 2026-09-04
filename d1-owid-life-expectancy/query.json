@@ -1,0 +1,16 @@
+{
+  "id": "D1",
+  "category": "dataset",
+  "query": "用 owid-life-expectancy.csv，做一份\"全球预期寿命\"可视化页面：Top/Bottom 国家对比、近 50 年趋势线、大洲分布。",
+  "files": [
+    {
+      "file": "owid-life-expectancy.csv",
+      "source": ".cache/chart-data-corpus/datasets/owid-life-expectancy.csv"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "line",
+    "distribution"
+  ]
+}

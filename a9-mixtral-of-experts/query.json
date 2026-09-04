@@ -1,0 +1,16 @@
+{
+  "id": "A9",
+  "category": "paper",
+  "query": "读 mixtral-of-experts.pdf，做一份 MoE 架构科普报告，用图表展示专家数量/激活参数量与性能的关系，以及 Mixtral 与 Llama 2 70B 的推理成本对比。",
+  "files": [
+    {
+      "file": "mixtral-of-experts.pdf",
+      "source": ".cache/chart-data-corpus/papers/mixtral-of-experts.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "bar"
+  ]
+}

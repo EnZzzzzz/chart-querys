@@ -1,0 +1,15 @@
+{
+  "id": "B8",
+  "category": "report-zh",
+  "query": "读 questmobile-mobile-internet-covid-2020.pdf，做一份移动互联网行为分析报告，把用户规模、时长、各行业 App 使用变化做成系列图表。",
+  "files": [
+    {
+      "file": "questmobile-mobile-internet-covid-2020.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/questmobile-mobile-internet-covid-2020.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "line"
+  ]
+}
