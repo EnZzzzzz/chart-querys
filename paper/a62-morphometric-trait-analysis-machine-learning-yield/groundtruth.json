@@ -1,0 +1,77 @@
+{
+  "id": "A62",
+  "source_file": "morphometric-trait-analysis-machine-learning-yield.pdf",
+  "paper_title": "Morphometric trait analysis and machine learning-based yield modeling in wood apple (Feronia limonia L.)",
+  "stats": {
+    "figures_total": 9,
+    "tables_total": 1
+  },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "供试木苹果种质的叶片、花、果实、果肉、种子及树体形态照片"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "62 个基因型形态性状的频次分布（a）及性状类别对 AI 建模的贡献占比（b）",
+      "note": "(a) horizontal-bar 频次图；(b) pie 占比图"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "heatmap",
+      "count": 1,
+      "caption": "31 项形态性状两两 Pearson 相关系数矩阵（下三角热图）"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "scatter",
+      "count": 1,
+      "caption": "62 个基因型的 PCA 双标图，PC1/PC2 散点按产量着色"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "radar",
+      "count": 1,
+      "caption": "三个聚类类群在 31 项形态与产量性状上均值的雷达对比"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "三个聚类类群 31 项性状均值的平行坐标对比",
+      "note": "parallel-coordinates"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "box",
+      "count": 1,
+      "caption": "三个聚类类群产量（YT）分布的箱线图"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "产量预测的 SHAP 摘要图，每点为一个基因型",
+      "note": "shap-beeswarm"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "horizontal-bar",
+      "count": 1,
+      "caption": "随机森林模型 30 项形态性状的特征重要性排序"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 4,
+      "cols": 5,
+      "caption": "RF/SVR/MLP/MLR 四种回归模型产量预测的 R²、RMSE、MAE 对比"
+    }
+  ]
+}

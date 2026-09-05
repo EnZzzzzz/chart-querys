@@ -1,0 +1,65 @@
+{
+  "id": "A18",
+  "source_file": "ferroptosis-signature-correlates-ovarian-cancer-prognosis.pdf",
+  "paper_title": "Ferroptosis Signature Correlates with Ovarian Cancer Prognosis and Chemotherapy Response",
+  "stats": { "figures_total": 8, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "note": "A-C: UMAP 散点/密度图; D: violin plot",
+      "caption": "单细胞转录组中的铁死亡签名特征：细胞聚类、marker 基因、铁死亡评分分布"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 9,
+      "note": "A/B: 聚类树状图+heatmap; C: heatmap; D: scatter; E: 火山图(scatter); F: Venn 图(other); G: horizontal-bar; H: PPI 网络图; I: 棒棒糖式点图",
+      "caption": "WGCNA 共表达模块与核心铁死亡基因筛选：模块相关性、差异基因、GO 富集、PPI 网络、CNV 频率"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "A: heatmap; B/D: KM 生存曲线(line); C/E: DCA 曲线(line); F: Western blot 图像(image); G/H: bar",
+      "caption": "机器学习预后模型构建与验证：C-index 对比、生存分析、决策曲线、Western blot 与 MDA/LDH 定量"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 5,
+      "note": "A: ridgeline(other); B: GSEA 富集曲线(line); C: horizontal-bar; D: 相关性 heatmap; E: KM 生存曲线(line)",
+      "caption": "高低风险组通路活性与生存分析：HALLMARK 通路、GSEA/GSVA、通路与风险评分相关性"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "A: violin; B/C: KM 生存曲线(line); D/E: oncoplot 突变瀑布图(other: oncoplot/waterfall); F/G: 共突变 heatmap; H: 哑铃式点图",
+      "caption": "高低风险组基因组变异：MATH 评分、体细胞突变景观、共突变关系、CNV 频率"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "A: UMAP 特征散点 ×4; B: KEGG 气泡点图(scatter); C: GSEA 富集曲线(line); D/E: chord diagram(other); F/G: 细胞通讯网络图; H: heatmap",
+      "caption": "铁死亡通路调控机制与细胞通讯网络：特征基因表达、KEGG 富集、胶原信号通讯网络"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "A: radar; B: 分组 boxplot; C-E/G/H: boxplot; F: 百分比 stacked-bar",
+      "caption": "FRS 与免疫治疗关系：免疫细胞募集、免疫检查点表达、IPS 评分、TMB、治疗响应比例"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 12,
+      "note": "A/C/D/F: Western blot 图像(image); B/E: MTT 增殖曲线(line); G: 流式细胞散点图(scatter); H: 相关性 heatmap; I: 火山图(scatter); J/K/L: 富集分析 horizontal-bar",
+      "caption": "Erastin 联合紫杉醇的体外抗肿瘤实验：蛋白表达、增殖、凋亡、转录组差异与富集分析"
+    }
+  ],
+  "tables": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "A11",
+  "source_file": "scene-centric-interaction-grammar-data-visualizations.pdf",
+  "paper_title": "Interactive Mascot: A Scene-Centric Interaction Grammar for Data Visualizations",
+  "stats": { "figures_total": 17, "tables_total": 2 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 2, "caption": "(a) 交互语法四大组件及信息流；(b) 视觉编码的依赖图模式" },
+    { "label": "Figure 2", "chart_type": "mixed", "count": 2, "caption": "192 国预期寿命与人均 GDP 散点图及其语义组件树", "note": "scatter + scene-component tree diagram" },
+    { "label": "Figure 3", "chart_type": "scatter", "count": 1, "caption": "悬停国家与钉选基线国家的对比（散点图加箭头标注）" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 3, "caption": "三个交互示例：气泡图缩放、堆叠面积图过滤、多线图基线推导", "note": "bubble(scatter) + stacked area + multi-line" },
+    { "label": "Figure 5", "chart_type": "diagram", "count": 1, "caption": "依赖图三种边类型的图例说明" },
+    { "label": "Figure 6", "chart_type": "diagram", "count": 2, "caption": "Bounds 模式：(a) 单个 mark，(b) collection" },
+    { "label": "Figure 7", "chart_type": "diagram", "count": 1, "caption": "DataScope 模式：数据域依赖上游转换器与同步器" },
+    { "label": "Figure 8", "chart_type": "diagram", "count": 2, "caption": "(a) 直接属性修改模式；(b) 条件编码模式" },
+    { "label": "Figure 9", "chart_type": "diagram", "count": 3, "caption": "散点图两个交互设计（E1/E2）的完整依赖图，含三个子图" },
+    { "label": "Figure 10", "chart_type": "diagram", "count": 1, "caption": "Shared Scale 模式：多个编码共享同一 Scale 变量" },
+    { "label": "Figure 11", "chart_type": "diagram", "count": 1, "caption": "算法布局模式（以华夫图为例）" },
+    { "label": "Figure 12", "chart_type": "diagram", "count": 2, "caption": "(a) 对齐约束模式；(b) 附着约束模式" },
+    { "label": "Figure 13", "chart_type": "line", "count": 4, "caption": "四种交互设计 × 九种数据规模下 Mascot 与 Vega-Lite 的帧率对比（对数 x 轴，四个面板）" },
+    { "label": "Figure 14", "chart_type": "diagram", "count": 1, "caption": "嵌套布局模式（以马赛克图结构为例的依赖图）" },
+    { "label": "Figure 15", "chart_type": "diagram", "count": 1, "caption": "Encoding-In-Layout 模式（以日历热力图小倍图为背景）" },
+    { "label": "Figure 16", "chart_type": "box", "count": 1, "caption": "用户研究 8 个维度的 7 点量表评分分布（横向箱线图带散点）" },
+    { "label": "Figure 17", "chart_type": "box", "count": 2, "caption": "按 Vega-Lite/D3 经验分两组的用户评分分布（两个面板）" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 7, "cols": 3, "caption": "静态可视化核心组件的定义与示例" },
+    { "label": "Table 2", "data_form": "other", "rows": 15, "cols": 3, "caption": "常用事件及对应的事件上下文字段说明" }
+  ]
+}

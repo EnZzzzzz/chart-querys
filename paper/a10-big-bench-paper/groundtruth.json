@@ -1,0 +1,29 @@
+{
+  "id": "A10",
+  "source_file": "big-bench-paper.pdf",
+  "paper_title": "Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models",
+  "stats": { "figures_total": 17, "tables_total": 2 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "line", "count": 3, "caption": "Figure 1: Aggregate performance on BIG-bench improves with increasing model size and increasing shot count, but all models per" },
+    { "label": "Figure 2", "chart_type": "mixed", "count": 2, "note": "1 line (SuperGLUE SOTA over time) + 1 scatter with linear fit", "caption": "Figure 2: Existing benchmarks have narrow scope and show rapidly saturating performance. (a) SuperGLUE (Wang et al., 201" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 2, "note": "1 word-cloud + 1 histogram", "caption": "Figure 3: Diversity and scale of BIG-bench tasks. (a) A word-cloud of task keywords. (b) The size distribution of tasks a" },
+    { "label": "Figure 4", "chart_type": "stacked-bar", "count": 1, "caption": "Figure 4: BIG-bench Lite Performance of best (blue) and average (gray) human raters and the best model configuration (ma" },
+    { "label": "Figure 5", "chart_type": "line", "count": 3, "caption": "Figure 5: Language models make poorly calibrated predictions, but calibration improves as the models are made larger. (a) " },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 2, "note": "1 scatter (cross entropy vs params) + 1 line", "caption": "Figure 6: Model performance is similar across model class, with benefits from sparsity. (a) Average per-token cross entr" },
+    { "label": "Figure 7", "chart_type": "line", "count": 3, "caption": "Figure 7: Benchmark tasks that achieve the highest and lowest scores on the metrics linearity and breakthroughness (see " },
+    { "label": "Figure 8", "chart_type": "line", "count": 2, "caption": "Figure 8: Log probability of targets often improves smoothly across scales. (a) The log prob- ability of the true targ" },
+    { "label": "Figure 9", "chart_type": "mixed", "count": 3, "note": "2 line + 1 example model-output text panel", "caption": "Figure 9: Performance on emoji_movie identification can appear abrupt or gradual depending on the precise task metric." },
+    { "label": "Figure 10", "chart_type": "line", "count": 1, "caption": "Figure 10: Model sensitivity to multiple choice formatting. Models do substantially better on multiple- choice questio" },
+    { "label": "Figure 11", "chart_type": "line", "count": 1, "caption": "Figure 11: Model sensitivity to cause_and_effect formulation. Models perform at chance when asked explicitly to ident" },
+    { "label": "Figure 12", "chart_type": "line", "count": 5, "caption": "Figure 12: Bias increases with scale for BIG-bench tasks with broad or ambiguous contexts. Note that a higher score in" },
+    { "label": "Figure 13", "chart_type": "line", "count": 3, "caption": "Figure 13: Bias can decrease or plateau with scale for unambiguous or positively prompted contexts. (a) The unambiguousl" },
+    { "label": "Figure 14", "chart_type": "line", "count": 2, "caption": "Figure 14: Performance on entailed polarity increases with model scale for (a) the English version (entailed_polarity)" },
+    { "label": "Figure 15", "chart_type": "line", "count": 3, "caption": "Figure 15: Performance on low-resource language tasks is generally low. (a) The swahili_english_proverbs task sees p" },
+    { "label": "Figure 16", "chart_type": "mixed", "count": 2, "note": "1 chess-board diagram + 1 line", "caption": "Figure 16: Larger models are better at finding legal chess moves, but struggle to find checkmating moves. (a) Example " },
+    { "label": "Figure 17", "chart_type": "mixed", "count": 2, "note": "1 line + 1 colored periodic-table grid (heatmap-like)", "caption": "Figure 17: Performance on the periodic_elements task (a) Performance versus scale. (b) Elements that the largest m" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 8, "cols": 3, "caption": "Table 1: The 24 tasks included in BIG-bench Lite, a diverse subset of JSON tasks that can be evaluated cheaply." },
+    { "label": "Table 2", "data_form": "other", "rows": 5, "cols": 3, "caption": "Table 2: BIG-bench tasks covering one or more low-resource language (bold)." }
+  ]
+}

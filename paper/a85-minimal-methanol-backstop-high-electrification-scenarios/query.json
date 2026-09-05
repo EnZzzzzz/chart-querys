@@ -1,0 +1,22 @@
+{
+  "id": "A85",
+  "category": "paper",
+  "query": "读 minimal-methanol-backstop-high-electrification-scenarios.pdf，做一份可视化分析报告：在高度电气化的欧洲净零能源系统中，用甲醇替代氢气/甲烷管网作备用能源时，不同情景的系统总成本差异、各能量载体的供需平衡、碳流的来源与去向、生产消费的空间分布分别有什么规律，以及这些结论对各输入参数的敏感性如何。",
+  "files": [
+    {
+      "file": "minimal-methanol-backstop-high-electrification-scenarios.pdf",
+      "source": ".cache/chart-data-corpus/papers/minimal-methanol-backstop-high-electrification-scenarios.pdf"
+    }
+  ],
+  "chart_forms": [
+    "stacked-bar",
+    "horizontal-bar",
+    "pie",
+    "area",
+    "line",
+    "heatmap",
+    "radar",
+    "choropleth",
+    "sankey"
+  ]
+}

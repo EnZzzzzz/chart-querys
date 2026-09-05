@@ -1,0 +1,21 @@
+{
+  "id": "A68",
+  "category": "paper",
+  "query": "读 merit-multilingual-semantic-retrieval-interleaved-multi.pdf，这篇论文提出了 MERIT 多语言多条件商品语义检索基准（13.5 万个商品、32 万条检索对，覆盖 5 种语言、6 个东南亚国家、7 大商品品类），并提出了 Coral 微调方法。做一份图文报告，介绍该数据集的构成与各维度（语言、国家、品类、属性等）上的分布规律，分析现有检索模型在基准上的表现、主要错误类型，以及 Coral 相对基线的提升情况。",
+  "files": [
+    {
+      "file": "merit-multilingual-semantic-retrieval-interleaved-multi.pdf",
+      "source": ".cache/chart-data-corpus/papers/merit-multilingual-semantic-retrieval-interleaved-multi.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "grouped-bar",
+    "pie",
+    "radar",
+    "histogram",
+    "sankey",
+    "sunburst",
+    "wordcloud"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "A30",
+  "category": "paper",
+  "query": "读 cararime-interactive-web-server-comprehensive-analysis.pdf，这是一篇介绍肾移植排斥免疫微环境分析 Web 工具 CARARIME 的论文。做一份图文报告，讲清这个工具整合了哪些临床队列数据、提供哪些分析模块，以及论文中用示例队列展示的各类分析结果有什么规律。",
+  "files": [
+    {
+      "file": "cararime-interactive-web-server-comprehensive-analysis.pdf",
+      "source": ".cache/chart-data-corpus/papers/cararime-interactive-web-server-comprehensive-analysis.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "boxplot",
+    "scatter",
+    "volcano",
+    "forest-plot",
+    "survival-curve",
+    "line",
+    "horizontal-bar",
+    "dot-plot",
+    "ridgeline",
+    "network"
+  ]
+}

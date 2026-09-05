@@ -1,0 +1,22 @@
+{
+  "id": "A87",
+  "source_file": "itemcomplex-python-visualization-framework-ex-post.pdf",
+  "paper_title": "ItemComplex: A Python-based visualization framework for ex-post organization and integration of large language-based datasets",
+  "stats": { "figures_total": 13, "tables_total": 0 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "image", "count": 1, "caption": "创建 sunburst 可视化的 Python 代码片段截图" },
+    { "label": "Figure 2", "chart_type": "image", "count": 1, "caption": "用于探索与可视化的数据框截图（questionnaire/level/construct/cohort 字段）" },
+    { "label": "Figure 3", "chart_type": "image", "count": 1, "caption": "条目相似性分析所需库导入的代码截图" },
+    { "label": "Figure 4", "chart_type": "image", "count": 1, "caption": "条目相似性分析的数据预处理代码截图" },
+    { "label": "Figure 5", "chart_type": "image", "count": 1, "caption": "TF-IDF 分数计算的代码截图" },
+    { "label": "Figure 6", "chart_type": "image", "count": 1, "caption": "生成的余弦相似度矩阵输出截图" },
+    { "label": "Figure 7", "chart_type": "image", "count": 1, "caption": "网络图生成的代码截图（跨页续）" },
+    { "label": "Figure 8", "chart_type": "diagram", "count": 1, "caption": "ItemComplex 框架工作流程图：数据结构化、可视化管线、搜索算法、条目级语义网络" },
+    { "label": "Figure 9", "chart_type": "image", "count": 1, "caption": "ItemComplex 应用界面截图：数据上传、图表类型选择、层级配置" },
+    { "label": "Figure 10", "chart_type": "other", "count": 3, "note": "sunburst", "caption": "跨研究重叠构念的 sunburst 图，展示问卷/构念/子量表层级，共 3 个面板" },
+    { "label": "Figure 11", "chart_type": "other", "count": 3, "note": "treemap", "caption": "跨研究重叠构念的 treemap 图，展示三个层级（主题、问卷与子量表、队列）" },
+    { "label": "Figure 12", "chart_type": "mixed", "count": 6, "note": "network graph×5 + heatmap×1", "caption": "条目相似性识别的网络可视化：4 幅按队列分面网络图、1 幅带悬停标注的节点-链接图、1 幅队列间余弦相似度热力图" },
+    { "label": "Figure 13", "chart_type": "scatter", "count": 2, "caption": "TF-IDF 特征降维：PCA 散点（上）与 LDA 散点（下），按构念着色的条目分布" }
+  ],
+  "tables": []
+}

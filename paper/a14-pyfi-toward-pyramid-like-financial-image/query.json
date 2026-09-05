@@ -1,0 +1,19 @@
+{
+  "id": "A14",
+  "category": "paper",
+  "query": "读 pyfi-toward-pyramid-like-financial-image.pdf，做一份图文报告：介绍 PyFi-600K 金融图像理解数据集的构成（约 60 万条问答样本、6 个能力层级、17 个金融主题、11 种图像类型），并分析 15 个视觉语言模型在不同能力层级和问题复杂度上的表现差异与规律。",
+  "files": [
+    {
+      "file": "pyfi-toward-pyramid-like-financial-image.pdf",
+      "source": ".cache/chart-data-corpus/papers/pyfi-toward-pyramid-like-financial-image.pdf"
+    }
+  ],
+  "chart_forms": [
+    "radar",
+    "grouped-bar",
+    "pie",
+    "bar",
+    "line",
+    "radial-bar"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "A25",
+  "source_file": "effect-quality-control-circle-activities-damage.pdf",
+  "paper_title": "Effect of quality control circle activities on the damage rate of endoscopic surgical instruments: A before-and-after study",
+  "stats": { "figures_total": 6, "tables_total": 2 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "other",
+      "count": 1,
+      "note": "gantt",
+      "caption": "基于 PDCA 循环的 QCC 活动计划甘特图，2022.08-2023.05 各阶段进度安排"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "QCC 活动流程图：PDCA 四阶段落实为 10 个基本步骤"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "pareto：柱（错误次数）+ 累积百分比线，A/B 两个面板",
+      "caption": "器械损坏原因帕累托分析：各损坏类型频次与累积百分比（A/B 两面板）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "器械缺件根因鱼骨图，按人员/方法/设备/材料/环境五域归类"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "内芯与外鞘手柄装配差错根因鱼骨图，按域归类"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "radar",
+      "count": 1,
+      "caption": "QCC 干预前后无形成果对比：团队协作、沟通、责任心等 8 个维度"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 8,
+      "cols": 7,
+      "caption": "改进前后内镜器械损坏类型分布与损坏率对比（含卡方值与 P 值）"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 9,
+      "cols": 7,
+      "caption": "改进前后器械处理流程各环节差错频率对比（含卡方值与 P 值）"
+    }
+  ]
+}

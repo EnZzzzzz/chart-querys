@@ -1,0 +1,57 @@
+{
+  "id": "A30",
+  "source_file": "cararime-interactive-web-server-comprehensive-analysis.pdf",
+  "paper_title": "CARARIME: Interactive web server for comprehensive analysis of renal allograft rejection in immune microenvironment",
+  "stats": { "figures_total": 7, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "CARARIME 构建流程图：GEO 数据库到各分析模块的工作流"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "Differential Analysis 标签页示例：GSE131179 队列排斥组 vs 对照组差异分析",
+      "note": "heatmap ×2（A 基因表达、E 免疫细胞评分）、volcano plot（B，scatter 类）×1、boxplot（C、F）×2 组、网页数据表截图（D、G）×2"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "Prognosis Analysis 标签页示例：logistic/Cox 回归与患者生存情况",
+      "note": "网页数据表截图（A、C）×2、forest plot（B OR、D HR）×2、Kaplan-Meier 生存曲线（E、F）×2"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "Correlation Analysis 标签页示例：免疫细胞评分、基因表达与通路评分的相关性",
+      "note": "带回归线的 scatter（A-C）×3、相关矩阵气泡图 corrplot（D-F）×3（气泡大小/颜色表相关 R 值与显著性）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "Enrichment Analysis 标签页示例：ssGSEA 通路差异与 GSEA 富集分析",
+      "note": "heatmap（A）×1、boxplot（B，8 个通路面板）、网页数据表（C、I）×2、horizontal barplot（D，GSEA barplot）×1、ridgeline plot（E）×1、dot plot（F）×1、enrichment map 网络图（G，emap plot）×1、GSEA 富集得分曲线（H，line 类）×1"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "line",
+      "count": 3,
+      "caption": "ROC Analysis 标签页示例：基因表达、ssGSEA 通路、免疫细胞的 ROC 分析",
+      "note": "3 个面板均为 ROC 曲线（line 类）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "数据整合分析结果：训练/内外部验证集的风险评分模型表现",
+      "note": "ROC 曲线（A、B）×2、boxplot（C，8 个数据集面板）、Kaplan-Meier 生存曲线（D）×1"
+    }
+  ],
+  "tables": []
+}

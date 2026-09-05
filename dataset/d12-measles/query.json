@@ -1,0 +1,16 @@
+{
+  "id": "D12",
+  "category": "dataset",
+  "query": "分析 measles.csv（6.6 万所学校的接种率数据），做一份美国疫苗接种情况的可视化报告，分析州际差异和学校类型差异。",
+  "files": [
+    {
+      "file": "measles.csv",
+      "source": ".cache/chart-data-corpus/datasets/tidytuesday/measles.csv"
+    }
+  ],
+  "chart_forms": [
+    "geo",
+    "bar",
+    "distribution"
+  ]
+}

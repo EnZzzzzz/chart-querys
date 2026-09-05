@@ -1,0 +1,150 @@
+{
+  "id": "A36",
+  "source_file": "hammock-plots-visualizing-categorical-numerical-variables.pdf",
+  "paper_title": "Hammock Plots: Visualizing Categorical and Numerical Variables",
+  "stats": { "figures_total": 17, "tables_total": 3 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "other",
+      "count": 1,
+      "note": "hammock plot",
+      "caption": "Hammock plot of two categorical variables, group and gender"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "other",
+      "count": 1,
+      "note": "hammock plot",
+      "caption": "Asthma data hammock plot with 4 variables, highlighted by gender"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "other",
+      "count": 1,
+      "note": "mosaic plot",
+      "caption": "Mosaic plot of asthma data, male highlighted in red"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "diagram",
+      "count": 2,
+      "note": "schematic illustration of line width illusion, two panels",
+      "caption": "Line width illusion: distance perceived at right angle rather than vertical"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "diagram",
+      "count": 2,
+      "note": "schematic illustration, panels (a) parallelograms (b) rectangles",
+      "caption": "Reverse angle width illusion; rectangles prevent the illusion"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "other",
+      "count": 1,
+      "note": "hammock plot",
+      "caption": "Hammock plot of asthma data as implemented in ggparallel (R)"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "other",
+      "count": 1,
+      "note": "sankey",
+      "caption": "Sankey diagram of material flows through the EU economy"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "other",
+      "count": 1,
+      "note": "parallel-coordinates",
+      "caption": "Parallel coordinate plot of asthma data, colored by gender"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "other",
+      "count": 1,
+      "note": "clustergram",
+      "caption": "Clustergram visualizing kmeans cluster assignments over k"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "other",
+      "count": 1,
+      "note": "alluvial",
+      "caption": "Alluvial plot of asthma data with curved connections"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "diagram",
+      "count": 4,
+      "note": "schematic of box elements for 4 plot types (hammock/parset/common angle)",
+      "caption": "Box elements used by hammock, parset and common angle plots"
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "other",
+      "count": 1,
+      "note": "common angle plot (parallel sets family)",
+      "caption": "Common angle plot of asthma data, same angle per category"
+    },
+    {
+      "label": "Figure 13",
+      "chart_type": "other",
+      "count": 1,
+      "note": "parallel-coordinates (generalized, GPCP)",
+      "caption": "Generalized parallel coordinate plot of asthma data (ggpcp)"
+    },
+    {
+      "label": "Figure 14",
+      "chart_type": "other",
+      "count": 1,
+      "note": "hammock plot",
+      "caption": "Hammock plot of Shakespeare data, 6 variables, highlighted by play type"
+    },
+    {
+      "label": "Figure 15",
+      "chart_type": "other",
+      "count": 1,
+      "note": "parallel-coordinates (generalized, GPCP)",
+      "caption": "GPCP plot of Shakespeare data (ggpcp), play type highlighted"
+    },
+    {
+      "label": "Figure 16",
+      "chart_type": "other",
+      "count": 1,
+      "note": "hammock plot",
+      "caption": "Hammock plot of Shakespeare data, Taming of the Shrew highlighted"
+    },
+    {
+      "label": "Figure 17",
+      "chart_type": "other",
+      "count": 1,
+      "note": "parallel-coordinates (generalized, GPCP)",
+      "caption": "GPCP plot of Shakespeare data with observations replicated 50 times"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 10,
+      "cols": 5,
+      "caption": "Timeline of parallel-coordinate-family graphs and the Sankey diagram (year, name, purpose, variable support)"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 6,
+      "cols": 5,
+      "caption": "Box shapes connecting adjacent variables across 6 hammock-type plots"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "examples",
+      "rows": 7,
+      "cols": 2,
+      "caption": "Social class membership of first two speakers in Shakespeare's plays"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "A28",
+  "source_file": "dissecting-biological-heterogeneity-major-depressive-disorde.pdf",
+  "paper_title": "Dissecting biological heterogeneity in major depressive disorder based on neuroimaging subtypes with multi-omics data",
+  "stats": {
+    "figures_total": 6,
+    "tables_total": 1
+  },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "image",
+      "count": 3,
+      "caption": "三个 MDD 亚型 vs HC 的 ALFF 显著差异脑区，脑切片+皮层渲染（A/B/C 三面板）"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "other",
+      "count": 3,
+      "note": "violin",
+      "caption": "三亚型与 HC 的促炎细胞因子（IL-6、IL-1 beta、TNF-alpha）分布对比小提琴图"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "box",
+      "count": 8,
+      "caption": "三亚型与 HC 的表观遗传炎症评分(EIS)及 7 类免疫细胞比例的箱线图（A-H）"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A-C 火山图(scatter)×3；D 南丁格尔玫瑰图(rose)；E 各类代谢物 Z-score 折线小图×8；F 相关系数棒棒糖图(lollipop)",
+      "caption": "三亚型差异代谢物：火山图、8 类代谢物玫瑰图、类别折线图及与 IL-1 beta 相关性棒棒糖图"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "bar",
+      "count": 4,
+      "note": "A-C 为各亚型在 7 个 p 值阈值下 PRS 模型 R2 的条形图；D 为 GO 富集条目分组条形图(grouped-bar)",
+      "caption": "三亚型遗传易感性差异：PRS R2 条形图与 Subtype 1 的 Top GO 富集条形图"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "heatmap",
+      "count": 3,
+      "caption": "各亚型内多组学指标、ALFF 值与临床症状的 Pearson 相关性热图（A/B/C）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "statistics",
+      "rows": 22,
+      "cols": 9,
+      "caption": "MDD 三亚型与健康对照的人口学及临床指标（含 WCST、HAMD、HAMA）统计对比"
+    }
+  ]
+}

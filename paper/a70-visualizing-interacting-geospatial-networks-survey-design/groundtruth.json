@@ -1,0 +1,28 @@
+{
+  "id": "A70",
+  "source_file": "visualizing-interacting-geospatial-networks-survey-design.pdf",
+  "paper_title": "Visualizing and Interacting with Geospatial Networks: A Survey and Design Space",
+  "stats": { "figures_total": 19, "tables_total": 0 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "map", "count": 3, "caption": "Minard 绘制的 1858/1864/1865 年欧洲棉花进口流量地图", "note": "历史 flow map，三个年份并置" },
+    { "label": "Figure 2", "chart_type": "map", "count": 2, "caption": "伦敦地铁图设计：1920 地理精确版与 1933 Beck 拓扑变形版" },
+    { "label": "Figure 3", "chart_type": "diagram", "count": 5, "caption": "设计空间四个维度（GEO/NET/COMP/INTERACT）的分类示意图标" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 2, "caption": "GEO-Mapped 示例：VR 中的 3D 地球、叠加在地图上的自动布局 flow map", "note": "(a) VR 地球截图(image)，(b) flow map(map)" },
+    { "label": "Figure 5", "chart_type": "map", "count": 3, "caption": "GEO-Distorted 示例：OD map、旅行时间变形地图、自动生成的地铁图", "note": "(a) OD map 为嵌套小地图网格（tile map）" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 3, "caption": "GEO-Abstract 示例：Kriskogram、全球移民流、OntoTrix", "note": "(a) arc diagram，(b) chord diagram，(c) 按地区分组的邻接矩阵" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 2, "caption": "NODE-Explicit 示例：Necklace map 与 OD 矩阵", "note": "(a) 地图外环绕节点圆圈(map)，(b) OD 矩阵(heatmap)" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 2, "caption": "NODE-Aggregated 示例：交互选区聚合节点、module-based 聚合", "note": "(a) 地图上的 flow map，(b) 聚合节点网络图(node-link)" },
+    { "label": "Figure 9", "chart_type": "map", "count": 1, "caption": "NODE-Abstract 示例：不显示节点，仅显示密度估计得到的流向", "note": "无节点的 flow map" },
+    { "label": "Figure 10", "chart_type": "mixed", "count": 3, "caption": "LINK-Explicit 示例：flowmap.blue 交互流量图、3D 弧线流量图、MapTrix", "note": "(a)(b) flow map，(c) 矩阵连接两幅地图(heatmap+map)" },
+    { "label": "Figure 11", "chart_type": "map", "count": 3, "caption": "LINK-Aggregated 示例：力导向边捆绑、3D 地球上的边捆绑、一对多 flow map", "note": "edge bundling / flow map，均叠加在地图或地球上" },
+    { "label": "Figure 12", "chart_type": "map", "count": 2, "caption": "LINK-Abstract 示例：场线展示模式、六边形 pattern map", "note": "(a) field lines，(b) hexbin 风格 pattern map" },
+    { "label": "Figure 13", "chart_type": "mixed", "count": 1, "caption": "COMP-Juxtaposed 示例：Flowstrates，两幅地图之间夹流量时间视图", "note": "两幅地图并置，中央为流量矩阵/时间流(heatmap)" },
+    { "label": "Figure 14", "chart_type": "map", "count": 2, "caption": "COMP-Superimposed 示例：曲线箭头 flow map、环绕地图布局的节点" },
+    { "label": "Figure 15", "chart_type": "mixed", "count": 2, "caption": "COMP-Nested 示例：Shifted maps，将地理嵌套进网络节点", "note": "node-link 节点内嵌小地图" },
+    { "label": "Figure 16", "chart_type": "mixed", "count": 2, "caption": "COMP-Integrated 示例：按地理分组的环形布局、变形地球上的网络", "note": "(a) chord diagram，(b) 变形地球上的 node-link" },
+    { "label": "Figure 17", "chart_type": "diagram", "count": 4, "caption": "INTERACT-Interaction Only 示例：地图 inset 导航与边捆绑/扇出/磁铁交互示意", "note": "交互技术示意图" },
+    { "label": "Figure 18", "chart_type": "diagram", "count": 3, "caption": "Vistorian 中的节点重叠移除：滑杆控制节点圆环展开半径", "note": "node-link 截图三联" },
+    { "label": "Figure 19", "chart_type": "other", "count": 1, "caption": "设计空间内技术分类总览，展示 GEO/NODE/LINK 间的取舍", "note": "sankey / parallel sets (alluvial diagram)" }
+  ],
+  "tables": []
+}

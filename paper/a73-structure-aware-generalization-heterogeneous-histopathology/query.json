@@ -1,0 +1,21 @@
+{
+  "id": "A73",
+  "category": "paper",
+  "query": "读 structure-aware-generalization-heterogeneous-histopathology.pdf，这是一篇病理全切片图像（WSI）癌症诊断论文，提出 StructMIL 多实例学习框架，在 PANDA 前列腺癌分级和 Camelyon16 乳腺癌转移检测两个数据集上做了跨中心/跨扫描仪评估。做一份图文报告，分析它相对基线模型和病理基础模型在域内与域外场景下的表现差异、各组件的贡献，以及模型的可解释性机制。",
+  "files": [
+    {
+      "file": "structure-aware-generalization-heterogeneous-histopathology.pdf",
+      "source": ".cache/chart-data-corpus/papers/structure-aware-generalization-heterogeneous-histopathology.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "boxplot",
+    "heatmap",
+    "slope",
+    "scatter",
+    "grouped-bar",
+    "violin",
+    "bubble"
+  ]
+}

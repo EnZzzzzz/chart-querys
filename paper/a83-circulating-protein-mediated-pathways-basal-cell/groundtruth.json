@@ -1,0 +1,64 @@
+{
+  "id": "A83",
+  "source_file": "circulating-protein-mediated-pathways-basal-cell.pdf",
+  "paper_title": "Circulating Protein-Mediated Pathways in Basal Cell Carcinoma: Mendelian Randomization Reveals STAT3 and GUCA1A as Key Regulatory Hubs",
+  "stats": { "figures_total": 8, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 2,
+      "caption": "研究框架：UKB pQTL 与 BCC 的总/直接/间接效应及两步法中介效应分解示意（A、B 两个面板）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "部分遗传关联分析结果：森林图、火山图与环形热图",
+      "note": "A=forest plot, B=volcano plot (scatter), C=circular heatmap"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "PPI 网络、GO 富集（环形图与条形面板）与 KEGG 富集气泡图",
+      "note": "A=network graph, B=GO circular enrichment plot, C=horizontal bar, D=bubble/dot plot"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "UKB pQTL 到 BCC 的 MR 森林图：20 个保护性蛋白与 21 个风险蛋白",
+      "note": "forest plot"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "BD pQTL 到 BCC 的 MR 森林图（跨 4 页）：68 个保护性、86 个风险蛋白",
+      "note": "forest plot"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "UKB pQTL 到 BCC 相关 BD pQTL 的 MR 森林图",
+      "note": "forest plot"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "中介分析结果：通路系数、总效应、中介效应及 95% CI、中介比例与 P 值",
+      "note": "forest plot of mediation effects, with an embedded results table on the left"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "漏斗图与 leave-one-out 敏感性分析图（UKB→BCC、BD→BCC、UKB→BD 三组）",
+      "note": "A/C/E=funnel plot, B/D/F=leave-one-out sensitivity forest plot"
+    }
+  ],
+  "tables": []
+}

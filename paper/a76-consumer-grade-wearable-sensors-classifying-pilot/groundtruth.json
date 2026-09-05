@@ -1,0 +1,26 @@
+{
+  "id": "A76",
+  "source_file": "consumer-grade-wearable-sensors-classifying-pilot.pdf",
+  "paper_title": "Consumer-Grade Wearable Sensors for Classifying Pilot Workload and Stress During Real Flight Training: A Leave-One-Subject-Out Validation Study",
+  "stats": { "figures_total": 9, "tables_total": 7 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "六阶段分析管线总览：飞行实验到 LOSO 交叉验证" },
+    { "label": "Figure 2", "chart_type": "image", "count": 2, "caption": "传感器佩戴示意（a）与 Cessna 172 座舱实拍照片（b）" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 5, "caption": "单名飞行员全程生理时间线：分段轴、心率/EDA/皮温曲线与标签条", "note": "line 时间序列 ×3（HR、EDA、Temp）+ 分段时间轴示意 + 高低标签色带" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 6, "caption": "各飞行动作的负荷/压力自评分布、负荷-压力耦合及残差标签平衡", "note": "raincloud（half-violin + box + jitter 散点）×2、hexbin 密度散点、ridgeline 密度 ×2、标签平衡成对横条" },
+    { "label": "Figure 5", "chart_type": "mixed", "count": 6, "caption": "fold-safe 双向残差标签构造：评分矩阵热力图与标签切换 alluvial", "note": "heatmap 矩阵 ×4 + alluvial/sankey 标签迁移图 ×2" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 4, "caption": "LOSO 模型×模态表现全景：F1 热力图、森林图与 fixed vs nested 对比", "note": "heatmap ×2、forest plot（带 CI 误差条）、scatter（y=x 参考线）" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 3, "caption": "个性化校准相对 LOSO 的表现膨胀：哑铃图、差距分布与逐飞行员稳定性", "note": "dumbbell plot、密度分布、strip/swarm 点图" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 5, "caption": "特征数、标签定义、信号可靠性与质控选择的稳健性分析", "note": "line（F1 vs 特征数 k）、lollipop 选择频率、点图（ICC）、grouped-bar、diverging horizontal-bar" },
+    { "label": "Figure 9", "chart_type": "mixed", "count": 4, "caption": "SHAP 特征重要性：beeswarm、模态归因占比与特征类别归因对比", "note": "SHAP beeswarm ×2、stacked horizontal-bar（100% 占比）、heatmap" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 7, "cols": 2, "caption": "队列与实验方案摘要（字段-值）" },
+    { "label": "Table 2", "data_form": "statistics", "rows": 6, "cols": 2, "caption": "35 名参与者特征（年龄、执照、飞行时长等）" },
+    { "label": "Table 3", "data_form": "benchmark-scores", "rows": 10, "cols": 7, "caption": "LOSO 分类表现：Acc/F1/CI 与置换检验 p 值，按 F1 排序" },
+    { "label": "Table 4", "data_form": "comparison", "rows": 12, "cols": 6, "caption": "LOSO 与被试内窗口验证的 macro F1 对比及差距" },
+    { "label": "Table 5", "data_form": "benchmark-scores", "rows": 5, "cols": 9, "caption": "全因子 LOSO macro F1：5 分类器 × 4 模态 × 2 目标" },
+    { "label": "Table 6", "data_form": "ablation", "rows": 18, "cols": 5, "caption": "稳健性分析：A) nested vs fixed 超参 F1；B) 特征/质控敏感性" },
+    { "label": "Table 7", "data_form": "comparison", "rows": 13, "cols": 7, "caption": "与既往飞行员负荷/压力研究的对照（样本、信号、验证方式、表现）" }
+  ]
+}

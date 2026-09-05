@@ -1,0 +1,21 @@
+{
+  "id": "A26",
+  "category": "paper",
+  "query": "读 state-digital-health-32-countries-who.pdf，这篇论文基于 WHO 非洲区域 32 个国家、2023 到 2025 年三轮共 50 次数字健康成熟度评估（覆盖 7 个指标维度）。做一份图文分析报告，分析各国成熟度的整体水平、地区分布、短期变化情况，以及聚类得到的国家类型各有什么特征。",
+  "files": [
+    {
+      "file": "state-digital-health-32-countries-who.pdf",
+      "source": ".cache/chart-data-corpus/papers/state-digital-health-32-countries-who.pdf"
+    }
+  ],
+  "chart_forms": [
+    "choropleth",
+    "heatmap",
+    "radar",
+    "slope",
+    "bar",
+    "stacked-bar",
+    "horizontal-bar",
+    "dendrogram"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "A39",
+  "category": "paper",
+  "query": "读 general-approach-visualizing-uncertainty-statistical-graphic.pdf，这是一篇 22 页的论文，提出了一种在统计图形中表达不确定性的通用方法（把可视化当作图像做采样聚合），并用 Palmer 企鹅数据等做了大量示例。做一份图文报告，把它的方法原理、覆盖率保证和各类数据上的不确定性表达效果讲清楚。",
+  "files": [
+    {
+      "file": "general-approach-visualizing-uncertainty-statistical-graphic.pdf",
+      "source": ".cache/chart-data-corpus/papers/general-approach-visualizing-uncertainty-statistical-graphic.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "bar",
+    "stacked-bar",
+    "pie",
+    "area",
+    "radar",
+    "sankey",
+    "heatmap",
+    "map",
+    "bubble",
+    "waffle",
+    "dot-plot",
+    "error-bar",
+    "icon-chart"
+  ]
+}

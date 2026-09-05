@@ -1,0 +1,69 @@
+{
+  "id": "A67",
+  "source_file": "improved-insights-sabio-rk-database-visualization.pdf",
+  "paper_title": "Improved insights into the SABIO-RK database via visualization",
+  "stats": { "figures_total": 9, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "SABIO-RK 可视化模块整体界面截图：上半部分为条目级图（heatmap 总览、平行坐标、含直方图的 scatter matrix），下半部分为动力学参数图",
+      "note": "web 界面截图拼贴，内含 heatmap、parallel-coordinates、scatter-matrix、scatter"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "heatmap",
+      "count": 2,
+      "caption": "(A) 条目数据总览 heatmap，按属性着色、可排序；(B) 刷选扩展选区的局部放大"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "other",
+      "count": 2,
+      "caption": "(A) 条目数据的平行坐标图，每条线代表一个条目；(B) 通过刷选坐标轴选择数据",
+      "note": "parallel-coordinates"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "(A) 条目数据 scatter plot matrix，对角线为直方图，展示 pH 与温度等测量条件；(B) 刷选数据范围，直方图随之更新",
+      "note": "scatter-matrix（SPLOM），对角线面板为 histogram；A、B 两个面板同为该形态"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "(A) 动力学参数的平行坐标图；(B) 刷选坐标轴选择数据并联动 scatter；(C) scatter 展示所选参数的精确值",
+      "note": "A、B 为 parallel-coordinates，C 为 scatter"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "scatter",
+      "count": 1,
+      "caption": "动力学参数值对 pH 的 scatter，点大小编码第三维，悬停显示 tooltip"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "可视化检索与查询组合的流程示意：图上刷选 → Add Selection to Search → 逐步细化查询"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "图的自定义设置：可选择坐标轴/属性、重排数据、更换配色方案",
+      "note": "截图拼贴：GUI 设置面板 + 3 种配色方案的 heatmap 变体 + scatter + parallel coordinates"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "丙酮酸激酶查询结果中两个动力学参数异常值：(A) 条目平行坐标；(B) 条目 scatter matrix；(C) 动力学参数平行坐标；(D) 动力学参数 scatter",
+      "note": "A、C 为 parallel-coordinates，B 为 scatter-matrix，D 为 scatter"
+    }
+  ],
+  "tables": []
+}

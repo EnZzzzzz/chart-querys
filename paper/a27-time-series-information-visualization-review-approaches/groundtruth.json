@@ -1,0 +1,28 @@
+{
+  "id": "A27",
+  "source_file": "time-series-information-visualization-review-approaches.pdf",
+  "paper_title": "Time Series Information Visualization - A Review of Approaches and Tools",
+  "stats": { "figures_total": 14, "tables_total": 4 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "多维时间序列的数据立方体概念结构示意" },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 1, "caption": "交互式信息可视化流程示意图（数据获取到分析师）" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 2, "caption": "美国分行业失业率 2000-2010 的两种表示：共享空间与拆分空间", "note": "(a) streamgraph；(b) 12 个 small-multiple area charts" },
+    { "label": "Figure 4", "chart_type": "line", "count": 2, "caption": "不同特征数量（3 个 vs 10 个）的失业率多线对比，展示维度灾难" },
+    { "label": "Figure 5", "chart_type": "diagram", "count": 1, "caption": "Gestalt 格式塔分组原则示意（接近、相似、连续、闭合等 11 条）" },
+    { "label": "Figure 6", "chart_type": "scatter", "count": 2, "caption": "触屏交互工具示例：(a) 双指缩放、(b) 区域选择，均基于散点", "note": "两个面板各含操作前后两个散点子图，带手势标注" },
+    { "label": "Figure 7", "chart_type": "scatter", "count": 1, "caption": "带交互 tooltip 的时间散点示例，悬浮显示多属性信息" },
+    { "label": "Figure 8", "chart_type": "other", "count": 1, "caption": "西雅图 2007-2016 日最低气温的螺旋图（内圈 2007 到外圈 2016）", "note": "spiral chart / ringmap" },
+    { "label": "Figure 9", "chart_type": "heatmap", "count": 1, "caption": "西雅图 2016 年日最低气温的日历图", "note": "calendar heatmap" },
+    { "label": "Figure 10", "chart_type": "heatmap", "count": 1, "caption": "西雅图 1997-2016 月平均最低气温的热力矩阵（月×年）" },
+    { "label": "Figure 11", "chart_type": "box", "count": 1, "caption": "西雅图 1997-2016 按年聚合的气温变化箱线图" },
+    { "label": "Figure 12", "chart_type": "other", "count": 1, "caption": "2022 世界杯 32 队晋级历程的流向演变", "note": "sankey" },
+    { "label": "Figure 13", "chart_type": "area", "count": 1, "caption": "美国 1880-2014 婴儿名字频率的堆叠面积表示（NameVoyager 风格）", "note": "stacked area chart" },
+    { "label": "Figure 14", "chart_type": "other", "count": 1, "caption": "美国婴儿名字趋势的竖版流图，适配双栏排版", "note": "streamgraph (vertical)" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 5, "cols": 2, "caption": "视觉数据探索的设计概念要素（多视图、overview-first、focus+context 等）" },
+    { "label": "Table 2", "data_form": "other", "rows": 6, "cols": 2, "caption": "视觉数据探索的交互工具与技术（缩放、过滤、透镜、刷选、tooltip、动画）" },
+    { "label": "Table 3", "data_form": "other", "rows": 3, "cols": 2, "caption": "时间序列可视化的用户需求与探索挑战及缓解手段（认知负荷、屏幕限制、延迟）" },
+    { "label": "Table 4", "data_form": "comparison", "rows": 12, "cols": 5, "caption": "InfoVis 工具与库汇总：Matplotlib/Seaborn/Plotly/D3.js/Tableau 等的优势、局限与交互性对比" }
+  ]
+}

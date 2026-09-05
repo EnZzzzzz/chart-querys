@@ -1,0 +1,94 @@
+{
+  "id": "A64",
+  "source_file": "causal-association-molecular-mechanisms-periodontal-disease.pdf",
+  "paper_title": "Causal association and molecular mechanisms of periodontal disease and muscle wasting and atrophy: Mendelian randomization and bioinformatics analysis",
+  "stats": { "figures_total": 7, "tables_total": 5 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "孟德尔随机化分析：五种 MR 方法的因果效应估计",
+      "note": "A forest plot（OR 及 95%CI）+ B MR scatter plot + C funnel plot + D leave-one-out 敏感性分析图"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "生物信息学与差异基因表达分析（GSE223924）",
+      "note": "A box plot（表达量分布）+ B UMAP scatter + C volcano plot + D Venn diagram（415 个共享基因）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "交集靶点的 GO 与 KEGG 富集分析",
+      "note": "A GO 富集 grouped-bar（BP/CC/MF）+ B KEGG bubble scatter + C KEGG 通路-基因 network/chord diagram"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "交集靶点 PPI 网络与核心靶点筛选",
+      "note": "A PPI network diagram + B 五种算法取交集的 5-set Venn diagram"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "CIBERSORT 免疫细胞浸润评估（印刷 caption；实际图像为 qRT-PCR/Western blot 验证）",
+      "note": "出版排版错误：本图图像实为 Figure 6 的 qRT-PCR/Western blot——A-C 为 9 个 mRNA 表达 bar chart，D/E 为 western blot 条带 image + 蛋白表达 bar chart；印刷 caption 与 Figure 6 互换"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "qRT-PCR 与 Western blot 验证（印刷 caption；实际图像为 CIBERSORT 免疫浸润）",
+      "note": "出版排版错误：本图图像实为 Figure 5 的免疫浸润——A stacked-bar（22 种免疫细胞相对比例）+ B boxplot + C 相关性 heatmap + D 细胞因子-免疫细胞相关性 bubble matrix"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "核心靶点的药物预测网络与分子对接",
+      "note": "A drug-target-disease network diagram + B-D 分子对接 3D 结构 image ×3"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 4,
+      "cols": 3,
+      "caption": "目标基因的 qRT-PCR 引物序列"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "statistics",
+      "rows": 12,
+      "cols": 4,
+      "caption": "工具变量（SNP）选择结果，含 F 统计量与 P 值"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "statistics",
+      "rows": 2,
+      "cols": 10,
+      "caption": "孟德尔随机化敏感性分析（多效性与异质性检验）"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "comparison",
+      "rows": 3,
+      "cols": 6,
+      "caption": "IL-10、IL-6、IL-1β 的 MCC/EPC/MNC/Closeness/Degree 拓扑得分"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "comparison",
+      "rows": 15,
+      "cols": 5,
+      "caption": "候选化合物与靶点蛋白的分子对接结果（结合能）"
+    }
+  ]
+}

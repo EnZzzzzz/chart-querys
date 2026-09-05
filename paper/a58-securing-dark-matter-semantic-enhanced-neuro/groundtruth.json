@@ -1,0 +1,37 @@
+{
+  "id": "A58",
+  "source_file": "securing-dark-matter-semantic-enhanced-neuro.pdf",
+  "paper_title": "Securing the Dark Matter: A Semantic-Enhanced Neuro-Symbolic Framework for Supply Chain Analysis of Opaque Industrial Software",
+  "stats": { "figures_total": 13, "tables_total": 14 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "SCAA 框架端到端流水线：二进制→CPG 提取→语义提升→SSCKG→风险推理" },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 1, "caption": "基于 MITRE ATT&CK for ICS 的三层抽象域格结构（5 类/27 动作/43 标签）" },
+    { "label": "Figure 3", "chart_type": "diagram", "count": 1, "caption": "Reflexive Prompting 师生验证流水线：DeepSeek-v3 生成、Joern 校验、Qwen3-7B 微调" },
+    { "label": "Figure 4", "chart_type": "diagram", "count": 1, "caption": "CPG 到 SSCKG 的满射变换示例：实体提升与关系抽取前后对照" },
+    { "label": "Figure 5", "chart_type": "diagram", "count": 1, "caption": "Graphormer 注意力偏置扩展示意：边类型偏置×语义权重" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 2, "caption": "六种方法对比：(a) 跨数据集 F1 退化曲线；(b) InduVul 上 Precision-Recall 散点与 iso-F1 等高线", "note": "line + scatter" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 2, "caption": "消融研究：(a) 各组件移除的 ΔF1 分组对比；(b) 长/短路径 Recall 的哑铃式对比", "note": "grouped-bar + dumbbell" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 4, "caption": "APT 检测四联诊断：(a) ROC 曲线；(b) 阈值敏感性双轴曲线；(c) 10 个 0-day 相似度横条；(d) 良恶性分数 KDE 分布", "note": "line(ROC) + dual-axis line + horizontal-bar + KDE density(area)" },
+    { "label": "Figure 9", "chart_type": "mixed", "count": 2, "caption": "语义提升保真度：(a) 四个 LLM 分类别 EVR 热力图；(b) 29 例违规的错误分类环形占比", "note": "heatmap + donut" },
+    { "label": "Figure 10", "chart_type": "mixed", "count": 2, "caption": "鲁棒性分析：(a) F1 随 β/τ/ε 偏移的变化曲线；(b) CPG→SSCKG 压缩的水平棒棒糖图", "note": "line + horizontal lollipop" },
+    { "label": "Figure 11", "chart_type": "diagram", "count": 1, "caption": "InduGuard 测试床架构：物理层 PLC + 虚拟化 HMI/SCADA + 分析平面" },
+    { "label": "Figure 12", "chart_type": "mixed", "count": 3, "caption": "Tier A 静态可扩展性：(a) 流水线分阶段耗时堆叠分解；(b) 误报减少对比（含 0-day 检出率小图）", "note": "stacked horizontal-bar + bar with inset bar" },
+    { "label": "Figure 13", "chart_type": "mixed", "count": 2, "caption": "Tier B 动态效能：(a) 15 CVE×7 工具的红绿灯检测矩阵；(b) 覆盖率-延迟 Pareto 散点", "note": "heatmap(traffic-light matrix) + scatter" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "comparison", "rows": 9, "cols": 6, "caption": "代表性方法对照五项需求的满足情况（✓/△/×）" },
+    { "label": "Table 2", "data_form": "other", "rows": 8, "cols": 4, "caption": "SSCKG 关系本体：三类八种关系及其 CPG 边来源与语义" },
+    { "label": "Table 3", "data_form": "statistics", "rows": 3, "cols": 5, "caption": "三个数据集统计：规模、漏洞数、不平衡比、来源" },
+    { "label": "Table 4", "data_form": "benchmark-scores", "rows": 6, "cols": 8, "caption": "三数据集上各方法 F1%/M 对比（5 次运行均值±标准差）" },
+    { "label": "Table 5", "data_form": "benchmark-scores", "rows": 6, "cols": 5, "caption": "InduVul 上各模型 Precision/Recall/F1/M" },
+    { "label": "Table 6", "data_form": "ablation", "rows": 5, "cols": 7, "caption": "消融研究：四个组件移除在三数据集上的 F1/M" },
+    { "label": "Table 7", "data_form": "benchmark-scores", "rows": 3, "cols": 5, "caption": "APT 检测性能：AUC、Recall@FPR5%、FPR、检出率" },
+    { "label": "Table 8", "data_form": "benchmark-scores", "rows": 6, "cols": 5, "caption": "Golden Set(n=500) 按 Tier-1 类别的语义提升对齐率与 EVR" },
+    { "label": "Table 9", "data_form": "benchmark-scores", "rows": 4, "cols": 7, "caption": "四个 LLM 在 Golden Set 上的分类别 EVR(%) 对比" },
+    { "label": "Table 10", "data_form": "hyperparameters", "rows": 3, "cols": 6, "caption": "InduVul 上 β/τ_apt/ε 三个超参数的敏感性（F1/M）" },
+    { "label": "Table 11", "data_form": "statistics", "rows": 7, "cols": 4, "caption": "SSCKG 构建统计：节点数、压缩比、聚类与关系统计" },
+    { "label": "Table 12", "data_form": "comparison", "rows": 5, "cols": 4, "caption": "50 个固件镜像上工业测试床性能：商业 SCA/GPT-4/本文对比" },
+    { "label": "Table 13", "data_form": "examples", "rows": 15, "cols": 6, "caption": "15 个入选工业 CVE 清单：目标、类别、漏洞类型、CWE" },
+    { "label": "Table 14", "data_form": "comparison", "rows": 18, "cols": 9, "caption": "混合测试床上 15 CVE × 7 工具的检测结果矩阵（✓/∼/×）" }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+ "id": "A40",
+ "source_file": "fabric-gc-project-management.pdf",
+ "paper_title": "Fabric-GC: A Blockchain-based Gantt Chart System for Cross-organizational Project Management",
+ "stats": {
+  "figures_total": 12,
+  "tables_total": 4
+ },
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "Structure of the ledger in Hyperledger Fabric."
+  },
+  {
+   "label": "Fig. 2",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "The centralization mode of information interaction."
+  },
+  {
+   "label": "Fig. 3",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "Architecture of fabric-GC."
+  },
+  {
+   "label": "Fig. 4",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "Relationship between data structures."
+  },
+  {
+   "label": "Fig. 5",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "The description of project creation process (sequence flow)."
+  },
+  {
+   "label": "Fig. 6",
+   "chart_type": "diagram",
+   "count": 1,
+   "caption": "The flow of task schedule allocation process (flowchart)."
+  },
+  {
+   "label": "Fig. 7",
+   "chart_type": "image",
+   "count": 1,
+   "note": "gantt",
+   "caption": "The interface of Gantt chart (system UI screenshot)."
+  },
+  {
+   "label": "Fig. 8",
+   "chart_type": "image",
+   "count": 1,
+   "note": "gantt",
+   "caption": "Assign a task schedule (Gantt UI + task form dialog screenshot)."
+  },
+  {
+   "label": "Fig. 9",
+   "chart_type": "image",
+   "count": 1,
+   "note": "gantt",
+   "caption": "The process of completion setting (Gantt UI + dialog screenshot)."
+  },
+  {
+   "label": "Fig. 10",
+   "chart_type": "grouped-bar",
+   "count": 1,
+   "caption": "Execution time of write operations under Solo, Kafka, Raft and PoW."
+  },
+  {
+   "label": "Fig. 11",
+   "chart_type": "line",
+   "count": 4,
+   "caption": "Throughput under different Transactions; 4 panels (a-d) for queryUser/queryProject/queryTask/changeTask."
+  },
+  {
+   "label": "Fig. 12",
+   "chart_type": "line",
+   "count": 1,
+   "caption": "Throughput of queryProject() under different consensus algorithms when Transactions = 100."
+  }
+ ],
+ "tables": [
+  {
+   "label": "Table 1",
+   "data_form": "comparison",
+   "rows": 6,
+   "cols": 5,
+   "caption": "Comparison with related work."
+  },
+  {
+   "label": "Table 2",
+   "data_form": "other",
+   "rows": 14,
+   "cols": 2,
+   "caption": "The descriptions of notations."
+  },
+  {
+   "label": "Table 3",
+   "data_form": "other",
+   "rows": 6,
+   "cols": 3,
+   "caption": "Fabric-GC nodes (docker container deployment)."
+  },
+  {
+   "label": "Table 4",
+   "data_form": "examples",
+   "rows": 6,
+   "cols": 5,
+   "caption": "The task set of project1."
+  }
+ ]
+}

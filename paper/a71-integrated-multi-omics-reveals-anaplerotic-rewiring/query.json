@@ -1,0 +1,29 @@
+{
+  "id": "A71",
+  "category": "paper",
+  "query": "读 integrated-multi-omics-reveals-anaplerotic-rewiring.pdf，这是一篇 Nature Metabolism 论文，对 210 名甲基丙二酸尿症（MMA）患者做了全基因组测序、转录组、蛋白组、代谢组等多组学分析。做一份图文报告，分析多组学数据在确定分子诊断中的作用，以及 MMUT 缺陷与三羧酸循环代谢紊乱之间的关系。",
+  "files": [
+    {
+      "file": "integrated-multi-omics-reveals-anaplerotic-rewiring.pdf",
+      "source": ".cache/chart-data-corpus/papers/integrated-multi-omics-reveals-anaplerotic-rewiring.pdf"
+    }
+  ],
+  "chart_forms": [
+    "boxplot",
+    "violin",
+    "waffle",
+    "heatmap",
+    "scatter",
+    "bar",
+    "stacked-bar",
+    "histogram",
+    "density",
+    "lollipop",
+    "volcano",
+    "circos",
+    "chord",
+    "venn",
+    "upset",
+    "network"
+  ]
+}

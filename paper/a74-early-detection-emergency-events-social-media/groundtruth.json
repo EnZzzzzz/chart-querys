@@ -1,0 +1,28 @@
+{
+  "id": "A74",
+  "source_file": "early-detection-emergency-events-social-media.pdf",
+  "paper_title": "Early detection of emergency events from social media: a new text clustering approach",
+  "stats": { "figures_total": 15, "tables_total": 3 },
+  "figures": [
+    { "label": "Fig. 1", "chart_type": "diagram", "count": 1, "caption": "EDEE 框架三阶段处理流程图" },
+    { "label": "Fig. 2", "chart_type": "diagram", "count": 1, "caption": "BERT-Att-BiLSTM 模型架构图" },
+    { "label": "Fig. 3", "chart_type": "bar", "count": 1, "caption": "各类突发事件相关帖子数量，柱子按四大类着色" },
+    { "label": "Fig. 4", "chart_type": "grouped-bar", "count": 3, "caption": "三个模型在各类事件上的 Precision/Recall/F1 对比，三个面板" },
+    { "label": "Fig. 5", "chart_type": "line", "count": 1, "caption": "响水爆炸相关四事件的帖子发布时间分布（3月21日14:00-23:59）" },
+    { "label": "Fig. 6", "chart_type": "other", "count": 1, "note": "alluvial", "caption": "响水爆炸事件高频词随时间演化的冲积图" },
+    { "label": "Fig. 7", "chart_type": "line", "count": 1, "caption": "武汉 COVID-19 相关帖子的发布时间分布" },
+    { "label": "Fig. 8", "chart_type": "image", "count": 2, "caption": "COVID-19 最早检测到的帖子与转发最多帖子的微博截图" },
+    { "label": "Fig. 9", "chart_type": "other", "count": 1, "note": "wordcloud", "caption": "COVID-19 早期帖子的词云" },
+    { "label": "Fig. 10", "chart_type": "line", "count": 2, "caption": "湖北其他城市和各省 COVID-19 帖子时间分布，两个面板" },
+    { "label": "Fig. 11", "chart_type": "image", "count": 1, "caption": "突发事件检测系统界面截图" },
+    { "label": "Fig. 12", "chart_type": "mixed", "count": 2, "note": "bar + nested pie (sunburst-like)", "caption": "2020年6-11月检测到的突发事件统计：分类柱状图 + 嵌套饼图" },
+    { "label": "Fig. 13", "chart_type": "map", "count": 1, "note": "choropleth with embedded bar glyphs", "caption": "检测到的突发事件在中国的地域分布图，省份分色并嵌小柱标" },
+    { "label": "Fig. 14", "chart_type": "other", "count": 1, "note": "streamgraph", "caption": "不同类型突发事件随时间变化的流图（2020年6-11月）" },
+    { "label": "Fig. 15", "chart_type": "stacked-bar", "count": 1, "caption": "事件发生到被检测出的时间间隔分布，按事件类型堆叠" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 30, "cols": 3, "caption": "30 类突发事件及其种子词与权重（跨页续表）" },
+    { "label": "Table 2", "data_form": "hyperparameters", "rows": 3, "cols": 2, "caption": "相似度参数 sc、sl、st 的赋值规则" },
+    { "label": "Table 3", "data_form": "benchmark-scores", "rows": 3, "cols": 4, "caption": "三个模型的分类性能（Precision/Recall/F1）" }
+  ]
+}

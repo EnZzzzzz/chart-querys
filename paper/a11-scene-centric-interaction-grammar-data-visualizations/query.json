@@ -1,0 +1,17 @@
+{
+  "id": "A11",
+  "category": "paper",
+  "query": "读 scene-centric-interaction-grammar-data-visualizations.pdf，这是一篇提出可视化交互语法 Interactive Mascot 的论文（16 页）。做一份可视化报告，梳理这套语法的核心组件与执行模型，并分析它与 Vega-Lite 在交互表达能力和运行性能上的对比结果。",
+  "files": [
+    {
+      "file": "scene-centric-interaction-grammar-data-visualizations.pdf",
+      "source": ".cache/chart-data-corpus/papers/scene-centric-interaction-grammar-data-visualizations.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "area",
+    "boxplot"
+  ]
+}

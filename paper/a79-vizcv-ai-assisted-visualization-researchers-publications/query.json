@@ -1,0 +1,20 @@
+{
+  "id": "A79",
+  "category": "paper",
+  "query": "读 vizcv-ai-assisted-visualization-researchers-publications.pdf，这篇论文介绍了 VizCV——一个 AI 辅助的 Web 工具，用可视分析方式呈现研究者的发表记录与学术生涯轨迹。做一份图文报告，梳理它的数据处理流程与系统功能，分析它如何刻画研究主题随时间的演变、多位学者之间的对比，以及论文引用影响力等科学计量指标。",
+  "files": [
+    {
+      "file": "vizcv-ai-assisted-visualization-researchers-publications.pdf",
+      "source": ".cache/chart-data-corpus/papers/vizcv-ai-assisted-visualization-researchers-publications.pdf"
+    }
+  ],
+  "chart_forms": [
+    "dot-plot",
+    "bubble",
+    "donut",
+    "mosaic",
+    "line",
+    "scatter",
+    "bar"
+  ]
+}

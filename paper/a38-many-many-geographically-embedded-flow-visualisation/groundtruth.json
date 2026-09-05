@@ -1,0 +1,97 @@
+{
+  "id": "A38",
+  "source_file": "many-many-geographically-embedded-flow-visualisation.pdf",
+  "paper_title": "Many-to-Many Geographically-Embedded Flow Visualisation: An Evaluation",
+  "stats": { "figures_total": 12, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "首个用户研究对比的三种可视化方法（澳大利亚数据）",
+      "note": "(a) bundled flow map 流向地图；(b) OD map 嵌套网格；(c) MapTrix 地图+矩阵热力着色+引线"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "德国 16 州的 OD map 设计演示",
+      "note": "(a) 行政边界地图；(b) 空 OD 网格布局；(c) 嵌套空间 treemap 按流量着色（heatmap 式）"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "连接地图与矩阵的无交叉引线中间设计（NZ 及 NZ-USA）",
+      "note": "地图 + OD 矩阵热力着色 + 矩阵边际条形，行列序不一致的引线设计迭代"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "MapTrix 最终设计：无交叉引线连接地图与 OD 矩阵",
+      "note": "上下地图 + 旋转 OD 矩阵热力着色 + 进出流量方向条形"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "map",
+      "count": 3,
+      "caption": "流向地图设计决策（新西兰，三种变体）",
+      "note": "flow map：箭头粗细表流量、箭头与颜色渐变表方向；(c) 为 bundled 变体"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "stacked-bar",
+      "count": 18,
+      "caption": "研究一准确率：6 类任务×3 种方法面板，各含 AU/DE/NZ 百分比条"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "box",
+      "count": 18,
+      "caption": "研究一响应时间（秒）：任务×方法面板的箱线分布"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "MapTrix 重新设计（研究二用）",
+      "note": "地图 + 大矩阵热力着色 + 引线，去掉边际条形"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "stacked-bar",
+      "count": 20,
+      "caption": "研究二准确率：10 类任务×2 种方法面板，各含 CN/US 百分比条"
+    },
+    {
+      "label": "Fig. 10",
+      "chart_type": "box",
+      "count": 20,
+      "caption": "研究二响应时间（秒）：任务×方法面板的箱线分布"
+    },
+    {
+      "label": "Fig. 11",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "选择连续区域进行详细 MapTrix 对比并触发重布局",
+      "note": "地图+矩阵热力着色的重布局前后两个视图"
+    },
+    {
+      "label": "Fig. 12",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "按流量数值范围过滤 MapTrix 显示并触发矩阵与引线重布局",
+      "note": "地图 + 矩阵热力着色 + 连续色阶"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "examples",
+      "rows": 6,
+      "cols": 4,
+      "caption": "任务描述、缩写与示例问题（AU），含 TF/SF/RF 三组共 6 个任务"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "A5",
+  "source_file": "mmlu-paper.pdf",
+  "paper_title": "Measuring Massive Multitask Understanding",
+  "stats": {
+    "figures_total": 70,
+    "tables_total": 2
+  },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "(a) An example of few-shot learning and inference using GPT-3. (b) Performance on HellaSwag, SuperGLUE, and the multitas",
+      "note": "1 image (few-shot prompt example) + 1 grouped-bar"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "This task requires understanding detailed and dissonant scenarios, applying appropriate legal precedents, and choosing t"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Examples from the Microeconomics task."
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "image",
+      "count": 2,
+      "caption": "Examples from the Conceptual Physics and College Mathematics STEM tasks.",
+      "note": "two boxed task examples (Conceptual Physics, College Mathematics)"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A question from the Professional Medicine task."
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "horizontal-bar",
+      "count": 1,
+      "caption": "GPT-3 (few-shot) and UniﬁedQA results.",
+      "note": "grouped horizontal bars: 57 tasks x GPT-3/UnifiedQA/Random"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "GPT-3’s completion for two prompts testing knowledge of the order of operations."
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "scatter",
+      "count": 1,
+      "caption": "GPT-3’s conﬁdence is a poor estimator of its accuracy and can be off by up to 24%."
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "horizontal-bar",
+      "count": 2,
+      "caption": "On the left are GPT-3 few shot accuracies for all of the 57 tasks."
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "As the number of few-shot instruction examples increases, the accuracy monotonically increases."
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "scatter",
+      "count": 1,
+      "caption": "While models are more calibrated in a few-shot setting than a zero-shot setting, they are still miscalibrated, with gap "
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "scatter",
+      "count": 2,
+      "caption": "Figures on the relation between question difﬁculty and question length."
+    },
+    {
+      "label": "Figure 13",
+      "chart_type": "scatter",
+      "count": 2,
+      "caption": "The average log probability of the question (without answer) is not strongly positively correlated with accuracy, all el"
+    },
+    {
+      "label": "Figure 14",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Abstract Algebra example."
+    },
+    {
+      "label": "Figure 15",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Anatomy example."
+    },
+    {
+      "label": "Figure 16",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Astronomy example."
+    },
+    {
+      "label": "Figure 17",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Business Ethics example."
+    },
+    {
+      "label": "Figure 18",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Clinical Knowledge example."
+    },
+    {
+      "label": "Figure 19",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Biology example."
+    },
+    {
+      "label": "Figure 20",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Chemistry example."
+    },
+    {
+      "label": "Figure 21",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Computer Science example."
+    },
+    {
+      "label": "Figure 22",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Mathematics example."
+    },
+    {
+      "label": "Figure 23",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Medicine example."
+    },
+    {
+      "label": "Figure 24",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A College Physics example."
+    },
+    {
+      "label": "Figure 25",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Computer Security example."
+    },
+    {
+      "label": "Figure 26",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Conceptual Physics example."
+    },
+    {
+      "label": "Figure 27",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Econometrics example."
+    },
+    {
+      "label": "Figure 28",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Electrical Engineering example."
+    },
+    {
+      "label": "Figure 29",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An Elementary Mathematics example."
+    },
+    {
+      "label": "Figure 30",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Formal Logic example."
+    },
+    {
+      "label": "Figure 31",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Global Facts example."
+    },
+    {
+      "label": "Figure 32",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Biology example."
+    },
+    {
+      "label": "Figure 33",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Chemistry example."
+    },
+    {
+      "label": "Figure 34",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Computer Science example."
+    },
+    {
+      "label": "Figure 35",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School European History example."
+    },
+    {
+      "label": "Figure 36",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Geography example."
+    },
+    {
+      "label": "Figure 37",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Government and Politics example."
+    },
+    {
+      "label": "Figure 38",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Macroeconomics example."
+    },
+    {
+      "label": "Figure 39",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Mathematics example."
+    },
+    {
+      "label": "Figure 40",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Microeconomics example."
+    },
+    {
+      "label": "Figure 41",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Physics example."
+    },
+    {
+      "label": "Figure 42",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Psychology example."
+    },
+    {
+      "label": "Figure 43",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School Statistics example."
+    },
+    {
+      "label": "Figure 44",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School US History example."
+    },
+    {
+      "label": "Figure 45",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A High School World History example."
+    },
+    {
+      "label": "Figure 46",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Human Aging example."
+    },
+    {
+      "label": "Figure 47",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Human Sexuality example."
+    },
+    {
+      "label": "Figure 48",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "An International Law example."
+    },
+    {
+      "label": "Figure 49",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Jurisprudence example."
+    },
+    {
+      "label": "Figure 50",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Logical Fallacies example."
+    },
+    {
+      "label": "Figure 51",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Machine Learning example."
+    },
+    {
+      "label": "Figure 52",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Management example."
+    },
+    {
+      "label": "Figure 53",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Marketing example."
+    },
+    {
+      "label": "Figure 54",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Medical Genetics example."
+    },
+    {
+      "label": "Figure 55",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Miscellaneous example."
+    },
+    {
+      "label": "Figure 56",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Moral Disputes example."
+    },
+    {
+      "label": "Figure 57",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Moral Scenarios example."
+    },
+    {
+      "label": "Figure 58",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Nutrition example."
+    },
+    {
+      "label": "Figure 59",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Philosophy example."
+    },
+    {
+      "label": "Figure 60",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Prehistory example."
+    },
+    {
+      "label": "Figure 61",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Professional Accounting example."
+    },
+    {
+      "label": "Figure 62",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Professional Law example."
+    },
+    {
+      "label": "Figure 63",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Professional Medicine example."
+    },
+    {
+      "label": "Figure 64",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Professional Psychology example."
+    },
+    {
+      "label": "Figure 65",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Public Relations example."
+    },
+    {
+      "label": "Figure 66",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Security Studies example."
+    },
+    {
+      "label": "Figure 67",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Sociology example."
+    },
+    {
+      "label": "Figure 68",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A US Foreign Policy example."
+    },
+    {
+      "label": "Figure 69",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A Virology example."
+    },
+    {
+      "label": "Figure 70",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "A World Religions example."
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 10,
+      "cols": 6,
+      "caption": "Average weighted accuracy for each model on all four broad disciplines."
+    },
+    {
+      "label": "Table 2",
+      "data_form": "other",
+      "rows": 58,
+      "cols": 3,
+      "caption": "Summary of all 57 tasks."
+    }
+  ]
+}

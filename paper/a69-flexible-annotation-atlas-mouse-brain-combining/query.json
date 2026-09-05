@@ -1,0 +1,19 @@
+{
+  "id": "A69",
+  "category": "paper",
+  "query": "读 flexible-annotation-atlas-mouse-brain-combining.pdf，这是一篇 2021 年 Scientific Reports 论文，提出在 Allen 小鼠脑图谱基础上灵活合并与拆分脑区、构建灵活注释图谱（FAA）的方法。做一份图文报告，讲清楚 FAA 如何在保持解剖层级的前提下合并和拆分脑区，以及用它分析小鼠静息态功能连接得到了什么结果。",
+  "files": [
+    {
+      "file": "flexible-annotation-atlas-mouse-brain-combining.pdf",
+      "source": ".cache/chart-data-corpus/papers/flexible-annotation-atlas-mouse-brain-combining.pdf"
+    }
+  ],
+  "chart_forms": [
+    "icicle",
+    "heatmap",
+    "histogram",
+    "scatter",
+    "bar",
+    "network"
+  ]
+}

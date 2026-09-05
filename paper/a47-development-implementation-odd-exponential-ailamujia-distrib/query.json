@@ -1,0 +1,20 @@
+{
+  "id": "A47",
+  "category": "paper",
+  "query": "读 development-implementation-odd-exponential-ailamujia-distrib.pdf，这篇论文提出了一种新的寿命分布（OEA），给出 Python 实现，并用飞机风挡失效时间数据做了应用验证。做一份图文报告，梳理该分布在不同参数组合下各类可靠性指标有什么规律，以及它与常见分布在真实失效数据上的拟合效果对比。",
+  "files": [
+    {
+      "file": "development-implementation-odd-exponential-ailamujia-distrib.pdf",
+      "source": ".cache/chart-data-corpus/papers/development-implementation-odd-exponential-ailamujia-distrib.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "heatmap",
+    "surface-3d",
+    "violin",
+    "boxplot",
+    "scatter",
+    "histogram"
+  ]
+}

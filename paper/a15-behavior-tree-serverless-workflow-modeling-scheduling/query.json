@@ -1,0 +1,17 @@
+{
+  "id": "A15",
+  "category": "paper",
+  "query": "读 behavior-tree-serverless-workflow-modeling-scheduling.pdf，做一份图文分析报告，梳理这篇 BeeFlow 论文提出的基于行为树的边缘集群 Serverless 工作流建模与调度方法，重点分析它在边缘、云、常规边缘三种测试床上相对 FaaSFlow 的性能表现，以及各工作流在不同节点上的数据传输负载有什么差异。",
+  "files": [
+    {
+      "file": "behavior-tree-serverless-workflow-modeling-scheduling.pdf",
+      "source": ".cache/chart-data-corpus/papers/behavior-tree-serverless-workflow-modeling-scheduling.pdf"
+    }
+  ],
+  "chart_forms": [
+    "violin",
+    "gantt",
+    "grouped-bar",
+    "line"
+  ]
+}

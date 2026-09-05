@@ -1,0 +1,15 @@
+{
+  "id": "B10",
+  "category": "report-zh",
+  "query": "读 safe-bop-report-2023.pdf，做一份中国国际收支解读报告，分析经常账户与资本账户的多年走势和储备资产变化。",
+  "files": [
+    {
+      "file": "safe-bop-report-2023.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/safe-bop-report-2023.pdf"
+    }
+  ],
+  "chart_forms": [
+    "dual-axis-line",
+    "bar"
+  ]
+}

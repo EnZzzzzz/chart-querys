@@ -1,0 +1,17 @@
+{
+  "id": "A52",
+  "category": "paper",
+  "query": "读 hyperloop-system-optimization-hops.pdf，这是 Virgin Hyperloop 的系统优化工具 HOPS 论文（13 页，默认架构含 4512 个自由变量、6140 条约束）。做一份图文报告，讲清楚它的总成本由哪些部分构成、各子系统模型如何耦合，以及电池、推进、气动、压力管理等关键部件的建模与参数扫描结果有什么规律。",
+  "files": [
+    {
+      "file": "hyperloop-system-optimization-hops.pdf",
+      "source": ".cache/chart-data-corpus/papers/hyperloop-system-optimization-hops.pdf"
+    }
+  ],
+  "chart_forms": [
+    "icicle",
+    "treemap",
+    "line",
+    "scatter"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "A45",
+  "category": "paper",
+  "query": "读 single-cell-transcriptomic-profiling-uncovers-key.pdf，这是一篇胶质瘤单细胞转录组论文（约 2,000 个细胞、22 个细胞亚群），做一份可视化图文报告，分析细胞亚群的异质性、标志基因在各亚群间的表达差异与通路富集情况，以及候选生物标志物的实验验证结果。",
+  "files": [
+    {
+      "file": "single-cell-transcriptomic-profiling-uncovers-key.pdf",
+      "source": ".cache/chart-data-corpus/papers/single-cell-transcriptomic-profiling-uncovers-key.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "violin",
+    "heatmap",
+    "dot-plot",
+    "treemap",
+    "hexbin",
+    "ridgeline",
+    "boxplot",
+    "bar",
+    "stacked-bar",
+    "grouped-bar",
+    "network"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "A32",
+  "category": "paper",
+  "query": "读 dexmedetomidine-dezocine-targets-nr1h3-adrb1-are.pdf，这是一篇乳腺癌预后标志物的生信分析论文（14 页，用到 GSE42568 和 TCGA-BRCA 队列）。做一份图文报告，讲清楚作者如何从差异表达基因和孟德尔随机化筛出 NR1H3、ADRB1 两个预后标志物，以及风险模型构建、独立预后分析、免疫浸润和表达验证各环节的数据结论。",
+  "files": [
+    {
+      "file": "dexmedetomidine-dezocine-targets-nr1h3-adrb1-are.pdf",
+      "source": ".cache/chart-data-corpus/papers/dexmedetomidine-dezocine-targets-nr1h3-adrb1-are.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "heatmap",
+    "boxplot",
+    "forest-plot",
+    "funnel",
+    "venn",
+    "survival-curve"
+  ]
+}

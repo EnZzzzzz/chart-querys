@@ -1,0 +1,84 @@
+{
+  "id": "A79",
+  "source_file": "vizcv-ai-assisted-visualization-researchers-publications.pdf",
+  "paper_title": "VizCV: AI-assisted visualization of researchers' publications tracks",
+  "stats": { "figures_total": 10, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "VizCV 仪表盘初始视图，对比两个时间段的主题演变",
+      "note": "工具界面截图，含主题演变点阵图（dot-plot）、论文嵌入散点图（scatter）与 KPI 指标表"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "数据处理流水线：Scopus 摘要经 Sentence Transformer 嵌入、UMAP 降维、HDBSCAN 聚类、BERTopic 提取主题"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "某研究者 15 年研究主题演变，兴趣从 Rendering 转向 Deep Learning",
+      "note": "主题×年份的圆点阵图（dot-plot/bubble，圆大小编码数量）+ 右侧每年论文数小条形图（bar）"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "主视图对比两位研究者，环形图呈现各主题的发表分布",
+      "note": "donut：按主题×年份排列的环形图矩阵，明暗双色编码两位作者"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "点视图悬停操作展示单篇论文详情",
+      "note": "界面截图，含主题点阵图（dot-plot）、嵌入散点图（scatter）与每年论文数直方式条形图（histogram/bar）"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "报告生成的提示词配置工具界面截图，可选择指标并估算 token 数"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "应用自动生成的生物学家 Rosa Fernández 简明文字报告截图"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "分析视图展示某研究者的多项科学计量指标",
+      "note": "多面板：每年引用点图带均值线（dot-plot+line）、合作者 Marimekko 马赛克图（mosaic）、论文气泡散点图（bubble scatter）、按类型堆叠的年度发表条形图（stacked-bar）、KPI 表"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "line",
+      "count": 3,
+      "caption": "多研究者分析：引用、合作者数、发表数随年份变化的时间对比",
+      "note": "三个折线图面板（citations / co-authors / publications over years），每条线一位研究者，右侧附 KPI 面板"
+    },
+    {
+      "label": "Fig. 10",
+      "chart_type": "scatter",
+      "count": 1,
+      "caption": "用气泡大小编码相对影响力，评估同一作者各论文的相对影响",
+      "note": "气泡图（bubble）：位置为嵌入/时间坐标，气泡大小编码相对影响力"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 10,
+      "cols": 7,
+      "caption": "所选文献计量可视化系统的功能对比（系统×年份×各项特性勾选）"
+    }
+  ]
+}

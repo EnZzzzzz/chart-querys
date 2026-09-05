@@ -1,0 +1,22 @@
+{
+  "id": "A20",
+  "category": "paper",
+  "query": "读 visualising-geographically-embedded-origin-destination-flows.pdf，这是一篇研究地理起点-终点（OD）流数据可视化的长文（约 190 页），比较了 2D 与 VR 沉浸式环境下的多种可视化设计方案，并包含多组用户实验数据。做一份可视化分析报告：梳理论文讨论的可视化设计方案及各自优劣，并分析用户实验中不同方案在任务正确率、响应时间、交互行为和用户偏好上的差异。",
+  "files": [
+    {
+      "file": "visualising-geographically-embedded-origin-destination-flows.pdf",
+      "source": ".cache/chart-data-corpus/papers/visualising-geographically-embedded-origin-destination-flows.pdf"
+    }
+  ],
+  "chart_forms": [
+    "flow-map",
+    "map",
+    "od-matrix-heatmap",
+    "nested-grid-map",
+    "boxplot",
+    "stacked-bar",
+    "horizontal-bar",
+    "scatter",
+    "histogram"
+  ]
+}

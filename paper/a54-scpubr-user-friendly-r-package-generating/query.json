@@ -1,0 +1,18 @@
+{
+  "id": "A54",
+  "category": "paper",
+  "query": "读 scpubr-user-friendly-r-package-generating.pdf，这是一篇介绍单细胞转录组分析可视化 R 包 SCpubr 的应用说明，用 6 例 IDH1 突变型星形细胞瘤、共 72385 个细胞核的数据做演示。做一份图文报告，分析该工具覆盖了哪些分析场景，以及演示数据里细胞群、基因表达与患者构成有什么规律。",
+  "files": [
+    {
+      "file": "scpubr-user-friendly-r-package-generating.pdf",
+      "source": ".cache/chart-data-corpus/papers/scpubr-user-friendly-r-package-generating.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "dot-plot",
+    "heatmap",
+    "stacked-bar",
+    "boxplot"
+  ]
+}

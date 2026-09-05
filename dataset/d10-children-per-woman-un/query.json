@@ -1,0 +1,19 @@
+{
+  "id": "D10",
+  "category": "dataset",
+  "query": "分析 children-per-woman-un.csv 和 median-age.csv，做一份\"全球老龄化\"数据报告，呈现生育率与年龄结构的长期变化及两者关系。",
+  "files": [
+    {
+      "file": "children-per-woman-un.csv",
+      "source": ".cache/chart-data-corpus/datasets/owid/children-per-woman-un.csv"
+    },
+    {
+      "file": "median-age.csv",
+      "source": ".cache/chart-data-corpus/datasets/owid/median-age.csv"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter"
+  ]
+}

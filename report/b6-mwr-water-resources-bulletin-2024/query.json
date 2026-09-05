@@ -1,0 +1,15 @@
+{
+  "id": "B6",
+  "category": "report-zh",
+  "query": "读 mwr-water-resources-bulletin-2024.pdf，做一份中国水资源公报解读，分析分流域、分省的降水量与水资源量差异。",
+  "files": [
+    {
+      "file": "mwr-water-resources-bulletin-2024.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/mwr-water-resources-bulletin-2024.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "geo"
+  ]
+}

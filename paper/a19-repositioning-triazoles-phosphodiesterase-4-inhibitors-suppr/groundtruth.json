@@ -1,0 +1,40 @@
+{
+  "id": "A19",
+  "source_file": "repositioning-triazoles-phosphodiesterase-4-inhibitors-suppr.pdf",
+  "paper_title": "Repositioning Triazoles as Phosphodiesterase-4 Inhibitors to Suppress COVID-19 Cytokine Storms and Fungal Co-Infections via Docking and Simulation",
+  "stats": { "figures_total": 20, "tables_total": 10 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "三唑类抗真菌药在新冠炎症与毛霉菌病中的双重治疗作用示意图" },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 1, "caption": "真菌 14α-去甲基化酶抑制剂老药新用靶向人 PDE-4 的策略示意图" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 6, "caption": "PPI 网络与 MCODE 聚类：整体网络、top cluster、介数/度/聚类系数条形图、节点气泡图", "note": "network graph ×2 (a,b) + bar ×3 (c-e) + bubble plot (f)" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 6, "caption": "网络边表分析：STRING 互作指标、top15 PPI 条形对比、hexbin、3D 散点、3D 曲面、相关性热图", "note": "bar+line overlay (a), bar (b), hexbin (c), 3d-scatter (d), 3d-surface (e), correlation heatmap (f)" },
+    { "label": "Figure 5", "chart_type": "mixed", "count": 4, "caption": "ShinyGO 网络分析：KEGG 通路与 GO 分子功能的富集图和层级聚类树", "note": "horizontal-bar enrichment chart ×2 + dendrogram ×2" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 4, "caption": "ShinyGO 网络分析：GO 生物过程与细胞组分的富集图和层级聚类树", "note": "horizontal-bar enrichment chart ×2 + dendrogram ×2" },
+    { "label": "Figure 7", "chart_type": "image", "count": 5, "caption": "5 个配体与 PDE-4 的分子对接：对接打分表、3D 对接图与 2D 相互作用图", "note": "molecular docking screenshots (3D/2D interaction diagrams)" },
+    { "label": "Figure 8", "chart_type": "image", "count": 5, "caption": "5 个分子的 DFT 优化结构" },
+    { "label": "Figure 9", "chart_type": "line", "count": 1, "caption": "5 个分子的能量、偶极矩、极化率对比（多轴折线）" },
+    { "label": "Figure 10", "chart_type": "image", "count": 5, "caption": "5 个分子的前线分子轨道（FMO）可视化" },
+    { "label": "Figure 11", "chart_type": "diagram", "count": 5, "caption": "5 个分子的 HOMO-LUMO 能隙能级图", "note": "energy level diagram with molecular renderings" },
+    { "label": "Figure 12", "chart_type": "line", "count": 1, "caption": "所选三唑类 HOMO-LUMO 轨道能量（5 条分子折线）" },
+    { "label": "Figure 13", "chart_type": "line", "count": 1, "caption": "5 个分子的量子化学描述符对比（6 条描述符折线）" },
+    { "label": "Figure 14", "chart_type": "image", "count": 5, "caption": "5 个分子的分子静电势（MEP）表面图" },
+    { "label": "Figure 15", "chart_type": "mixed", "count": 2, "caption": "量子描述符跨化合物对比：雷达图 + 分组条形图", "note": "radar (a) + grouped-bar (b)" },
+    { "label": "Figure 16", "chart_type": "other", "count": 5, "caption": "5 个配体 50 个对接构象的 RMSD-结合能聚类频次 3D 曲面图", "note": "3d-surface" },
+    { "label": "Figure 17", "chart_type": "image", "count": 5, "caption": "PDE4 结合口袋表面 3D 视图与各配体 2D 相互作用图" },
+    { "label": "Figure 18", "chart_type": "line", "count": 4, "caption": "PDE4-posaconazole 100ns MD 轨迹：RMSD、RMSF、回旋半径、氢键数" },
+    { "label": "Figure 19", "chart_type": "line", "count": 4, "caption": "3G4L+roflumilast 100ns MD 轨迹：RMSD、RMSF、回旋半径、氢键数" },
+    { "label": "Figure 20", "chart_type": "grouped-bar", "count": 1, "caption": "PDE4 复合物各结合能组分的分组对比（MM-GBSA）" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 8, "cols": 5, "caption": "靶点检索、预测与网络分析所用数据库、工具及参数汇总" },
+    { "label": "Table 2", "data_form": "statistics", "rows": 5, "cols": 4, "caption": "5 个分子的能量、偶极矩、极化率性质" },
+    { "label": "Table 3", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "ketoconazole 的 HOMO-LUMO 轨道能量值" },
+    { "label": "Table 4", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "itraconazole 的 HOMO-LUMO 轨道能量值" },
+    { "label": "Table 5", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "posaconazole 的 HOMO-LUMO 轨道能量值" },
+    { "label": "Table 6", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "roflumilast 的 HOMO-LUMO 轨道能量值" },
+    { "label": "Table 7", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "voriconazole 的 HOMO-LUMO 轨道能量值" },
+    { "label": "Table 8", "data_form": "statistics", "rows": 5, "cols": 11, "caption": "5 个化合物的量子化学描述符（HOMO/LUMO/ΔE/IP/EA/χ/η/μ/σ/ω）" },
+    { "label": "Table 9", "data_form": "comparison", "rows": 7, "cols": 3, "caption": "MM-GBSA 计算的 PDE-4 复合物结合自由能组分对比" },
+    { "label": "Table 10", "data_form": "comparison", "rows": 5, "cols": 5, "caption": "三唑类与 roflumilast 的结合亲和力、构象稳定性与量子反应性综合对比" }
+  ]
+}

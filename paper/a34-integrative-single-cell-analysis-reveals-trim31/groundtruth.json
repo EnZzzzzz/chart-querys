@@ -1,0 +1,78 @@
+{
+  "id": "A34",
+  "source_file": "integrative-single-cell-analysis-reveals-trim31.pdf",
+  "paper_title": "Integrative single-cell analysis reveals TRIM31+ colorectal tumor cells orchestrating macrophage crosstalk within the cancer-immunity regulome",
+  "stats": { "figures_total": 10, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "GSE231559 数据集单细胞转录组分析工作流程与 CRC 组织异质性表征示意图"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 10,
+      "caption": "CRC 肿瘤微环境细胞组成与功能特征：UMAP 聚类、质控指标、Ro/e 偏好、细胞周期、DEG 与富集",
+      "note": "A/D: UMAP scatter; B: violin; C/E: heatmap; F: stacked-bar; G: volcano scatter; H: wordcloud; J: bar"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 11,
+      "caption": "TC 亚型鉴定、差异表达与功能富集分析：6 个亚型的聚类、DEG 与 GO 富集",
+      "note": "A/E: UMAP scatter; C: violin; D: bubble/dot plot; F: heatmap (Ro/e); G: volcano scatter x6; H: wordcloud; I: bar; J: lollipop; K: GO bar"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 11,
+      "caption": "TC 亚型通路活性、干性特征与拟时序分化轨迹（CytoTRACE、Monocle、Slingshot）",
+      "note": "A/D/E/F/G/J: UMAP/trajectory scatter; B/C/I: violin; H: ridge (density); K: pseudotime trend line+scatter"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "C4 TRIM31+ TC 经 MIF 与 GALECTIN 通路驱动的细胞间通讯网络（CellChat）",
+      "note": "A/B/E: chord/circular network plots; C/F/H: heatmap; D: hierarchy network diagram; G: violin"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "SCENIC 转录因子调控活性在肿瘤组/癌旁组及 TC 亚型间的分布与异质性",
+      "note": "A/E: heatmap; B/F: scatter; C/F/G: UMAP scatter; D/H: violin"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 10,
+      "caption": "TTRS 风险评分模型构建与验证：Cox/LASSO 回归、生存分析与 ROC 评估",
+      "note": "A/C/E: forest-plot; B: LASSO coefficient/CV line; D: horizontal-bar (coef); F: scatter; G: heatmap; H: Kaplan-Meier line; I: ROC line; J: violin"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "不同 TTRS 组的免疫细胞浸润与肿瘤微环境特征（CIBERSORT、ESTIMATE）",
+      "note": "A: stacked-bar; B/F: heatmap; C/D/G: box; E: lollipop; H: violin; I: correlation scatter"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 10,
+      "caption": "TTRS 组间功能富集、基因突变（TMB）与药物敏感性分析",
+      "note": "A: PCA scatter; B: volcano scatter; C: GO horizontal-bar; D: stacked-bar; E/F: oncoprint (waterfall) + bar; G/J: violin; H: correlation scatter with regression line; I: Kaplan-Meier line"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "TRIM31 敲低对 CRC 细胞增殖、迁移与凋亡影响的体外实验验证",
+      "note": "A/E/G/I: bar; B/C: line (growth curves); D/F: image (colony/transwell photos); H: flow-cytometry scatter"
+    }
+  ],
+  "tables": []
+}

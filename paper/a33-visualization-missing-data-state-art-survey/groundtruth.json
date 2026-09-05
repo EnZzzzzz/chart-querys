@@ -1,0 +1,39 @@
+{
+  "id": "A33",
+  "source_file": "visualization-missing-data-state-art-survey.pdf",
+  "paper_title": "Visualization of Missing Data: A State-of-the-Art Survey",
+  "stats": { "figures_total": 25, "tables_total": 4 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "other", "count": 1, "caption": "两个等亮度灰方块在不同亮度背景下的视错觉示意", "note": "optical-illusion illustration" },
+    { "label": "Figure 2", "chart_type": "image", "count": 4, "caption": "Amelia View 软件用户界面截图（主面板/菜单/日志/诊断）" },
+    { "label": "Figure 3", "chart_type": "heatmap", "count": 1, "caption": "Amelia 中的 missingness map，红色块表示缺失", "note": "missingness map" },
+    { "label": "Figure 4", "chart_type": "scatter", "count": 1, "caption": "college 数据缺失值模式图：各变量归一化均值散点+菱形 glyph" },
+    { "label": "Figure 5", "chart_type": "heatmap", "count": 1, "caption": "糖尿病数据集的 lasagna plot", "note": "lasagna plot" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 4, "caption": "MissiG glyph 基本结构：条形与直方图组合的 4 个面板", "note": "bar + histogram glyph panels" },
+    { "label": "Figure 7", "chart_type": "histogram", "count": 3, "caption": "分类数据缺失值关键模式（MAR/USM/UAM）直方图块" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 3, "caption": "naniar 可视化示例：缺失摘要、upset plot、平行坐标", "note": "dot/bar missingness summaries, upset plot, parallel coordinates" },
+    { "label": "Figure 9", "chart_type": "other", "count": 2, "caption": "平行坐标中 5 变量数据集：原始 vs 去遮挡后", "note": "parallel-coordinates" },
+    { "label": "Figure 10", "chart_type": "other", "count": 1, "caption": "缺失值估计值（黑点）与误差边界（红条）随时间展示", "note": "error-bar time-series plot" },
+    { "label": "Figure 11", "chart_type": "mixed", "count": 1, "caption": "含 \"No Value\" 类别的条形图等联动多视图界面", "note": "line + bar linked views with missing-value category" },
+    { "label": "Figure 12", "chart_type": "mixed", "count": 4, "caption": "Sjöbergh & Tanaka 方案：热力图、散点、传感器时间序列、平行坐标", "note": "heatmap, scatter, line, parallel coordinates" },
+    { "label": "Figure 13", "chart_type": "mixed", "count": 2, "caption": "MissVisG glyph 与 MissVis plot（热力图+箱线图+堆叠条形）", "note": "boxplot + stacked bar glyph; heatmap/box/stacked-bar composite" },
+    { "label": "Figure 14", "chart_type": "mixed", "count": 4, "caption": "MANET：水平条形缺失图、箱线图、加权直方图、散点图", "note": "horizontal-bar, box, weighted histogram, scatter" },
+    { "label": "Figure 15", "chart_type": "mixed", "count": 8, "caption": "VIM 包示例：aggregation/直方图/平行箱线/平行坐标/matrix/地图/散点/mosaic", "note": "aggregation plot, histogram+spinogram, parallel boxplot, parallel coordinates, matrix plot, growing-dot map, scatter+margin, mosaic plot" },
+    { "label": "Figure 16", "chart_type": "mixed", "count": 3, "caption": "Cheng et al.：条形/直方图/spineplot、missingness map、平行坐标", "note": "bar/histogram/spineplot/spinogram, missingness maps, pairwise + parallel coordinates" },
+    { "label": "Figure 17", "chart_type": "mixed", "count": 3, "caption": "Alemzadeh et al.：missingness map、bean plot、strip plot", "note": "heatmap, bean plot (violin-like), strip plot" },
+    { "label": "Figure 18", "chart_type": "image", "count": 1, "caption": "VIVID 工具界面截图：堆叠条形图 + missingness map" },
+    { "label": "Figure 19", "chart_type": "mixed", "count": 2, "caption": "Yeon et al.：时间序列缺失率 Sankey 图 + 缺失模式热力图", "note": "sankey + heatmap" },
+    { "label": "Figure 20", "chart_type": "line", "count": 3, "caption": "Eaton et al. 评估的三种缺失值表示（Misleading/Absent/Coded）" },
+    { "label": "Figure 21", "chart_type": "line", "count": 3, "caption": "Andreasson & Riveiro 三技术：Emptiness/Fuzziness/Emptiness+解释" },
+    { "label": "Figure 22", "chart_type": "mixed", "count": 2, "caption": "Song & Szafir：缺失值编码类别（条形/折线）与三种插补方法", "note": "bar + line encoding grids, line imputation panels" },
+    { "label": "Figure 23", "chart_type": "scatter", "count": 1, "caption": "Song et al. 的误差条可视化（交互散点界面）", "note": "interactive error-bar scatter" },
+    { "label": "Figure 24", "chart_type": "other", "count": 3, "caption": "平行坐标中表示缺失值的三种概念及变体（Bäuerle et al.）", "note": "parallel-coordinates" },
+    { "label": "Figure 25", "chart_type": "mixed", "count": 3, "caption": "ACE 工具：条形图、直方图与热力图", "note": "bar + histogram + heatmap" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "comparison", "rows": 6, "cols": 7, "caption": "评估论文按评估任务（决策影响/趋势估计/置信度等）分类" },
+    { "label": "Table 2", "data_form": "comparison", "rows": 10, "cols": 5, "caption": "常见可视化方法按论文类型分类（技术/应用工具/评估）" },
+    { "label": "Table 3", "data_form": "comparison", "rows": 15, "cols": 4, "caption": "专门可视化方法按论文类型分类" },
+    { "label": "Table 4", "data_form": "comparison", "rows": 25, "cols": 16, "caption": "25 篇综述文献的多维分类总表（论文类型/数据类型/交互/插补/任务）" }
+  ]
+}

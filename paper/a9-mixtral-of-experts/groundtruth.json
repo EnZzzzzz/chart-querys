@@ -1,0 +1,25 @@
+{
+  "id": "A9",
+  "source_file": "mixtral-of-experts.pdf",
+  "paper_title": "Mixtral of Experts",
+  "stats": { "figures_total": 10, "tables_total": 5 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "Mixture of Experts Layer. Each input vector is assigned to 2 of the 8 experts by a router. The layer's output is the weighted sum of the outputs of the two selected" },
+    { "label": "Figure 2", "chart_type": "grouped-bar", "count": 2, "caption": "Performance of Mixtral and different Llama models on a wide range of benchmarks. All models were re-evaluated on all metrics with our evaluation pipelin" },
+    { "label": "Figure 3", "chart_type": "line", "count": 6, "caption": "Results on MMLU, commonsense reasoning, world knowledge and reading comprehension, math and code for Mistral (7B/8x7B) vs Llama 2 (7B/13B/70B). Mixtral l" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 2, "note": "1 heatmap (passkey retrieval accuracy grid) + 1 line (perplexity vs context length)", "caption": "Long range performance of Mixtral. (Left) Mixtral has 100% retrieval accuracy of the Passkey task regardless of the location of the passkey and length of" },
+    { "label": "Figure 5", "chart_type": "other", "count": 1, "note": "rendered as a small two-column results table of BBQ accuracy and BOLD sentiment scores, not a chart", "caption": "Bias Benchmarks. Compared Llama 2 70B, Mixtral presents less bias (higher accuracy on BBQ, lower std on BOLD) and displays more positive sentiment (hi" },
+    { "label": "Figure 6", "chart_type": "image", "count": 1, "caption": "LMSys Leaderboard. (Screenshot from Dec 22, 2023) Mixtral 8x7B Instruct v0.1 achieves an Arena Elo rating of 1121 outperforming Claude-2.1 (1117), all v" },
+    { "label": "Figure 7", "chart_type": "grouped-bar", "count": 3, "caption": "Proportion of tokens assigned to each expert on different domains from The Pile dataset for layers 0, 15, and 31. The gray dashed vertical line marks" },
+    { "label": "Figure 8", "chart_type": "image", "count": 9, "note": "3 layers x 3 text-sample panels; each token color-coded by first expert choice", "caption": "Text samples where each token is colored with the first expert choice. The selection of experts appears to be more aligned with the syntax rather th" },
+    { "label": "Figure 9", "chart_type": "grouped-bar", "count": 9, "caption": "Proportion of tokens assigned to each expert on different subsets from The Pile dataset, separated by whether the expert was selected as first or se" },
+    { "label": "Figure 10", "chart_type": "line", "count": 2, "caption": "Repeated consecutive assignments per MoE layer. Repeated assignments occur a lot more often than they would with uniform assignments (materialized by " }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "hyperparameters", "rows": 9, "cols": 2, "caption": "Model architecture. Mixtral is based on a transformer architecture and uses the same modifications as described in [18]" },
+    { "label": "Table 2", "data_form": "benchmark-scores", "rows": 7, "cols": 13, "caption": "Comparison of Mixtral with Llama. Mixtral outperforms or matches Llama 2 70B performance on almost all popular benchmarks while using 5x fewer acti" },
+    { "label": "Table 3", "data_form": "benchmark-scores", "rows": 7, "cols": 4, "caption": "Comparison of Mixtral with Llama 2 70B and GPT-3.5. Mixtral outperforms or matches Llama 2 70B and GPT-3.5 performance on most metrics" },
+    { "label": "Table 4", "data_form": "benchmark-scores", "rows": 4, "cols": 14, "caption": "Comparison of Mixtral with Llama on Multilingual Benchmarks. On ARC Challenge, Hellaswag, and MMLU, Mixtral outperforms Llama 2 70B on 4 langua" },
+    { "label": "Table 5", "data_form": "statistics", "rows": 9, "cols": 7, "caption": "Percentage of expert assignment repetitions. We evaluate the proportion of times the same expert is assigned to a token i and its following toke" }
+  ]
+}

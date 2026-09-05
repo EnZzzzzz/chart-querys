@@ -1,0 +1,80 @@
+{
+  "id": "A43",
+  "source_file": "artificial-intelligence-driven-integration-single-cell.pdf",
+  "paper_title": "Artificial intelligence-driven integration of single-cell RNA sequencing and transcriptome analysis to decipher APOE's role in gastric cancer prognosis and therapy",
+  "stats": { "figures_total": 9, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "单细胞质控与聚类：top 15 聚类的相关性热图，UMAP 与 t-SNE 降维聚类图",
+      "note": "A: heatmap×15; B: UMAP scatter; C: t-SNE scatter"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "二次降维聚类：UMAP/t-SNE 标注 9 类细胞亚群，标志基因表达，正常与肿瘤组织细胞比例对比",
+      "note": "A,B: scatter×2; C: dot plot (marker gene 表达气泡矩阵); D: grouped-bar×9 面板 (Normal vs Tumor 细胞比例)"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "scatter",
+      "count": 4,
+      "caption": "细胞轨迹推断：CD8+ T 细胞 (A,B) 与单核/巨噬细胞 (C,D) 的拟时序分析",
+      "note": "pseudotime 轨迹散点图×4"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "细胞互作分析：GC 与正常样本互作数量对比，受体-配体互作，互作桑基图",
+      "note": "A: 环形 network diagram×2; B: 受体-配体 dot plot 矩阵; C: sankey×2（正文称 streamgraph）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "APOE 泛癌分析：各癌种表达、突变位点与频率、GC 表达及与分期/免疫亚型/分子亚型的关系",
+      "note": "A: 跨癌种 jitter strip plot; B: 突变 lollipop diagram; C: stacked-bar（突变频率+注释矩阵）; D,E: box×2; F,G: violin×2"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "APOE 生存模型：风险比森林图，高低风险组风险因子三联图，STAD/GSE84437/合并数据集的预后分析",
+      "note": "A: forest plot; B: 风险评分 scatter+生存状态 scatter+表达 heatmap 三联; C,D,E: Kaplan-Meier 生存曲线（line）×3 附风险人数表"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "高低风险组免疫浸润与通路富集：两组浸润免疫细胞水平，差异基因 GO 富集",
+      "note": "A,B: heatmap×2; C,D: GO 富集 dot plot×2"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "scatter",
+      "count": 8,
+      "caption": "APOE 表达与 8 种药物敏感性的相关性（colchicine、docetaxel、palbociclib 等）",
+      "note": "带回归线与置信带的散点图×8"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "APOE 促进 GC 细胞增殖：CCK-8 细胞活力，划痕实验迁移能力，Annexin V-FITC/PI 凋亡分析",
+      "note": "A: line×2（活力-时间）; B: 显微照片 image×6 + grouped-bar×2; C: 流式 scatter×4 + bar×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "statistics",
+      "rows": 9,
+      "cols": 4,
+      "caption": "STAD 与 GSE84437 数据集的患者特征（事件、年龄、性别，Tumor N=772 vs Normal N=32，附 P 值）"
+    }
+  ]
+}

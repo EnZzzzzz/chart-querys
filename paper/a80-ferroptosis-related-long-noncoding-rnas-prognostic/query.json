@@ -1,0 +1,23 @@
+{
+  "id": "A80",
+  "category": "paper",
+  "query": "读 ferroptosis-related-long-noncoding-rnas-prognostic.pdf，这是一篇基于 TCGA 357 例卵巢癌样本筛选铁死亡相关 lncRNA 预后标志物的生信论文。做一份可视化图文报告，分析铁死亡相关基因的表达与突变情况、不同亚型之间的差异，以及构建的风险评分与患者预后、肿瘤突变负荷和免疫浸润的关系。",
+  "files": [
+    {
+      "file": "ferroptosis-related-long-noncoding-rnas-prognostic.pdf",
+      "source": ".cache/chart-data-corpus/papers/ferroptosis-related-long-noncoding-rnas-prognostic.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "survival-curve",
+    "scatter",
+    "bubble",
+    "heatmap",
+    "boxplot",
+    "violin",
+    "forest-plot",
+    "waterfall",
+    "network"
+  ]
+}

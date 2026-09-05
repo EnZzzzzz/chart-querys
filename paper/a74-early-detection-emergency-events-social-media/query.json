@@ -1,0 +1,22 @@
+{
+  "id": "A74",
+  "category": "paper",
+  "query": "读 early-detection-emergency-events-social-media.pdf，这是一篇从社交媒体帖子中早期检测突发事件的论文，实验用了约 89 万条微博数据。做一份图文报告，分析不同事件类型的帖子规模、检测模型的分类性能，以及响水爆炸和新冠疫情两个案例中帖子在时间与地域上的分布规律。",
+  "files": [
+    {
+      "file": "early-detection-emergency-events-social-media.pdf",
+      "source": ".cache/chart-data-corpus/papers/early-detection-emergency-events-social-media.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "grouped-bar",
+    "stacked-bar",
+    "pie",
+    "choropleth",
+    "alluvial",
+    "streamgraph",
+    "wordcloud"
+  ]
+}

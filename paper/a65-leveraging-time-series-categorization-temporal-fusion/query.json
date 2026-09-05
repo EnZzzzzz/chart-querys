@@ -1,0 +1,16 @@
+{
+  "id": "A65",
+  "category": "paper",
+  "query": "读 leveraging-time-series-categorization-temporal-fusion.pdf，这篇论文研究用时间序列分类和 Temporal Fusion Transformer 改进加密货币价格预测。做一份图文报告，把论文的方法思路和子序列分类逻辑讲清楚，并分析不同模型在预测准确性和模拟交易收益上有什么差异。",
+  "files": [
+    {
+      "file": "leveraging-time-series-categorization-temporal-fusion.pdf",
+      "source": ".cache/chart-data-corpus/papers/leveraging-time-series-categorization-temporal-fusion.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "candlestick"
+  ]
+}

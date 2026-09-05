@@ -1,0 +1,73 @@
+{
+  "id": "A51",
+  "source_file": "machine-learning-driven-prognostic-model-sphingolipid.pdf",
+  "paper_title": "Machine learning-driven prognostic model based on sphingolipid-related gene signature in pancreatic cancer: development and validation",
+  "stats": { "figures_total": 8, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "鞘脂相关基因在胰腺癌各细胞群中的表达：KEGG/GO 富集、12 个细胞亚群、marker 基因表达与基因集评分",
+      "note": "A 极坐标玫瑰图（caption 称 pie chart，KEGG top10）；B sunburst（GO 富集）；C,E UMAP scatter ×2；D bubble（marker 基因表达）；F violin（各细胞亚群基因集评分）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "预后模型构建：约 46 种机器学习组合在 Train/Test 队列的 C-index，最优模型 C-index 及 Kaplan-Meier 生存分析",
+      "note": "A heatmap（~46 组合 × 3 列 C-index）；B horizontal-bar（2 个队列 C-index）；C Kaplan-Meier 生存曲线 ×3（line，含置信区间色带）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "生存预测模型与关键基因的 meta 分析：单因素 Cox 回归 meta 分析及 DEFB1/GBA2/MET 单细胞表达",
+      "note": "A forest plot（2 队列 + 随机/固定效应模型 HR）；B UMAP scatter ×3（3 个基因表达分布）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "高低评分组细胞差异表达与富集分析：差异基因、GSEA、GO/KEGG 富集结果",
+      "note": "A volcano plot（scatter）；B GSEA running enrichment score 曲线（line 多通路叠加）；C bubble/dot 富集图 ×3（BP/CC/MF）；D bubble/dot 富集图（KEGG）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "高低风险组基因组突变谱：top30 突变基因、差异突变、突变类型占比、TMB、共突变与通路分析",
+      "note": "A oncoplot（突变矩阵 heatmap + 顶部/侧边缘 bar）；B grouped horizontal-bar（5 基因突变率 + OR）；C stacked-bar（突变类型百分比）；D violin+box（TMB）；E density（TMB 分布）；F 共突变 heatmap ×2；G horizontal-bar ×2（可成药类别基因数）；H horizontal-bar ×2（通路受影响比例）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "预后模型高低评分组免疫浸润分析：多算法浸润评分、风险评分与免疫细胞相关性及组间差异",
+      "note": "A 多面板 heatmap（xcell/epic/abis 等算法浸润评分）；B lollipop（风险评分与免疫细胞相关性）；C heatmap（TIMER/CIBERSORT 逐样本浸润）；D box ×8（高低风险组免疫细胞浸润对比）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "高低风险患者细胞通讯模式分析：细胞分布、互作数量与强度、信息流及配体受体对",
+      "note": "A UMAP scatter；B bar ×2（互作数量/强度）；C 网络弦图式 circle 图 ×2（差异互作）；D stacked-bar（各通路 High/Low 相对信息流）；E 有向网络图 ×2（互作数量）；F bubble（配体受体通讯概率）"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "高低风险患者 MIF 相关细胞通讯模式：上下调配体受体对、信号角色、贡献度与关键基因表达",
+      "note": "A bubble ×2（下调/上调 L-R 对）；B heatmap ×3（MIF 通路信号角色与 outgoing 模式）；C 网络 circle 图 ×2；D horizontal-bar（L-R 对相对贡献）；E bubble（MIF 配体受体对）；F bubble/dot ×2（关键基因表达，Low/High）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 7,
+      "cols": 2,
+      "caption": "鞘脂相关基因集清单：7 个基因集名称及各自基因数量"
+    }
+  ]
+}

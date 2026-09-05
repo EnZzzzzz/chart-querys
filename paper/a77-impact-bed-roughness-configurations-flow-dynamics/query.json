@@ -1,0 +1,21 @@
+{
+  "id": "A77",
+  "category": "paper",
+  "query": "读 impact-bed-roughness-configurations-flow-dynamics.pdf，这是一篇明渠水流实验论文，对比了光滑床面与三种粗糙条带布置（R-OFF、R-FW60、R-FW90）下的流速、能量与阻力特性。做一份可视化报告，分析床面粗糙配置对流速分布、能量耗散和 Chezy 阻力系数的影响。",
+  "files": [
+    {
+      "file": "impact-bed-roughness-configurations-flow-dynamics.pdf",
+      "source": ".cache/chart-data-corpus/papers/impact-bed-roughness-configurations-flow-dynamics.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "scatter",
+    "pie",
+    "heatmap",
+    "boxplot",
+    "violin",
+    "ridgeline"
+  ]
+}

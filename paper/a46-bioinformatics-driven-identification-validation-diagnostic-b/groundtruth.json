@@ -1,0 +1,121 @@
+{
+  "id": "A46",
+  "source_file": "bioinformatics-driven-identification-validation-diagnostic-b.pdf",
+  "paper_title": "Bioinformatics-driven identification and validation of diagnostic biomarkers for cerebral ischemia reperfusion injury",
+  "stats": { "figures_total": 11, "tables_total": 5 },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "Technology roadmap：分析流程图（数据集→DEGs→IRDEGs→RFE-SVM/LASSO→ROC）"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "免疫相关差异基因（IRDEGs）鉴定",
+      "note": "A 火山图(scatter)，B 差异排序图(scatter)，C Venn 图，D 分组箱线图(box,10基因×2组)，E 表达热图(heatmap)，F 基因相关性热图(heatmap,pie glyph corrplot)"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "IRDEGs 的 GO/KEGG 富集分析",
+      "note": "A 分组水平条形图(horizontal-bar)，B 富集网络图(network)，C 环状条形图(circular bar)，D 弦图(chord)"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "GSEA 基因集富集分析",
+      "note": "A 山脊图(ridgeline)，B-E GSEA 富集得分曲线(line)×4"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "SVM 与随机森林分析筛选 hub 基因",
+      "note": "A RF 误差曲线(line)，B 基因重要性点图(scatter/dot)，C/D SVM 特征数-误差/准确率曲线(line)×2，E Venn 图，F 水平箱线图(box)"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "LASSO 模型构建与 hub 基因诊断价值",
+      "note": "A LASSO 偏差曲线(line)，B/C 列线图(nomogram)×2，D 森林图(forest-plot，横向条形呈现)，E 校准曲线(line)，F 分组箱线图(box)，G-I ROC 曲线(line)×3"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "基于 LASSO 模型的 GSEA 与 GSVA 富集分析",
+      "note": "A 火山图(scatter)，B 差异排序图(scatter)，C 山脊图(ridgeline)，D-G GSEA 富集曲线(line)×4，H GSVA 功能得分热图(heatmap)"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "基于 CIBERSORTx 的免疫细胞浸润分析",
+      "note": "A 百分比堆叠条形图(stacked-bar,约20样本×22免疫细胞)，B 相关性热图(heatmap)，C-F 基因-免疫细胞相关性散点图(scatter)×4"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "基于 LASSO 模型(ssGSEA)的免疫细胞浸润分析",
+      "note": "A 相关性热图(heatmap)，B-E 基因-免疫细胞相关性散点图(scatter)×4"
+    },
+    {
+      "label": "Fig. 10",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "大鼠脑组织 TTC/HE/Nissl 染色组织学验证",
+      "note": "A/C/D 脑切片与显微照片(image)×3，B 脑梗死面积百分比条形图(bar)"
+    },
+    {
+      "label": "Fig. 11",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "关键基因 qRT-PCR 与免疫组化验证",
+      "note": "A 分组点-误差棒比较图(dot with error bars)，B 免疫组化照片(image)+阳性细胞数条形图(bar)"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 7,
+      "cols": 3,
+      "caption": "GEO 数据集信息（GSE211253 / GSE201258 的平台、物种、样本数等）"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "statistics",
+      "rows": 3,
+      "cols": 5,
+      "caption": "差异表达 hub 基因列表（logFC、P 值、校正 P 值）"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "statistics",
+      "rows": 20,
+      "cols": 6,
+      "caption": "IRDEGs 的 GO/KEGG 富集分析结果（GeneRatio、pvalue、p.adjust）"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "statistics",
+      "rows": 10,
+      "cols": 6,
+      "caption": "GSEA 富集分析结果（setSize、enrichmentScore、NES、pvalue）"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "other",
+      "rows": 22,
+      "cols": 2,
+      "caption": "qRT-PCR 特异性引物序列对"
+    }
+  ]
+}

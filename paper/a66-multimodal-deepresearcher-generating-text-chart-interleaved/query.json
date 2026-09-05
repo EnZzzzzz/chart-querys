@@ -1,0 +1,26 @@
+{
+  "id": "A66",
+  "category": "paper",
+  "query": "读 multimodal-deepresearcher-generating-text-chart-interleaved.pdf，这是一篇提出 Multimodal DeepResearcher 框架、从检索到成稿全自动生成图文交织研究报告的论文，评测用了 100 个主题的基准。做一份图文报告，讲清它的多阶段工作流程和 FDV 图表文本化方法，并分析它与基线方法在自动评测、人工评测及消融实验中的表现差异，以及两个方法各自产出的可视化在类型构成上有什么差异。",
+  "files": [
+    {
+      "file": "multimodal-deepresearcher-generating-text-chart-interleaved.pdf",
+      "source": ".cache/chart-data-corpus/papers/multimodal-deepresearcher-generating-text-chart-interleaved.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "stacked-bar",
+    "horizontal-bar",
+    "pie",
+    "scatter",
+    "bubble",
+    "area",
+    "sankey",
+    "choropleth",
+    "dashboard",
+    "infographic",
+    "flowchart"
+  ]
+}

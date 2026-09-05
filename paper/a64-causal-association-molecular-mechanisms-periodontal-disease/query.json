@@ -1,0 +1,25 @@
+{
+  "id": "A64",
+  "category": "paper",
+  "query": "读 causal-association-molecular-mechanisms-periodontal-disease.pdf，这是一篇用孟德尔随机化加生物信息学研究牙周病与肌肉萎缩/消耗之间因果关联和分子机制的论文。做一份图文报告，把从因果效应估计、共享基因筛选、通路富集、核心靶点、免疫浸润到候选药物预测的完整分析链条讲清楚，关键数据结果都要可视化。",
+  "files": [
+    {
+      "file": "causal-association-molecular-mechanisms-periodontal-disease.pdf",
+      "source": ".cache/chart-data-corpus/papers/causal-association-molecular-mechanisms-periodontal-disease.pdf"
+    }
+  ],
+  "chart_forms": [
+    "forest-plot",
+    "scatter",
+    "funnel",
+    "boxplot",
+    "bar",
+    "grouped-bar",
+    "stacked-bar",
+    "bubble",
+    "heatmap",
+    "network",
+    "venn",
+    "volcano"
+  ]
+}

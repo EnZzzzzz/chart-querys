@@ -1,0 +1,24 @@
+{
+  "id": "A54",
+  "source_file": "scpubr-user-friendly-r-package-generating.pdf",
+  "paper_title": "SCpubr: a user-friendly R-package for generating publication-ready visualizations of single-cell transcriptome analyses",
+  "stats": { "figures_total": 1, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 9,
+      "note": "9 panels: A diagram (hexagonal map of functions by topic); B/C scatter (UMAP embeddings, colored by cluster / MBP expression); D/I dot-plot (bubble: size=percent/count, color=expression/significance); E/H heatmap (enrichment / Jaccard correlation); F stacked horizontal bar (patient composition per cluster); G horizontal box plot (genes per patient)",
+      "caption": "Core features of SCpubr: function overview plus demonstration plots on six IDH1-mutant astrocytomas (UMAP, dot plots, heatmaps, bar plot, box plot)."
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 6,
+      "cols": 6,
+      "caption": "Systematic comparison of scope, intended use, input structure, design philosophy, and availability of visualization types between SCpubr, Seurat, dittoSeq, scCustomize, and LotOfCells."
+    }
+  ]
+}

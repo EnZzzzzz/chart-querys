@@ -1,0 +1,93 @@
+{
+  "id": "A72",
+  "source_file": "highly-efficient-encoding-job-shop-scheduling.pdf",
+  "paper_title": "Highly Efficient Encoding for Job-Shop Scheduling Problems and its Application on Quantum Computers",
+  "stats": { "figures_total": 10, "tables_total": 3 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "不同编码空间（无约束 S_Nop 与满足作业约束 S^J_Nop）关系的示意"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "panel a: graph diagram; panel b: gantt",
+      "caption": "a) 五操作调度示例的图表示；b) 对应调度的时间安排示意（Gantt 形式）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "line",
+      "count": 2,
+      "caption": "JSP 不同 N_op 下基态测量概率(a)与近似比 α(b)随迭代步变化"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "line",
+      "count": 2,
+      "caption": "FJSP 不同 N_op 下基态测量概率(a)与近似比 α(b)随迭代步变化"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "line + scatter overlay in each panel",
+      "caption": "本方案(a)与 time indexed 编码(b)所需量子比特数随操作数变化，含单个实例散点"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "调度/排列与二进制数之间映射关系示意（含五操作示例）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "二进制数经作业数制(JNS)映射为合法调度的示意"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "FJSP 位串转换为合法排列与机器配置的示意"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "F-VQE 所用参数化量子线路（蓝色框内门可重复 p 次）"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "line",
+      "count": 2,
+      "caption": "更多 N_op 取值下 JSP 基态测量概率(a)与近似比 α(b)随迭代步变化"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table I",
+      "data_form": "examples",
+      "rows": 5,
+      "cols": 4,
+      "caption": "排列与其 inversion vector 互转的演算示例（上下两个子表）"
+    },
+    {
+      "label": "Table II",
+      "data_form": "examples",
+      "rows": 4,
+      "cols": 9,
+      "caption": "附录：阶乘数制(FNS)至多 8 位的基数与位值性质"
+    },
+    {
+      "label": "Table III",
+      "data_form": "examples",
+      "rows": 15,
+      "cols": 4,
+      "caption": "附录：JNS 整数转为 inversion vector 元素的逐步演算示例（多段堆叠子表）"
+    }
+  ]
+}

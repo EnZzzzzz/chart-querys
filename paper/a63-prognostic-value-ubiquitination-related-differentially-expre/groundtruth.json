@@ -1,0 +1,79 @@
+{
+  "id": "A63",
+  "source_file": "prognostic-value-ubiquitination-related-differentially-expre.pdf",
+  "paper_title": "Prognostic value of ubiquitination-related differentially expressed genes in esophageal squamous cell carcinoma: a comprehensive analysis and future directions",
+  "stats": { "figures_total": 10, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "三个数据集的差异表达基因火山图与 Venn 图",
+      "note": "scatter volcano plots ×3 (A-C) + venn diagrams ×2 (D-E)"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "五个 PURDEGs 的 Kaplan-Meier 生存分析与表达热图",
+      "note": "line survival curves ×5 (A-E) + heatmap ×3 (F-H)"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 13,
+      "caption": "PURDEGs 在三个数据集的差异表达与诊断准确性",
+      "note": "box plots ×3 (A, G, M) + line ROC curves ×10 (B-F, H-L)"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "ESCC 患者基因突变与拷贝数变异全景分析",
+      "note": "A: maftools SNP summary (bar + box panels); B: heatmap of SNP co-occurrence; C: oncoplot/waterfall; D-E: genome-wide CNV bar plots; F: lollipop mutation plot"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "PURDEGs 的 GO 与 KEGG 功能富集分析",
+      "note": "bubble chart (A) + network diagrams ×4 (B-D, F) + bar plot (E, KEGG)"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "TCGA-ESCC 数据集的 GSEA 基因集富集分析",
+      "note": "ridgeline/density area plots ×5 (A) + line GSEA enrichment curves ×5 (B-F)"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "肿瘤组与健康组的 GSVA 富集比较",
+      "note": "heatmap (A) + grouped box plots (B, 34 pathways × 2 groups)"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "关键基因与免疫细胞浸润（CIBERSORT）及临床相关性",
+      "note": "box plots ×3 (A-C) + 100% stacked bar of immune cell composition (D) + correlation heatmap (E) + correlation bubble/dot plot (F)"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "多变量 Cox 回归模型的构建与评估",
+      "note": "other: forest plot (A) + nomogram diagram (B) + line calibration curves ×3 (C-E) + line DCA curves ×3 (F-H)"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "scatter",
+      "count": 5,
+      "caption": "qRT-PCR 验证五个基因在癌与癌旁组织的相对表达",
+      "note": "paired dot plots with connecting lines ×5 (A-E)"
+    }
+  ],
+  "tables": []
+}

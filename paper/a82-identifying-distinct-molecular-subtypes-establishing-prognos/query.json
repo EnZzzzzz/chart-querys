@@ -1,0 +1,28 @@
+{
+  "id": "A82",
+  "category": "paper",
+  "query": "读 identifying-distinct-molecular-subtypes-establishing-prognos.pdf，这是一篇用单细胞测序、多组学分析和机器学习为 DLBCL（弥漫大 B 细胞淋巴瘤）患者识别分子亚型并建立预后模型的论文。做一份可视化图文报告，梳理从细胞聚类、亚型特征、突变模式到预后评估与药物敏感性分析的完整研究链条，关键数据结果都要讲清楚。",
+  "files": [
+    {
+      "file": "identifying-distinct-molecular-subtypes-establishing-prognos.pdf",
+      "source": ".cache/chart-data-corpus/papers/identifying-distinct-molecular-subtypes-establishing-prognos.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "sankey",
+    "bar",
+    "horizontal-bar",
+    "heatmap",
+    "bubble",
+    "violin",
+    "boxplot",
+    "line",
+    "survival-curve",
+    "forest-plot",
+    "lollipop",
+    "oncoplot",
+    "dendrogram",
+    "network"
+  ]
+}

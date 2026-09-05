@@ -1,0 +1,121 @@
+{
+  "id": "A71",
+  "source_file": "integrated-multi-omics-reveals-anaplerotic-rewiring.pdf",
+  "paper_title": "Integrated multi-omics reveals anaplerotic rewiring in methylmalonyl-CoA mutase deficiency",
+  "stats": { "figures_total": 16, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Multi-faceted omics view enabled a molecular diagnosis in 84% of individuals",
+      "note": "a diagram(study overview); b boxplot; c,h lollipop; d horizontal-bar; e,f scatter strip + box; g area(rank curves) x2; i waffle"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Phenomics analysis reveals two main surrogate markers of disease severity (CSS and PI activity)",
+      "note": "a heatmap(correlation matrix); b bar; c scatter+density grid x12; d volcano scatter"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Untargeted integration of omics data layers highlights the TCA cycle and associated pathways",
+      "note": "a,b lollipop/dot enrichment plots; c density curves + scatter; d dot/lollipop enrichment x4; e diagram(mouse breeding); f boxplot x5; g boxplot + bar + bubble dot plot"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Transcript-protein and protein-protein correlation analyses reveal coordinated relationships between MMUT and TCA genes",
+      "note": "a circos(multi-track circular); b QQ + volcano scatter x4; c histogram x2; d scatter x2"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Polar metabolomics and glutamine tracing studies highlight differential glutamine anaplerosis",
+      "note": "a volcano scatter; b,d diagram(TCA cycle schematics); c bar x5; e stacked-bar(isotopologs) x5; f,g,h,i boxplot x11"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "MMUT interacts physically with GLUD1, DLST and GOT2 as demonstrated by FLAG-tag pull-down",
+      "note": "a diagram(experiment outline); b venn; c scatter(ranked ANOVA P); d network; e image(western blot)"
+    },
+    {
+      "label": "Extended Data Fig. 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Historic context of sample collection and quality control measurements of multi-omics data",
+      "note": "a histogram + waffle; b violin x3 + line(genome coverage per sample); c boxplot; d bar + violin x4"
+    },
+    {
+      "label": "Extended Data Fig. 2",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "MMUT RNA/protein levels and enzyme activity by variant type and cohort",
+      "note": "a scatter+regression; b,c boxplot groups; d area(sequencing coverage) x3; e strip+box x2; f,g scatter+regression x6; h area(rank) x2"
+    },
+    {
+      "label": "Extended Data Fig. 3",
+      "chart_type": "scatter",
+      "count": 11,
+      "caption": "Expression outlier analysis reveals causative genes in specific disease samples",
+      "note": "4 expression rank plots + 7 Z-score volcano plots, all scatter"
+    },
+    {
+      "label": "Extended Data Fig. 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "The clinical severity score and propionate incorporation activity are associated with several phenotypic traits",
+      "note": "a stacked-bar(proportional) x11; b density curves + proportional stacked-bar; c scatter+regression x6; d boxplot x9"
+    },
+    {
+      "label": "Extended Data Fig. 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Transcript-protein and protein-protein correlation analysis illustrates coordinated regulation of MMUT with most TCA transcripts and proteins",
+      "note": "a histogram x2; b,c,e scatter x18; d,f,g chord(circular) x7"
+    },
+    {
+      "label": "Extended Data Fig. 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Metabolomics investigation of a subset of patient cell lines",
+      "note": "a density plot; b,c,d boxplot x15"
+    },
+    {
+      "label": "Extended Data Fig. 7",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Treatment of primary patient/control fibroblasts and 293T cells",
+      "note": "a,c,d,e boxplot x24; b stacked-bar(isotopologs) x5"
+    },
+    {
+      "label": "Extended Data Fig. 8",
+      "chart_type": "stacked-bar",
+      "count": 16,
+      "caption": "Fractional labeling pattern derived from glutamine in 293T and primary fibroblast cells upon treatment",
+      "note": "stacked bars of M+0..M+5 isotopolog fractions, 8 panels in a + 8 in b"
+    },
+    {
+      "label": "Extended Data Fig. 9",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "MMUT-flag is enzymatically active and pulls down other propionate pathway proteins using immunoprecipitation",
+      "note": "a bar(enzyme activity, 3 groups); b,c image(western blots)"
+    },
+    {
+      "label": "Extended Data Fig. 10",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "Quantitative pull-down results following affinity purification mass spectrometry and confirmation of DLST pull-down",
+      "note": "a venn + upset; b image(western blots)"
+    }
+  ],
+  "tables": []
+}

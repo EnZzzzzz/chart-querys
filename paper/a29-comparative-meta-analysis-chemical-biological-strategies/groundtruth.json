@@ -1,0 +1,90 @@
+{
+  "id": "A29",
+  "source_file": "comparative-meta-analysis-chemical-biological-strategies.pdf",
+  "paper_title": "Comparative Meta-Analysis of Chemical and Biological Strategies for the Management of Wheat Stripe Rust (Puccinia striiformis f. sp. tritici) Under Global Agro-Ecological Conditions",
+  "stats": { "figures_total": 11, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "other",
+      "note": "forest plot",
+      "count": 2,
+      "caption": "化学防治荟萃分析森林图：(A) 病情严重度 SMD（4 项研究）(B) 产量 SMD"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "other",
+      "note": "funnel plot",
+      "count": 2,
+      "caption": "化学防治发表偏倚漏斗图：(A) 病情严重度 (B) 产量"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "bar",
+      "count": 2,
+      "caption": "化学防治处理组与对照组的病情严重度 (A) 和产量 (B) 均值对比（带误差棒）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "horizontal-bar",
+      "count": 2,
+      "caption": "13 种杀菌剂有效成分的严重度 (A) 与产量 (B) 排序对比"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "note": "dumbbell",
+      "count": 1,
+      "caption": "24 个小麦品种处理组与对照组病情严重度的哑铃图配对比较"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "other",
+      "note": "forest plot",
+      "count": 2,
+      "caption": "生物防治荟萃分析森林图：(A) 病情严重度 SMD（8 项研究）(B) 产量 SMD（5 项研究）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "other",
+      "note": "funnel plot",
+      "count": 2,
+      "caption": "生物防治发表偏倚漏斗图：(A) 病情严重度 (B) 产量"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "bar",
+      "count": 2,
+      "caption": "生物防治处理组与对照组的病情严重度 (A) 和产量 (B) 均值对比（带误差棒）"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "other",
+      "note": "dumbbell",
+      "count": 1,
+      "caption": "35 种生防菌-品种组合的处理组与对照组病情严重度哑铃图比较"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "other",
+      "note": "dumbbell",
+      "count": 2,
+      "caption": "细菌生防制剂保护性 (A) 与治疗性 (B) 施用效果的哑铃图配对比较"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "box",
+      "count": 1,
+      "caption": "生物防治与化学防治病情严重度降幅分布的箱线图对比（n=72）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 13,
+      "cols": 7,
+      "caption": "2005-2025 年田间试验所用杀菌剂产品信息与施用时期（成分、作用位点、FRAC 编码等）"
+    }
+  ]
+}

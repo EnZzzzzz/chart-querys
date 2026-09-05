@@ -1,0 +1,25 @@
+{
+  "id": "A19",
+  "category": "paper",
+  "query": "读 repositioning-triazoles-phosphodiesterase-4-inhibitors-suppr.pdf，这是一篇用蛋白互作网络分析、分子对接、分子动力学模拟和量子化学计算，评估几种三唑类抗真菌药能否作为 PDE-4 抑制剂用于新冠炎症与真菌共感染的论文。帮我做一份可视化图文报告，把各环节的关键数据讲清楚，并分析几个候选药物与参照药之间的差异。",
+  "files": [
+    {
+      "file": "repositioning-triazoles-phosphodiesterase-4-inhibitors-suppr.pdf",
+      "source": ".cache/chart-data-corpus/papers/repositioning-triazoles-phosphodiesterase-4-inhibitors-suppr.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "grouped-bar",
+    "horizontal-bar",
+    "radar",
+    "bubble",
+    "heatmap",
+    "hexbin",
+    "surface-3d",
+    "scatter-3d",
+    "dendrogram",
+    "network"
+  ]
+}

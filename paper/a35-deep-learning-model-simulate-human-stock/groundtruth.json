@@ -1,0 +1,38 @@
+{
+  "id": "A35",
+  "source_file": "deep-learning-model-simulate-human-stock.pdf",
+  "paper_title": "Using a Deep Learning Model to Simulate Human Stock Trader's Methods of Chart Analysis",
+  "stats": { "figures_total": 14, "tables_total": 14 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "Model architecture of Wang et al. (2017)" },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 1, "caption": "The modified model architecture used in this paper" },
+    { "label": "Figure 3", "chart_type": "box", "count": 1, "caption": "Box plot of Sharpe ratio by threshold, validation, KR best model" },
+    { "label": "Figure 4", "chart_type": "box", "count": 1, "caption": "Box plot of Sharpe ratio by threshold, validation, US best model" },
+    { "label": "Figure 5", "chart_type": "grouped-bar", "count": 1, "caption": "Barplot of quarterly return of KR market during test period (Model vs KOSPI/KOSDAQ)" },
+    { "label": "Figure 6", "chart_type": "grouped-bar", "count": 1, "caption": "Barplot of quarterly return of US market during test period (Model vs 4 indices)" },
+    { "label": "Figure 7", "chart_type": "box", "count": 1, "caption": "Box-and-whisker of total return, Model vs Random, KR test period" },
+    { "label": "Figure 8", "chart_type": "box", "count": 1, "caption": "Box-and-whisker of total return, Model vs Random, US test period" },
+    { "label": "Figure 9", "chart_type": "box", "count": 1, "caption": "Box plot of total return, NPMM vs Ours" },
+    { "label": "Figure 10", "chart_type": "box", "count": 1, "caption": "Box plot of Sharpe ratio, NPMM vs Ours" },
+    { "label": "Figure 11", "chart_type": "box", "count": 1, "caption": "Box plot of Sharpe ratio by threshold, test period, KR best model" },
+    { "label": "Figure 12", "chart_type": "box", "count": 1, "caption": "Box plot of Sharpe ratio by threshold, test period, US best model" },
+    { "label": "Figure 13", "chart_type": "other", "count": 1, "caption": "Sample Korea stock chart the model predicts 10% rise", "note": "candlestick with moving-average lines and volume bars" },
+    { "label": "Figure 14", "chart_type": "other", "count": 1, "caption": "Sample US stock chart the model predicts 10% rise", "note": "candlestick with moving-average lines and volume bars" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 14, "cols": 5, "caption": "Dataset statistics for Korea stocks" },
+    { "label": "Table 2", "data_form": "statistics", "rows": 14, "cols": 5, "caption": "Dataset statistics for US stocks" },
+    { "label": "Table 3", "data_form": "statistics", "rows": 24, "cols": 10, "caption": "Part of validation set statistics for US label" },
+    { "label": "Table 4", "data_form": "benchmark-scores", "rows": 11, "cols": 5, "caption": "Labels chosen to be backtested on US (threshold, f1, accuracy)" },
+    { "label": "Table 5", "data_form": "benchmark-scores", "rows": 10, "cols": 5, "caption": "Labels chosen to be backtested on Korea" },
+    { "label": "Table 6", "data_form": "benchmark-scores", "rows": 10, "cols": 5, "caption": "KR market validation backtest top 10 by Sharpe ratio" },
+    { "label": "Table 7", "data_form": "benchmark-scores", "rows": 10, "cols": 5, "caption": "US market validation backtest top 10 by Sharpe ratio" },
+    { "label": "Table 8", "data_form": "comparison", "rows": 8, "cols": 4, "caption": "Return of Korea and US market indices during test period" },
+    { "label": "Table 9", "data_form": "comparison", "rows": 8, "cols": 4, "caption": "Return of Korea and US market indices during validation period" },
+    { "label": "Table 10", "data_form": "comparison", "rows": 12, "cols": 4, "caption": "Quarterly return of KR market during test period" },
+    { "label": "Table 11", "data_form": "comparison", "rows": 12, "cols": 6, "caption": "Quarterly return of US market during test period" },
+    { "label": "Table 12", "data_form": "benchmark-scores", "rows": 10, "cols": 5, "caption": "KR market test period backtest top 10 by Sharpe ratio" },
+    { "label": "Table 13", "data_form": "benchmark-scores", "rows": 10, "cols": 5, "caption": "US market test period backtest top 10 by Sharpe ratio" },
+    { "label": "Table 14", "data_form": "comparison", "rows": 4, "cols": 6, "caption": "NPMM backtest results compared with ours" }
+  ]
+}

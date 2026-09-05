@@ -1,0 +1,24 @@
+{
+  "id": "A58",
+  "category": "paper",
+  "query": "读 securing-dark-matter-semantic-enhanced-neuro.pdf，这是一篇用语义增强的神经符号框架分析不透明工业软件供应链安全的论文，做一份图文分析报告，讲清框架在三个数据集上与各类基线的漏洞检测效果差异、各组件消融对性能的影响，以及关键超参数变化带来的敏感性规律。",
+  "files": [
+    {
+      "file": "securing-dark-matter-semantic-enhanced-neuro.pdf",
+      "source": ".cache/chart-data-corpus/papers/securing-dark-matter-semantic-enhanced-neuro.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "bar",
+    "grouped-bar",
+    "stacked-bar",
+    "horizontal-bar",
+    "area",
+    "heatmap",
+    "donut",
+    "dumbbell",
+    "lollipop"
+  ]
+}

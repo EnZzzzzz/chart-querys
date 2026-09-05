@@ -1,0 +1,16 @@
+{
+  "id": "E2",
+  "category": "special-form",
+  "query": "分析 vega-flare-hierarchy.json（软件包层级数据），做一份展示其层级结构的可视化页面。",
+  "files": [
+    {
+      "file": "vega-flare-hierarchy.json",
+      "source": ".cache/chart-data-corpus/datasets/misc/vega-flare-hierarchy.json"
+    }
+  ],
+  "chart_forms": [
+    "treemap",
+    "sunburst",
+    "tree"
+  ]
+}

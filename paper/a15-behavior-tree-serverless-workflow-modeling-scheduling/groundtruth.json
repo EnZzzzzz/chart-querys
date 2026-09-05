@@ -1,0 +1,31 @@
+{
+  "id": "A15",
+  "source_file": "behavior-tree-serverless-workflow-modeling-scheduling.pdf",
+  "paper_title": "BeeFlow: Behavior Tree-based Serverless Workflow Modeling and Scheduling for Resource-Constrained Edge Clusters",
+  "stats": { "figures_total": 16, "tables_total": 5 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "image", "count": 1, "caption": "FireFly Cluster Server R1 机群实物俯视图" },
+    { "label": "Figure 2", "chart_type": "other", "count": 1, "caption": "各 SBC 节点 5 秒平均传输速率分布（violin，FaaStore 节点灰色标注）", "note": "violin" },
+    { "label": "Figure 3", "chart_type": "diagram", "count": 4, "caption": "行为树四种组合子：sequence/fallback/parallel/decorator 示意" },
+    { "label": "Figure 4", "chart_type": "diagram", "count": 1, "caption": "DAG 转行为树的递归转换流程示意" },
+    { "label": "Figure 5", "chart_type": "diagram", "count": 1, "caption": "状态机转行为树的 selector 结构示意" },
+    { "label": "Figure 6", "chart_type": "diagram", "count": 1, "caption": "BeeFlow 高层处理流水线（分区/放置/服务三阶段）" },
+    { "label": "Figure 7", "chart_type": "diagram", "count": 1, "caption": "行为树实例的子路径生成示例（sp1/sp2/sp3）" },
+    { "label": "Figure 8", "chart_type": "diagram", "count": 1, "caption": "面向资源受限边缘集群的参考架构设计" },
+    { "label": "Figure 9", "chart_type": "grouped-bar", "count": 2, "caption": "边缘测试床上相对 FaaSFlow 的加速比（single/corun 两种模式）" },
+    { "label": "Figure 10", "chart_type": "grouped-bar", "count": 2, "caption": "云测试床上相对 FaaSFlow 的加速比（single/corun）" },
+    { "label": "Figure 11", "chart_type": "other", "count": 4, "caption": "4 个科学工作流（Cyc/Gen/Epi/Soy）的函数执行时间占用（gantt）", "note": "gantt" },
+    { "label": "Figure 12", "chart_type": "other", "count": 2, "caption": "Vid 与 WC 工作流的函数执行时间占用（gantt）", "note": "gantt" },
+    { "label": "Figure 13", "chart_type": "line", "count": 2, "caption": "single 模式下相对 FaaSFlow 的延迟（edge/cloud 两个面板）" },
+    { "label": "Figure 14", "chart_type": "other", "count": 3, "caption": "各节点传输速率分布对比 FaaSFlow/BeeFlow（violin，三个面板）", "note": "violin" },
+    { "label": "Figure A.15", "chart_type": "diagram", "count": 1, "caption": "LLM 领域程序生成的 BeeFlow 真实用例行为树" },
+    { "label": "Figure B.16", "chart_type": "grouped-bar", "count": 2, "caption": "常规边缘测试床上相对 FaaSFlow 的加速比（single/corun）" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "comparison", "rows": 4, "cols": 5, "caption": "Serverless 工作流模型对比（DAG/DAG 变体/DCG/状态机）" },
+    { "label": "Table 2", "data_form": "other", "rows": 2, "cols": 2, "caption": "FireFly Cluster Server R1 边缘测试床硬件规格" },
+    { "label": "Table 3", "data_form": "other", "rows": 2, "cols": 2, "caption": "阿里云 ECS 实例规格" },
+    { "label": "Table A.4", "data_form": "examples", "rows": 8, "cols": 3, "caption": "LLM 程序生成用例中各函数的名称/描述/失败条件" },
+    { "label": "Table B.5", "data_form": "other", "rows": 2, "cols": 2, "caption": "常规边缘测试床节点规格" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "A41",
+  "category": "paper",
+  "query": "读 triadic-werewolf-jester-role-multi-hop.pdf，这篇论文在 10 人局狼人杀中引入小丑（Jester）角色，用 GPT-4.1、DeepSeek-V3.1、Llama-3.3-70B 三个模型各跑了 60 局游戏并记录逐句欺骗标注与怀疑度评分。做一份可视化分析报告，分析小丑自学习机制开启前后各阵营胜率、欺骗行为和怀疑度动态的变化。",
+  "files": [
+    {
+      "file": "triadic-werewolf-jester-role-multi-hop.pdf",
+      "source": ".cache/chart-data-corpus/papers/triadic-werewolf-jester-role-multi-hop.pdf"
+    }
+  ],
+  "chart_forms": [
+    "slope",
+    "dumbbell",
+    "heatmap",
+    "stacked-bar",
+    "radar",
+    "boxplot",
+    "line",
+    "grouped-bar",
+    "diverging-bar"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "A40",
+  "category": "paper",
+  "query": "读 fabric-gc-project-management.pdf，这是一篇基于 Hyperledger Fabric 区块链的跨组织项目管理系统论文（约 30 页）。做一份图文分析报告，讲清系统的整体架构、数据结构与关键工作流程，并分析不同共识算法下系统写操作耗时与吞吐量的实验结果有什么规律。",
+  "files": [
+    {
+      "file": "fabric-gc-project-management.pdf",
+      "source": ".cache/chart-data-corpus/papers/fabric-gc-project-management.pdf"
+    }
+  ],
+  "chart_forms": [
+    "gantt",
+    "grouped-bar",
+    "line"
+  ]
+}

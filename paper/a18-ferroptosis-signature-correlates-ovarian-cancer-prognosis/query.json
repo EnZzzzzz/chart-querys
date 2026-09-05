@@ -1,0 +1,27 @@
+{
+  "id": "A18",
+  "category": "paper",
+  "query": "读 ferroptosis-signature-correlates-ovarian-cancer-prognosis.pdf，这是一篇结合单细胞与 bulk 转录组构建卵巢癌铁死亡预后签名（FRS）并加以实验验证的论文。做一份图文解读报告，讲清研究思路与主要结果，分析风险评分分组与患者生存情况、基因突变、免疫浸润及药物治疗反应之间的关系，关键数据关系都要可视化。",
+  "files": [
+    {
+      "file": "ferroptosis-signature-correlates-ovarian-cancer-prognosis.pdf",
+      "source": ".cache/chart-data-corpus/papers/ferroptosis-signature-correlates-ovarian-cancer-prognosis.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "scatter",
+    "line",
+    "survival-curve",
+    "violin",
+    "boxplot",
+    "radar",
+    "ridgeline",
+    "waterfall",
+    "bar",
+    "horizontal-bar",
+    "stacked-bar",
+    "chord",
+    "network"
+  ]
+}

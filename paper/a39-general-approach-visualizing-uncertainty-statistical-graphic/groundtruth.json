@@ -1,0 +1,106 @@
+{
+  "id": "A39",
+  "source_file": "general-approach-visualizing-uncertainty-statistical-graphic.pdf",
+  "paper_title": "A General Approach to Visualizing Uncertainty in Statistical Graphics",
+  "stats": { "figures_total": 11, "tables_total": 3 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "四类常见场景下不确定性可视化的示意性例子",
+      "note": "12 个示意图标面板：error bar、violin、beeswarm、density heatmap、contour、scatter+rug、置信带、functional boxplot、HOPs、带误差条的 bar、ambiguous pie、jitter plot"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 2,
+      "caption": "方法示意：基础分布→图像分布→不确定性可视化（单变量与回归两例）",
+      "note": "流程示意图，(a) 单变量 (b) 回归斜率-截距"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "bootplot 代码片段及生成的均值点估计不确定性输出图",
+      "note": "代码截图 + 2 个 scatter/点估计输出面板（95% CI）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "两个唯一取值情形下强度变换函数的示例曲线"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "count": 6,
+      "caption": "不同 τ、k 参数下聚合图像（strip/点状）的效果对比",
+      "note": "strip/dot-plot 聚合图像，6 个参数变体面板"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "other",
+      "count": 2,
+      "caption": "三种企鹅平均喙长的 95% 置信区间（bootplot vs Seaborn）",
+      "note": "点估计+置信区间的 error-bar 图，左右 2 个面板"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "喙长与喙深关系的线性/多项式拟合及 95% 逐点置信带",
+      "note": "scatter + 回归线 + 置信带 + RMSE 文本，bootplot 与 Seaborn 两面板"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "bar",
+      "count": 2,
+      "caption": "企鹅物种比例的模糊化 bar chart 与带误差条的 bar chart"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "pie",
+      "count": 2,
+      "caption": "企鹅物种比例的模糊化 pie chart（含/不含叠加小饼图）"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "other",
+      "count": 2,
+      "caption": "对均值估计表格应用 bootplot 得到的模糊表格 vs 标准误标注表格",
+      "note": "表格的可视化图像（blurry table 与标准表格对比）"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "mixed",
+      "count": 14,
+      "caption": "该方法生成的更多不确定性可视化示例（14 个面板）",
+      "note": "(a) circular area chart (b) scatter+决策边界 (c) waffle (d) icon chart (e) density/area (f) radar (g) horizontal stacked bar (h) sankey (i) pie (j) 地图上的平均轨迹线 (k) 地图上的 binary heatmap (l) PCA loadings scatter (m) bivariate means scatter (n) bubble chart"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "statistics",
+      "rows": 5,
+      "cols": 4,
+      "caption": "样本量 n 与对应隐含覆盖率"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "other",
+      "rows": 7,
+      "cols": 3,
+      "caption": "基础可视通道如何隐式产生不确定性编码的映射总结",
+      "note": "base channel → 不确定性表示 → 示例 的映射表"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "comparison",
+      "rows": 19,
+      "cols": 6,
+      "caption": "常见可视化工具复现第 5 节不确定性示例的能力矩阵（matplotlib/ggplot2/ggdist/seaborn/ggdibbler）"
+    }
+  ]
+}

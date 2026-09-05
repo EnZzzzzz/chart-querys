@@ -1,0 +1,245 @@
+{
+  "id": "A14",
+  "source_file": "pyfi-toward-pyramid-like-financial-image.pdf",
+  "paper_title": "PyFi: Toward Pyramid-like Financial Image Understanding for VLMs via Adversarial Agents",
+  "stats": { "figures_total": 21, "tables_total": 14 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "PyFi-600K 数据集总览：6 能力层级金字塔、11 图像类型、17 金融主题",
+      "note": "金字塔示意图 + 3 个环形占比图（能力层级/图像类型/金融主题分布）+ 1 个示例图面板"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "PyFi-adv 总览：challenger 与 solver 在 MCTS 范式下对抗生成问题链"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "radar",
+      "count": 2,
+      "caption": "Qwen2.5-VL 与 PyFi-QwenVL 对比：跨 6 能力层级 / 5 复杂度两个雷达面板"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "各能力层级错误占比评估与错误回溯示例",
+      "note": "左侧为 13 个模型 × 6 能力层级的分组柱状图，右侧为定性错误回溯示例面板"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "层级化 CoT 定性分析：Qwen2.5-VL-3B-Instruct 与 PyFi-QwenVL-3B 输出对比示例"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "能力层级与问题长度（数量与平均字符数）的关系",
+      "note": "柱状（样本数量）+ 折线（平均问题长度）双轴组合图"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "问题中最高频词汇的频率分布",
+      "note": "radial bar chart（极坐标环形柱状/玫瑰图）"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "数据处理流水线总览（采集-解析-过滤-上下文抽取）"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "image",
+      "count": 10,
+      "caption": "内容主题示例总览（宏观经济指标、金融市场等 10 个主题面板）",
+      "note": "数据集示例图集，非论文自制数据图表"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "image",
+      "count": 7,
+      "caption": "内容主题示例总览（续，7 个主题面板）",
+      "note": "数据集示例图集"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "image",
+      "count": 7,
+      "caption": "图像类型示例总览（折线、饼/环、表格、柱状、散点/气泡、蜡烛图、示意图 7 类）",
+      "note": "数据集示例图集；蜡烛图/气泡等仅作为示例图出现"
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Figure 2 问题链所用的源图像（乍得财政数据图）",
+      "note": "数据集示例图"
+    },
+    {
+      "label": "Figure 13",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "完整问题链示例（问答 1-6）",
+      "note": "纯文本问答示例框，无图表"
+    },
+    {
+      "label": "Figure 14",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "完整问题链示例续（问答 7-11）",
+      "note": "纯文本问答示例框，无图表"
+    },
+    {
+      "label": "Figure 15",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-3B-Instruct，FDI 主题）"
+    },
+    {
+      "label": "Figure 16",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-3B-Instruct，卢旺达营商主题）"
+    },
+    {
+      "label": "Figure 17",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-3B-Instruct，石油期货主题）"
+    },
+    {
+      "label": "Figure 18",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-7B-Instruct，危地马拉财政主题）"
+    },
+    {
+      "label": "Figure 19",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-7B-Instruct，上证指数主题）"
+    },
+    {
+      "label": "Figure 20",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-7B-Instruct，主权债券利差主题）"
+    },
+    {
+      "label": "Figure 21",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "微调前后模型表现对比示例（Qwen2.5-VL-7B-Instruct，石油基金主题）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 15,
+      "cols": 11,
+      "caption": "15 个预训练 VLM 在 PyFi-600K 上跨 6 能力层级与 3 个复杂度的准确率"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 18,
+      "cols": 6,
+      "caption": "PyFi-600K 与现有评测数据集对比（规模、多模态、CoT 等特性）"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "statistics",
+      "rows": 5,
+      "cols": 3,
+      "caption": "问题长度与问题链长度统计（均值/中位数/最值/标准差）"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "statistics",
+      "rows": 13,
+      "cols": 4,
+      "caption": "问题能力层级与复杂度的样本数量及占比分布"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "statistics",
+      "rows": 4,
+      "cols": 3,
+      "caption": "问题链长度分段分布"
+    },
+    {
+      "label": "Table 6",
+      "data_form": "statistics",
+      "rows": 13,
+      "cols": 4,
+      "caption": "问题中最高频词汇排名及频率"
+    },
+    {
+      "label": "Table 7",
+      "data_form": "statistics",
+      "rows": 12,
+      "cols": 2,
+      "caption": "问题链答案选项分布（A-J 及错误格式占比）"
+    },
+    {
+      "label": "Table 8",
+      "data_form": "statistics",
+      "rows": 50,
+      "cols": 4,
+      "caption": "初始图像库分布：内容主题/图像类型/合规等级/复杂度 4 张子表",
+      "note": "含 (a)-(d) 四张子表，共约 50 行"
+    },
+    {
+      "label": "Table 9",
+      "data_form": "other",
+      "rows": 6,
+      "cols": 2,
+      "caption": "能力层级缩写含义表（PP/DE/CA/PR/LR/DS）"
+    },
+    {
+      "label": "Table 10",
+      "data_form": "other",
+      "rows": 4,
+      "cols": 2,
+      "caption": "实验分组输入配置（I-IV：图像/背景/分析信息组合）"
+    },
+    {
+      "label": "Table 11",
+      "data_form": "benchmark-scores",
+      "rows": 29,
+      "cols": 8,
+      "caption": "原始评测集（1000 样本）上各模型分组表现（Overall/TC/TQ/I-IV）"
+    },
+    {
+      "label": "Table 12",
+      "data_form": "benchmark-scores",
+      "rows": 29,
+      "cols": 8,
+      "caption": "排除泄漏后评测集（301 样本）上各模型分组表现"
+    },
+    {
+      "label": "Table 13",
+      "data_form": "benchmark-scores",
+      "rows": 29,
+      "cols": 8,
+      "caption": "排除泄漏后按能力层级（PP-DS）拆分的模型表现"
+    },
+    {
+      "label": "Table 14",
+      "data_form": "benchmark-scores",
+      "rows": 29,
+      "cols": 7,
+      "caption": "排除泄漏后按复杂度（1-5）拆分的模型表现"
+    }
+  ]
+}

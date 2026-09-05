@@ -1,0 +1,15 @@
+{
+  "id": "A2",
+  "category": "paper",
+  "query": "读 gpt4-technical-report.pdf，分析 GPT-4 在各类学术/职业考试（SAT、GRE、Bar Exam 等）上的表现，以及与 GPT-3.5 的差距，做一份可视化报告。",
+  "files": [
+    {
+      "file": "gpt4-technical-report.pdf",
+      "source": ".cache/chart-data-corpus/papers/gpt4-technical-report.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "comparison-bar"
+  ]
+}

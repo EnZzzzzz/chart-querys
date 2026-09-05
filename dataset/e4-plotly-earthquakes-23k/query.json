@@ -1,0 +1,16 @@
+{
+  "id": "E4",
+  "category": "special-form",
+  "query": "分析 plotly-earthquakes-23k.csv（2.3 万条地震记录），做一份全球地震活动的可视化报告，覆盖空间分布、震级和时间规律。",
+  "files": [
+    {
+      "file": "plotly-earthquakes-23k.csv",
+      "source": ".cache/chart-data-corpus/datasets/misc/plotly-earthquakes-23k.csv"
+    }
+  ],
+  "chart_forms": [
+    "geo-scatter",
+    "histogram",
+    "line"
+  ]
+}

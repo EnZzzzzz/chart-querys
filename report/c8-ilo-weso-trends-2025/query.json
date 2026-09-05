@@ -1,0 +1,15 @@
+{
+  "id": "C8",
+  "category": "report-en",
+  "query": "读 ilo-weso-trends-2025.pdf，做一份全球就业形势报告，分析失业率趋势、青年失业、非正规就业和地区差异。",
+  "files": [
+    {
+      "file": "ilo-weso-trends-2025.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/ilo-weso-trends-2025.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar"
+  ]
+}

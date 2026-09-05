@@ -1,0 +1,31 @@
+{
+  "id": "A23",
+  "category": "paper",
+  "query": "读 therapeutic-effect-specific-mechanism-involved-active.pdf，这是一篇研究中药活性成分 biochanin A 抗胶质瘤疗效与作用机制的论文，综合了单细胞测序、网络药理学和细胞实验数据。做一份可视化报告，梳理 biochanin A 经 GSTP1 调控氧化应激影响胶质瘤的证据链，覆盖细胞亚群构成、细胞间通讯、预后与免疫浸润、基因突变与药物敏感性差异等方面。",
+  "files": [
+    {
+      "file": "therapeutic-effect-specific-mechanism-involved-active.pdf",
+      "source": ".cache/chart-data-corpus/papers/therapeutic-effect-specific-mechanism-involved-active.pdf"
+    }
+  ],
+  "chart_forms": [
+    "boxplot",
+    "forest-plot",
+    "heatmap",
+    "network",
+    "survival-curve",
+    "violin",
+    "waterfall",
+    "wordcloud",
+    "line",
+    "scatter",
+    "bar",
+    "grouped-bar",
+    "stacked-bar",
+    "pie",
+    "bubble",
+    "lollipop",
+    "chord",
+    "ridgeline"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "A81",
+  "category": "paper",
+  "query": "读 state-state-influenza-outbreaks-oversee-markov.pdf，这篇论文用 SEIRS 仓室模型加连续时间马尔可夫链研究美国加州和北卡罗来纳州的流感传播。做一份可视化分析报告，讲清模型结构、各参数变化对疫情走势和基本再生数的影响、参数敏感性分析的结果，以及两州实际病例与模型拟合、预测的对比。",
+  "files": [
+    {
+      "file": "state-state-influenza-outbreaks-oversee-markov.pdf",
+      "source": ".cache/chart-data-corpus/papers/state-state-influenza-outbreaks-oversee-markov.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "grouped-bar",
+    "boxplot",
+    "heatmap",
+    "contour"
+  ]
+}

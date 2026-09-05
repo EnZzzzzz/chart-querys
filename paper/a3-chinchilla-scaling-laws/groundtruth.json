@@ -1,0 +1,239 @@
+{
+  "id": "A3",
+  "source_file": "chinchilla-scaling-laws.pdf",
+  "paper_title": "Training Compute-Optimal Large Language Models",
+  "stats": { "figures_total": 14, "tables_total": 19 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "scatter",
+      "count": 1,
+      "note": "scatter of model FLOPs vs parameters with overlaid power-law prediction lines and star markers",
+      "caption": "Overlaid predictions. We overlay the predictions from our three different approaches, along with projections from Kaplan et al. (2020)."
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 3,
+      "note": "1 line (training curve envelope) + 2 scatter (optimal model size / tokens vs FLOPs with fitted lines)",
+      "caption": "Training curve envelope. On the left we show all of our different runs. We launched a range of model sizes going from 70M to 10B."
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 3,
+      "note": "1 line (IsoFLOP loss curves) + 2 scatter (optimal parameters / tokens vs FLOPs with fitted lines)",
+      "caption": "IsoFLOP curves. For various model sizes, we choose the number of training tokens such that the final FLOPs is a constant."
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "1 heatmap-like contour plot (IsoLoss contours with scatter overlay) + 1 line (IsoFLOP slices with points)",
+      "caption": "Parametric fit. We fit a parametric modelling of the loss L(N, D) and display contour (left) and isoFLOP slices (right)."
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "bar",
+      "count": 1,
+      "caption": "Pile Evaluation. For the different evaluation sets in The Pile, we show the bits-per-byte (bpb) improvement (decrease) of Chinchilla compared to Gopher."
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "bar",
+      "count": 1,
+      "caption": "MMLU results compared to Gopher. We find that Chinchilla outperforms Gopher by 7.6% on average in addition to performing better on 51/57 individual tasks."
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "bar",
+      "count": 1,
+      "caption": "BIG-bench results compared to Gopher. Chinchilla outperforms Gopher on all but four BIG-bench tasks considered."
+    },
+    {
+      "label": "Figure A1",
+      "chart_type": "line",
+      "count": 6,
+      "note": "2 rows x 3 panels: LR schedule, training loss, and C4 loss curves for different cosine cycle lengths",
+      "caption": "Grid over cosine cycle length. We show 6 curves with the cosine cycle length set to 1, 1.1, 1.25, 1.5, 2, and 5x longer than the target number of training steps."
+    },
+    {
+      "label": "Figure A2",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "2 line (IsoFLOP curves for C4 and GitHub) + 4 scatter (parameter/token scaling with fitted lines)",
+      "caption": "C4 and GitHub IsoFLOP curves. Using the C4 dataset and a GitHub dataset, we generate 4 IsoFLOP profiles and show the parameter and token count scaling, as in Figure 3."
+    },
+    {
+      "label": "Figure A3",
+      "chart_type": "scatter",
+      "count": 1,
+      "note": "scatter of optimal tokens vs parameters per FLOP budget with fitted lines and star markers for large models",
+      "caption": "Optimal number of tokens and parameters for a training FLOP budget. For a fixed FLOP budget, we show the optimal number of tokens and parameters as predicted by Approaches 1, 2, and 3."
+    },
+    {
+      "label": "Figure A4",
+      "chart_type": "line",
+      "count": 2,
+      "caption": "Comparison to Kaplan et al. (2020) at 10^21 FLOPs. We train 2.80 and 4.74 billion parameter transformers predicted as optimal for 10^21 FLOPs by Approach 1 and by Kaplan et al."
+    },
+    {
+      "label": "Figure A5",
+      "chart_type": "line",
+      "count": 1,
+      "note": "single panel of training curves with three fitted frontier lines (first/middle/last third)",
+      "caption": "Training curve envelopes. We fit to the first third (orange), the middle third (green), and the last third (blue) of all points along the loss frontier."
+    },
+    {
+      "label": "Figure A6",
+      "chart_type": "line",
+      "count": 3,
+      "caption": "Comparison of other differences. Using an 680 million parameter model, we show a comparison between the setup used to train Gopher and Chinchilla - the change in optimiser and precision."
+    },
+    {
+      "label": "Figure A7",
+      "chart_type": "line",
+      "count": 3,
+      "caption": "Adam vs AdamW. For a 417M (blue) and 1.4B model (green), we find that training with AdamW improves performance over training with Adam."
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 6,
+      "cols": 3,
+      "caption": "Current LLMs. We show five of the current largest dense transformer models, their size, and the number of training tokens."
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 4,
+      "cols": 3,
+      "caption": "Estimated parameter and data scaling with increased training compute. The listed values are the exponents, a and b, on the relationship N_opt ~ C^a and D_opt ~ C^b."
+    },
+    {
+      "label": "Table 3",
+      "data_form": "statistics",
+      "rows": 9,
+      "cols": 4,
+      "caption": "Estimated optimal training FLOPs and training tokens for various model sizes. We show the projections from Approach 1 of how many FLOPs and training tokens would be needed."
+    },
+    {
+      "label": "Table 4",
+      "data_form": "hyperparameters",
+      "rows": 2,
+      "cols": 7,
+      "caption": "Chinchilla architecture details. We list the number of layers, the key/value size, the bottleneck activation size d_model, the maximum learning rate, and the training batch size."
+    },
+    {
+      "label": "Table 5",
+      "data_form": "examples",
+      "rows": 6,
+      "cols": 3,
+      "caption": "All evaluation tasks. We evaluate Chinchilla on a collection of language modelling along with downstream tasks."
+    },
+    {
+      "label": "Table 6",
+      "data_form": "benchmark-scores",
+      "rows": 8,
+      "cols": 2,
+      "caption": "Massive Multitask Language Understanding (MMLU). We report the average 5-shot accuracy over 57 tasks with model and human accuracy comparisons."
+    },
+    {
+      "label": "Table 7",
+      "data_form": "benchmark-scores",
+      "rows": 3,
+      "cols": 5,
+      "caption": "Reading comprehension. On RACE-h and RACE-m, Chinchilla considerably improves performance over Gopher."
+    },
+    {
+      "label": "Table 8",
+      "data_form": "benchmark-scores",
+      "rows": 5,
+      "cols": 6,
+      "caption": "Zero-shot comparison on Common Sense benchmarks. We show a comparison between Chinchilla, Gopher, and MT-NLG 530B on various Common Sense benchmarks."
+    },
+    {
+      "label": "Table 9",
+      "data_form": "benchmark-scores",
+      "rows": 9,
+      "cols": 6,
+      "caption": "Closed-book question answering. For Natural Questions and TriviaQA, Chinchilla outperforms Gopher in all cases."
+    },
+    {
+      "label": "Table 10",
+      "data_form": "benchmark-scores",
+      "rows": 4,
+      "cols": 6,
+      "note": "two side-by-side sub-tables (pronoun groups; gotcha/not-gotcha), each 4 rows x 3 cols",
+      "caption": "Winogender results. Left: Chinchilla consistently resolves pronouns better than Gopher. Right: Chinchilla performs better on examples which contradict gender stereotypes (gotcha)."
+    },
+    {
+      "label": "Table A1",
+      "data_form": "statistics",
+      "rows": 6,
+      "cols": 5,
+      "caption": "MassiveText data makeup. For each subset of MassiveText, we list its total disk size, the number of documents and the sampling proportion used during training."
+    },
+    {
+      "label": "Table A2",
+      "data_form": "comparison",
+      "rows": 3,
+      "cols": 3,
+      "caption": "Estimated parameter and data scaling with increased training compute on two alternate datasets. The listed values are the exponents, a and b."
+    },
+    {
+      "label": "Table A3",
+      "data_form": "statistics",
+      "rows": 9,
+      "cols": 5,
+      "caption": "Estimated optimal training FLOPs and training tokens for various model sizes. Analogous to Table 3, we show the model size/token count projections from Approaches 2 and 3."
+    },
+    {
+      "label": "Table A4",
+      "data_form": "comparison",
+      "rows": 6,
+      "cols": 7,
+      "caption": "FLOP comparison. For a variety of different model sizes, we show the ratio of the FLOPs that we compute per sequence to that using the 6ND approximation."
+    },
+    {
+      "label": "Table A5",
+      "data_form": "benchmark-scores",
+      "rows": 19,
+      "cols": 4,
+      "caption": "Bits-per-Byte on The Pile. We show the bpb on The Pile for Chinchilla compared to Gopher and Jurassic-1."
+    },
+    {
+      "label": "Table A6",
+      "data_form": "benchmark-scores",
+      "rows": 57,
+      "cols": 3,
+      "note": "57 MMLU tasks laid out in two side-by-side column groups (task, Chinchilla, Gopher each)",
+      "caption": "Chinchilla MMLU results. For each subset of MMLU, we show Chinchilla's accuracy compared to Gopher."
+    },
+    {
+      "label": "Table A7",
+      "data_form": "benchmark-scores",
+      "rows": 62,
+      "cols": 3,
+      "note": "62 BIG-bench tasks laid out in two side-by-side column groups (task, Chinchilla, Gopher each)",
+      "caption": "Chinchilla BIG-bench results. For each subset of BIG-bench, we show Chinchilla and Gopher's accuracy."
+    },
+    {
+      "label": "Table A8",
+      "data_form": "other",
+      "rows": 25,
+      "cols": 2,
+      "note": "model card (field / description) spanning multiple pages with section headers",
+      "caption": "Chinchilla model card. We follow the framework presented in Mitchell et al. (2019)."
+    },
+    {
+      "label": "Table A9",
+      "data_form": "hyperparameters",
+      "rows": 50,
+      "cols": 6,
+      "caption": "All models. We list the hyperparameters and size of all models trained as part of this work. Many shown models have been trained with multiple learning rate schedules."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "A4",
+  "source_file": "qwen25-technical-report.pdf",
+  "paper_title": "Qwen2.5 Technical Report",
+  "extra_sources": [
+    {
+      "source_file": "deepseek-v3-technical-report.pdf",
+      "paper_title": "DeepSeek-V3 Technical Report"
+    }
+  ],
+  "stats": { "figures_total": 14, "tables_total": 26 },
+  "figures": [
+    { "label": "Figure 1", "source": "qwen25-technical-report.pdf", "chart_type": "grouped-bar", "count": 1, "caption": "In the iterative development of the Qwen series, data scaling has played a crucial role. Qwen 2.5, which leverages 18 tr" },
+    { "label": "Figure 2", "source": "qwen25-technical-report.pdf", "chart_type": "heatmap", "count": 1, "caption": "Performance of Qwen2.5-Turbo on Passkey Retrieval Task with 1M Token Lengths." },
+    { "label": "Figure 3", "source": "qwen25-technical-report.pdf", "chart_type": "line", "count": 4, "caption": "TTFT (Time To First Token) of Qwen2.5-Turbo and Qwen2.5-7B with Full Attention and Our Method." },
+    { "label": "Figure 1", "source": "deepseek-v3-technical-report.pdf", "chart_type": "grouped-bar", "count": 1, "caption": "Benchmark performance of DeepSeek-V3 and its counterparts." },
+    { "label": "Figure 2", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 1, "caption": "Illustration of the basic architecture of DeepSeek-V3. Following DeepSeek-V2, we adopt MLA and DeepSeekMoE for eff" },
+    { "label": "Figure 3", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 1, "caption": "Illustration of our Multi-Token Prediction (MTP) implementation. We keep the complete causal chain for the predi" },
+    { "label": "Figure 4", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 1, "caption": "Overlapping strategy for a pair of individual forward and backward chunks (the boundaries of the transformer blo" },
+    { "label": "Figure 5", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 1, "caption": "Example DualPipe scheduling for 8 PP ranks and 20 micro-batches in two directions." },
+    { "label": "Figure 6", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 1, "caption": "The overall mixed precision framework with FP8 data format. For clarification, only the Linear operator is illus" },
+    { "label": "Figure 7", "source": "deepseek-v3-technical-report.pdf", "chart_type": "diagram", "count": 2, "caption": "(a) We propose a fine-grained quantization method to mitigate quantization errors caused by feature outliers; (b" },
+    { "label": "Figure 8", "source": "deepseek-v3-technical-report.pdf", "chart_type": "heatmap", "count": 1, "caption": "Evaluation results on the \"Needle In A Haystack\" (NIAH) tests. DeepSeek-V3 performs well across all context wind" },
+    { "label": "Figure 9", "source": "deepseek-v3-technical-report.pdf", "chart_type": "heatmap", "count": 4, "caption": "Expert load of auxiliary-loss-free and auxiliary-loss-based models on three domains in the Pile test set." },
+    { "label": "Figure 10", "source": "deepseek-v3-technical-report.pdf", "chart_type": "line", "count": 2, "caption": "Loss curves comparison between BF16 and FP8 training. Results are smoothed by Exponential Moving Average (EMA)" },
+    { "label": "Figure 10 (appendix)", "source": "deepseek-v3-technical-report.pdf", "chart_type": "heatmap", "count": 52, "note": "Appendix full expert-load figure, panels (a)-(e) across pp. 49-53; printed caption duplicates the number 'Figure 10' (loss curves), later arXiv versions renumber it Figure 11", "caption": "Expert load of auxiliary-loss-free and auxiliary-loss-based models on three domains in the Pile test set (full a" }
+  ],
+  "tables": [
+    { "label": "Table 1", "source": "qwen25-technical-report.pdf", "data_form": "hyperparameters", "rows": 7, "cols": 6, "caption": "Model architecture and license of Qwen2.5 open-weight models." },
+    { "label": "Table 2", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 22, "cols": 7, "caption": "Performance of the 70B+ base models and Qwen2.5-Plus." },
+    { "label": "Table 3", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 22, "cols": 7, "caption": "Performance of the 14B-30B+ base models and Qwen2.5-Turbo." },
+    { "label": "Table 4", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 22, "cols": 6, "caption": "Performance of the 7B+ base models." },
+    { "label": "Table 5", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 22, "cols": 7, "caption": "Performance of the smaller base models." },
+    { "label": "Table 6", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 13, "cols": 6, "caption": "Performance of the 70B+ Instruct models and Qwen2.5-Plus." },
+    { "label": "Table 7", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 13, "cols": 7, "caption": "Performance of the 14B-30B+ instruction-tuned models and Qwen2.5-Turbo." },
+    { "label": "Table 8", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 13, "cols": 5, "caption": "Performance of the 7B+ instruction-tuned models." },
+    { "label": "Table 9", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 13, "cols": 5, "caption": "Performance comparison of 2B-4B instruction-tuned models." },
+    { "label": "Table 10", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 11, "cols": 5, "caption": "Performance comparison of 0.5B-1.5B instruction-tuned models." },
+    { "label": "Table 11", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 18, "cols": 7, "caption": "Performance Comparison on our in-house English automatic evaluation benchmark." },
+    { "label": "Table 12", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 18, "cols": 7, "caption": "Performance Comparison on our in-house Chinese automatic evaluation benchmark." },
+    { "label": "Table 13", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 9, "cols": 7, "caption": "Performance of the 70B+ Instruct models on Multilingual Tasks." },
+    { "label": "Table 14", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 9, "cols": 6, "caption": "Performance of the 7B-14B Instruct models on Multilingual Tasks." },
+    { "label": "Table 15", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 18, "cols": 5, "caption": "Performance comparison across multiple RM benchmarks." },
+    { "label": "Table 16", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 14, "cols": 9, "caption": "Performance of Qwen2.5 Models on RULER. YARN+DCA does not change the model behavior within 32K tokens." },
+    { "label": "Table 17", "source": "qwen25-technical-report.pdf", "data_form": "benchmark-scores", "rows": 13, "cols": 8, "caption": "Performance of Qwen2.5 Models on LV-Eval and LongBench-Chat. YARN+DCA does not change the model behavior wit" },
+    { "label": "Table 1", "source": "deepseek-v3-technical-report.pdf", "data_form": "statistics", "rows": 2, "cols": 5, "caption": "Training costs of DeepSeek-V3, assuming the rental price of H800 is $2 per GPU hour." },
+    { "label": "Table 2", "source": "deepseek-v3-technical-report.pdf", "data_form": "comparison", "rows": 3, "cols": 4, "caption": "Comparison of pipeline bubbles and memory usage across different pipeline parallel methods." },
+    { "label": "Table 3", "source": "deepseek-v3-technical-report.pdf", "data_form": "benchmark-scores", "rows": 34, "cols": 6, "caption": "Comparison among DeepSeek-V3-Base and other representative open-source base models." },
+    { "label": "Table 4", "source": "deepseek-v3-technical-report.pdf", "data_form": "ablation", "rows": 13, "cols": 6, "caption": "Ablation results for the MTP strategy. The MTP strategy consistently enhances the model performance on most" },
+    { "label": "Table 5", "source": "deepseek-v3-technical-report.pdf", "data_form": "ablation", "rows": 13, "cols": 6, "caption": "Ablation results for the auxiliary-loss-free balancing strategy." },
+    { "label": "Table 6", "source": "deepseek-v3-technical-report.pdf", "data_form": "benchmark-scores", "rows": 25, "cols": 8, "caption": "Comparison between DeepSeek-V3 and other representative chat models." },
+    { "label": "Table 7", "source": "deepseek-v3-technical-report.pdf", "data_form": "benchmark-scores", "rows": 6, "cols": 3, "caption": "English open-ended conversation evaluations. For AlpacaEval 2.0, we use the length-controlled win rate as th" },
+    { "label": "Table 8", "source": "deepseek-v3-technical-report.pdf", "data_form": "benchmark-scores", "rows": 7, "cols": 6, "caption": "Performances of GPT-4o, Claude-3.5-sonnet and DeepSeek-V3 on RewardBench." },
+    { "label": "Table 9", "source": "deepseek-v3-technical-report.pdf", "data_form": "ablation", "rows": 2, "cols": 5, "caption": "The contribution of distillation from DeepSeek-R1." }
+  ]
+}

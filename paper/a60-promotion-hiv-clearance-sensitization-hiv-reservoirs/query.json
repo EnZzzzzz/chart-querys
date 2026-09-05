@@ -1,0 +1,22 @@
+{
+  "id": "A60",
+  "category": "paper",
+  "query": "读 promotion-hiv-clearance-sensitization-hiv-reservoirs.pdf，这是一篇用单细胞转录组分析 HIV 感染人源化小鼠 T 细胞储存库对 SECH 治疗产生抗性机制的论文。做一份图文报告，分析抗性储存库细胞在自噬、糖酵解、表观遗传调控和凋亡相关通路上有什么特征，以及靶向 BRD4 等表观遗传因子与促进 HIV 清除的关系。",
+  "files": [
+    {
+      "file": "promotion-hiv-clearance-sensitization-hiv-reservoirs.pdf",
+      "source": ".cache/chart-data-corpus/papers/promotion-hiv-clearance-sensitization-hiv-reservoirs.pdf"
+    }
+  ],
+  "chart_forms": [
+    "violin",
+    "scatter",
+    "heatmap",
+    "bubble",
+    "ridgeline",
+    "bar",
+    "grouped-bar",
+    "horizontal-bar",
+    "circos"
+  ]
+}

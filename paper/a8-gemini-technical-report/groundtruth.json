@@ -1,0 +1,283 @@
+{
+  "id": "A8",
+  "source_file": "gemini-technical-report.pdf",
+  "paper_title": "Gemini: A Family of Highly Capable Multimodal Models",
+  "stats": { "figures_total": 23, "tables_total": 18 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Verifying a student's solution to a physics problem. The model is able to correctly recognize all of the handwritten content and verify the reasoning."
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "Gemini models support interleaved sequences of text, image, audio, and video as inputs (illustrated by tokens of different colors in the input sequence)."
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "grouped-bar",
+      "count": 1,
+      "caption": "Language understanding and generation performance of Gemini model family across different capabilities (normalized by the Gemini Pro model)."
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "Negative log likelihood as a function of token index across 32K context length on a held-out set of long documents."
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "image",
+      "count": 1,
+      "note": "prompt/response example embedding 8 matplotlib subplots (7 line + 1 3D surface)",
+      "caption": "Using Gemini models' multimodal reasoning capabilities to generate matplotlib code for rearranging the subplots."
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Image Generation. Gemini models can output multiple images interleaved with text given a prompt composed of image and text."
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "Modeling overview. Post-training utilizes an optimized data flywheel in order to acquire human-AI feedback and continually improve on key areas."
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "A Gemini tool-use control loop."
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "grouped-bar",
+      "count": 1,
+      "caption": "Chain-of-Thought with uncertainty routing on MMLU."
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "image",
+      "count": 1,
+      "note": "chart-understanding example embedding 4 horizontal-bar panels (Our World in Data) plus a rendered markdown table",
+      "caption": "Solving a problem requiring multimodal chart understanding. The model has to read the text, understand the connections between different data points and reason over them."
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Answering a multimodal information-seeking query. The model is able to recognize the specific plant shown in the image and provide information about it."
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "image",
+      "count": 1,
+      "note": "example contains 3 generated photos",
+      "caption": "Generating interleaved text and images. The model is able to follow the instructions of generating a blog post with images closely related to the text."
+    },
+    {
+      "label": "Figure 13",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Solving a multimodal reasoning problem. The model is able to recognize shapes in the image, understand their properties and reason about the relationship between them."
+    },
+    {
+      "label": "Figure 14",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Solving a geometrical reasoning task. The model shows good understanding of the task and is able to provide meaningful reasoning steps despite slightly unclear instructions."
+    },
+    {
+      "label": "Figure 15",
+      "chart_type": "image",
+      "count": 1,
+      "note": "example contains 2 photos",
+      "caption": "Solving a puzzle using multimodal inputs. The model recognizes the objects in the images and identifies a commonality that connects the two objects."
+    },
+    {
+      "label": "Figure 16",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Identifying the objects in the image (the Empire State Building) and recognizing what those are even with small levels of visual distortion in the image."
+    },
+    {
+      "label": "Figure 17",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Explanation of humor in a meme. The model is showing the ability to not only describe what is happening in the image but also what it means."
+    },
+    {
+      "label": "Figure 18",
+      "chart_type": "image",
+      "count": 1,
+      "note": "example embeds a family-tree relationship diagram",
+      "caption": "Common-sense reasoning in images. The model is able to understand the relationships represented in the graphs and reason about them in a multilingual setting."
+    },
+    {
+      "label": "Figure 19",
+      "chart_type": "image",
+      "count": 1,
+      "note": "code listing plus rendered website screenshot",
+      "caption": "Writing code for a website based on user request. The model follows the instructions and requirements defined by the user and converts them to functioning code."
+    },
+    {
+      "label": "Figure 20",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "Solving a calculus problem. The model is able to get a solution to a calculus problem with step-by-step explanation and correctly defined LaTeX equations."
+    },
+    {
+      "label": "Figure 21",
+      "chart_type": "image",
+      "count": 1,
+      "note": "response includes a rendered markdown table",
+      "caption": "Solving a multi-step math problem. The model is able to understand the task and generate a markdown table with correctly calculated values."
+    },
+    {
+      "label": "Figure 22",
+      "chart_type": "image",
+      "count": 1,
+      "note": "example embeds matplotlib subplots (3 line + 1 3D surface) plus 1 rendered output line chart",
+      "caption": "Multimodal reasoning capabilities applied to code generation. Gemini Ultra needs to perform inverse graphics task to infer the code that would have generated the plots."
+    },
+    {
+      "label": "Figure 23",
+      "chart_type": "image",
+      "count": 1,
+      "note": "example contains 4 video frames",
+      "caption": "Video understanding and reasoning over the situation presented in the video. Here, we provide a video as input to the model together with a text prompt."
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 3,
+      "cols": 2,
+      "caption": "An overview of the Gemini 1.0 model family."
+    },
+    {
+      "label": "Table 2",
+      "data_form": "benchmark-scores",
+      "rows": 9,
+      "cols": 10,
+      "caption": "Gemini performance on text benchmarks with external comparisons and PaLM 2-L."
+    },
+    {
+      "label": "Table 3",
+      "data_form": "benchmark-scores",
+      "rows": 8,
+      "cols": 5,
+      "caption": "Performance of Gemini Nano series on factuality, summarization, reasoning, coding and STEM tasks compared to significantly larger Gemini Pro model."
+    },
+    {
+      "label": "Table 4",
+      "data_form": "benchmark-scores",
+      "rows": 5,
+      "cols": 7,
+      "caption": "Performance of Gemini models on WMT 23 translation benchmark. All numbers with 1-shot."
+    },
+    {
+      "label": "Table 5",
+      "data_form": "benchmark-scores",
+      "rows": 3,
+      "cols": 5,
+      "caption": "Performance of Gemini models on multilingual math and summarization."
+    },
+    {
+      "label": "Table 6",
+      "data_form": "ablation",
+      "rows": 2,
+      "cols": 4,
+      "caption": "Factuality mitigations: Impact of post-training on the rate of inaccuracy, presence of attribution and the rate of accurate hedging on Gemini API Pro (with corresponding 95% confidence intervals)."
+    },
+    {
+      "label": "Table 7",
+      "data_form": "benchmark-scores",
+      "rows": 8,
+      "cols": 7,
+      "caption": "Image understanding Gemini Ultra consistently outperforms existing approaches even in zero-shot, especially for OCR-related image understanding tasks for natural images, text, documents, and figures."
+    },
+    {
+      "label": "Table 8",
+      "data_form": "benchmark-scores",
+      "rows": 7,
+      "cols": 4,
+      "caption": "Gemini Ultra performance on the MMMU benchmark (Yue et al., 2023) per discipline. Each discipline covers multiple subjects, requiring college-level knowledge and complex reasoning."
+    },
+    {
+      "label": "Table 9",
+      "data_form": "benchmark-scores",
+      "rows": 8,
+      "cols": 4,
+      "caption": "Multilingual image understanding Gemini models outperform existing models in captioning images in many languages when benchmarked on a subset of languages in XM-3600 dataset."
+    },
+    {
+      "label": "Table 10",
+      "data_form": "benchmark-scores",
+      "rows": 6,
+      "cols": 4,
+      "caption": "Few-shot video understanding across tasks and languages on selected academic benchmarks."
+    },
+    {
+      "label": "Table 11",
+      "data_form": "benchmark-scores",
+      "rows": 5,
+      "cols": 6,
+      "caption": "Speech evaluation results on selected benchmarks for ASR and AST. For ASR, the reported metric is WER where lower is better. For AST, the reported metric is BLEU where higher is better."
+    },
+    {
+      "label": "Table 12",
+      "data_form": "examples",
+      "rows": 2,
+      "cols": 5,
+      "caption": "Qualitative examples for the ASR task in the benchmark. Incorrect transcriptions are highlighted in red."
+    },
+    {
+      "label": "Table 13",
+      "data_form": "examples",
+      "rows": 4,
+      "cols": 3,
+      "caption": "Audio-visual qualitative example showcasing the ability of Gemini models to process interleaved sequences of text, vision, and audio, as well as reason across modalities."
+    },
+    {
+      "label": "Table 14",
+      "data_form": "benchmark-scores",
+      "rows": 2,
+      "cols": 4,
+      "caption": "Performance of Gemini on our complex prompts instruction-following internal benchmark."
+    },
+    {
+      "label": "Table 15",
+      "data_form": "comparison",
+      "rows": 2,
+      "cols": 5,
+      "caption": "Comparison between Gemini API tool-use models and comparable models that do not use tools."
+    },
+    {
+      "label": "Table 16",
+      "data_form": "comparison",
+      "rows": 5,
+      "cols": 4,
+      "caption": "Multilingual performance of Gemini (with Pro) compared to Gemini with an older post-training recipe and PaLM 2."
+    },
+    {
+      "label": "Table 17",
+      "data_form": "ablation",
+      "rows": 8,
+      "cols": 4,
+      "caption": "Post-trained model image understanding Post-training improves image understanding capabilities of Gemini API Ultra over the base pre-trained model."
+    },
+    {
+      "label": "Table 18",
+      "data_form": "comparison",
+      "rows": 2,
+      "cols": 3,
+      "caption": "SxS comparisons of Gemini models on an internal coding benchmark."
+    }
+  ]
+}

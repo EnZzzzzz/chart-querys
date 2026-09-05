@@ -1,0 +1,16 @@
+{
+  "id": "A84",
+  "category": "paper",
+  "query": "读 hidden-markov-models-stock-market-prediction.pdf，这是一篇用隐马尔可夫模型预测股价的论文，实验基于 Apple、IBM、Dell 三支股票的历史行情数据。做一份图文报告，讲清 HMM 方法的原理与训练流程，分析模型预测的收盘价与实际行情的吻合程度，以及它与其他预测方法在误差指标上的对比。",
+  "files": [
+    {
+      "file": "hidden-markov-models-stock-market-prediction.pdf",
+      "source": ".cache/chart-data-corpus/papers/hidden-markov-models-stock-market-prediction.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "candlestick"
+  ]
+}

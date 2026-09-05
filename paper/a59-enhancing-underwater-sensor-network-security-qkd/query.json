@@ -1,0 +1,21 @@
+{
+  "id": "A59",
+  "category": "paper",
+  "query": "读 enhancing-underwater-sensor-network-security-qkd.pdf，这是一篇用量子密钥分发（QKD）增强水下传感网安全的论文，基于 50 节点水下网络的仿真实验。做一份可视化分析报告，梳理声学与光学混合通信在不同水质、距离下的性能表现与抗攻击能力，以及各性能与安全指标之间的关系。",
+  "files": [
+    {
+      "file": "enhancing-underwater-sensor-network-security-qkd.pdf",
+      "source": ".cache/chart-data-corpus/papers/enhancing-underwater-sensor-network-security-qkd.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "bar",
+    "area",
+    "scatter",
+    "heatmap",
+    "radar",
+    "bubble",
+    "hexbin"
+  ]
+}

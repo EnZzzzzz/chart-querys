@@ -1,0 +1,21 @@
+{
+  "id": "A62",
+  "category": "paper",
+  "query": "读 morphometric-trait-analysis-machine-learning-yield.pdf，这篇论文测量了 62 个木苹果（wood apple）基因型的 31 项形态性状，并用机器学习做产量建模与基因型聚类。做一份可视化图文报告，分析这些形态性状的分布与相互关系、不同基因型类群在性状和产量上的差异，以及各性状对产量预测的贡献。",
+  "files": [
+    {
+      "file": "morphometric-trait-analysis-machine-learning-yield.pdf",
+      "source": ".cache/chart-data-corpus/papers/morphometric-trait-analysis-machine-learning-yield.pdf"
+    }
+  ],
+  "chart_forms": [
+    "horizontal-bar",
+    "pie",
+    "heatmap",
+    "scatter",
+    "radar",
+    "parallel-coordinates",
+    "boxplot",
+    "beeswarm"
+  ]
+}

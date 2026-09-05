@@ -1,0 +1,93 @@
+{
+  "id": "A22",
+  "source_file": "integrated-multi-omics-machine-learning-highlight.pdf",
+  "paper_title": "Integrated multi-omics and machine learning highlight PTM-related genes as potential biomarkers in endometrial cancer",
+  "stats": { "figures_total": 12, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "差异基因分析与 ssGSEA 评分：TCGA/GEO 差异基因与 PTM 评分",
+      "note": "A 基因排序散点（caption 称 heatmap，实际为 rank scatter），B 火山图散点，C-D 分组箱线图 ×2"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "PTM 相关关键基因筛选与 GO/KEGG 功能富集分析",
+      "note": "A 韦恩图，B GO 富集水平条形图，C KEGG 气泡图，D 分组箱线图"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "单细胞分析揭示子宫内膜癌 PTM 细胞异质性",
+      "note": "A-B UMAP 散点 ×2，C 气泡图（marker 基因表达），D 气泡/点图（PTM signature），E 小提琴图（内嵌箱线）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "机器学习筛选与验证 PTM 关键基因（LASSO/SVM/随机森林）",
+      "note": "A LASSO 系数路径与偏差曲线（折线 ×2），B-C SVM 准确率/误差折线 ×2，D 随机森林误差折线，E 基因重要性棒棒糖图，F 韦恩图"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 12,
+      "caption": "GEO 数据集 SHAP 模型分析",
+      "note": "A 重要性水平条形图，B 蜂群图，C 依赖散点 ×6，D 瀑布图，E-F 模型指标热力图 ×2（caption 称 ROC 曲线，实际渲染为热力图）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 12,
+      "caption": "TCGA 数据集 SHAP 模型验证",
+      "note": "A 重要性水平条形图，B 蜂群图，C 依赖散点 ×6，D 瀑布图，E-F 模型指标热力图 ×2（caption 称 ROC 曲线，实际渲染为热力图）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "GEO 患者基于六个关键基因的 NMF 亚型分析",
+      "note": "A NMF rank survey 折线小图 ×7，B 一致性矩阵热力图，C 基因表达分组箱线图，D 免疫浸润分组箱线图，E GSVA 双向水平条形图，F PCA 散点"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "TCGA 数据集亚型分析验证",
+      "note": "结构与 Figure 7 相同：A NMF 折线小图 ×7，B 热力图，C-D 分组箱线图 ×2，E 双向水平条形图，F PCA 散点"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 13,
+      "caption": "关键基因与免疫细胞浸润、癌细胞表达的单细胞相关性",
+      "note": "A 相关性气泡图，B 六个基因的饼图内嵌 + 抖动散点（NC vs UCEC）×6，C 小提琴图 ×6（内嵌饼图）"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "GEO 数据免疫细胞浸润 ssGSEA 及其与关键基因的相关性",
+      "note": "A 浸润评分分组箱线图，B-G 六个基因与免疫细胞相关系数棒棒糖图 ×6"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "关键基因与子宫内膜癌风险的孟德尔随机化分析",
+      "note": "A 森林图（SNP 效应），B MR 散点（含回归线），C 留一法森林图，D 漏斗图，E 森林图（OR 及 95%CI）"
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "mixed",
+      "count": 11,
+      "caption": "MYC 表达与功能验证（qRT-PCR/CCK-8/流式/Transwell/Western blot）",
+      "note": "A-C、G、I、K 柱状图（含分组柱）×6，D-E 增殖曲线折线 ×2，F 流式细胞散点，H  Transwell 显微照片，J Western blot 条带图"
+    }
+  ],
+  "tables": []
+}

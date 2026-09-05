@@ -1,0 +1,16 @@
+{
+  "id": "A49",
+  "category": "paper",
+  "query": "读 structural-var-vecm-modeling-method-open.pdf，论文针对开高低收（OHLC）股价数据提出一种 VAR/VECM 结构建模方法，包含不同信噪比下的仿真实验，以及贵州茅台、中证100指数、50ETF 三只标的（各约 3000~4000 个交易日）的实证结果。做一份图文可视化报告，分析该方法的建模流程、不同参数设定下预测精度有什么规律，以及它与 SVR 方法的效果差异。",
+  "files": [
+    {
+      "file": "structural-var-vecm-modeling-method-open.pdf",
+      "source": ".cache/chart-data-corpus/papers/structural-var-vecm-modeling-method-open.pdf"
+    }
+  ],
+  "chart_forms": [
+    "candlestick",
+    "line",
+    "bar"
+  ]
+}

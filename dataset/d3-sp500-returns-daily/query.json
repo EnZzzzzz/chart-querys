@@ -1,0 +1,19 @@
+{
+  "id": "D3",
+  "category": "dataset",
+  "query": "分析 sp500-returns-daily.csv 和 gold-silver-prices-daily.csv，做一份金融市场数据分析报告，覆盖走势、收益分布和波动特征。",
+  "files": [
+    {
+      "file": "sp500-returns-daily.csv",
+      "source": ".cache/chart-data-corpus/datasets/rdatasets/sp500-returns-daily.csv"
+    },
+    {
+      "file": "gold-silver-prices-daily.csv",
+      "source": ".cache/chart-data-corpus/datasets/rdatasets/gold-silver-prices-daily.csv"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "histogram"
+  ]
+}

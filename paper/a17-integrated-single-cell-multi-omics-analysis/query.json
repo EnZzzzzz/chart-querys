@@ -1,0 +1,22 @@
+{
+  "id": "A17",
+  "category": "paper",
+  "query": "读 integrated-single-cell-multi-omics-analysis.pdf，这是一篇整合单细胞转录组与染色质可及性数据的论文，分析了阿尔茨海默病患者外周血和脑脊液中数十万个免疫细胞。做一份可视化报告，梳理 CD8+ T 细胞与单核细胞各亚群在对照组与疾病组之间的差异、细胞之间的相互作用关系，以及关键调控基因和信号通路。",
+  "files": [
+    {
+      "file": "integrated-single-cell-multi-omics-analysis.pdf",
+      "source": ".cache/chart-data-corpus/papers/integrated-single-cell-multi-omics-analysis.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "dot-plot",
+    "heatmap",
+    "sankey",
+    "violin",
+    "dumbbell",
+    "line",
+    "stacked-bar",
+    "network"
+  ]
+}

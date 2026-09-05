@@ -1,0 +1,24 @@
+{
+  "id": "A43",
+  "category": "paper",
+  "query": "读 artificial-intelligence-driven-integration-single-cell.pdf，做一份图文报告，梳理这篇胃癌研究从单细胞测序（40 例样本、约 15.8 万个细胞）到 APOE 预后模型的完整分析链条：肿瘤微环境的细胞构成有什么特征，APOE 表达与免疫细胞浸润、临床分期有什么关系，预后模型在高低风险组间的表现如何，以及细胞实验验证了什么。",
+  "files": [
+    {
+      "file": "artificial-intelligence-driven-integration-single-cell.pdf",
+      "source": ".cache/chart-data-corpus/papers/artificial-intelligence-driven-integration-single-cell.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "scatter",
+    "line",
+    "grouped-bar",
+    "bar",
+    "boxplot",
+    "violin",
+    "sankey",
+    "forest-plot",
+    "network",
+    "dot-plot"
+  ]
+}

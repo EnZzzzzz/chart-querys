@@ -1,0 +1,136 @@
+{
+  "id": "A55",
+  "source_file": "non-variational-quantum-approach-job-shop.pdf",
+  "paper_title": "A Non-Variational Quantum Approach to the Job Shop Scheduling Problem",
+  "stats": {
+    "figures_total": 14,
+    "tables_total": 5
+  },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "Iterative-QAOA 算法工作流程图（含嵌入的参数调度小线图与测量结果小直方图）",
+      "note": "workflow diagram with embedded small line plots (fixed parameter schedules) and a schematic histogram (measurement outcomes)"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "histogram",
+      "count": 9,
+      "caption": "Iterative-QAOA 在 32/33/36 量子比特 JSSP 实例上的成本概率分布（3×3 面板，含 QPU 与理想模拟对比）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "histogram",
+      "count": 3,
+      "caption": "33 量子比特实例完整成本分布在 Iterative-QAOA 迭代过程中的演化（Iter=0/3/9）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "histogram",
+      "count": 4,
+      "caption": "LR-QAOA（p=4/25/50）与 Iterative-QAOA 在 24 量子比特实例上的最终成本分布对比"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "histogram",
+      "count": 9,
+      "caption": "Iterative-QAOA 在 50/97 量子比特实例（MPS 模拟器）上的成本分布（3×3 面板）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "VarQITE 两层变分 ansatz 量子线路结构图（5 量子比特简化示意）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "VarQITE 在 32 量子比特实例上的表现：收敛过程与最终成本分布",
+      "note": "2 个收敛曲线线图（cost vs imaginary time，带 10th-90th 百分位阴影带）+ 1 个直方图"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "scatter",
+      "count": 2,
+      "caption": "每 QAOA 层门数量及所需层数随实例规模（量子比特数）的散点+拟合线（a/b 两面板）"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "other",
+      "count": 1,
+      "caption": "完整实例最优解及 33 量子比特子实例解冻时隙的甘特图（3 台机器 × 23 时隙）",
+      "note": "gantt"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "经典计算机求解时间随实例规模增长（数据点连线 + 指数拟合外推，对数纵轴）"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "heatmap",
+      "count": 3,
+      "caption": "LR-QAOA 在 12/24/32 量子比特实例上的性能地形（层数 p × ramp 参数 Δ 的平均成本热力图）"
+    },
+    {
+      "label": "Figure 12",
+      "chart_type": "histogram",
+      "count": 9,
+      "caption": "次优参数下 Iterative-QAOA 在 32/33/36 量子比特实例（QPU）上的成本分布（3×3 面板）"
+    },
+    {
+      "label": "Figure 13",
+      "chart_type": "histogram",
+      "count": 3,
+      "caption": "次优参数下 33 量子比特实例在 QPU 上的完整成本分布（Iter=0/3/9）"
+    },
+    {
+      "label": "Figure 14",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "DNL 非线性滤波聚合过程示意：变体概率分布、生存曲线与权重滤波",
+      "note": "1 个竖向柱状图 + 2 个横向柱状图（示意性小图，展示误差缓解流程）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 16,
+      "cols": 9,
+      "caption": "Iterative-QAOA、LR-QAOA、VarQITE 在模拟与 QPU 上的性能汇总（最优解概率、门数等）"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "hyperparameters",
+      "rows": 7,
+      "cols": 3,
+      "caption": "实验验证用完整 JIT-JSSP 实例的参数（机器数、作业数、时隙、成本权重）"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "other",
+      "rows": 4,
+      "cols": 21,
+      "caption": "完整 JIT-JSSP 实例的生产组与交付时间（20 个作业 × 3 台机器）"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "other",
+      "rows": 6,
+      "cols": 10,
+      "caption": "JIT-JSSP 子实例的构造（各机器自由作业数与时隙、变量数）"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "statistics",
+      "rows": 16,
+      "cols": 6,
+      "caption": "经典计算机（Gurobi）求解各子实例到最优的耗时（3 次运行及均值）"
+    }
+  ]
+}

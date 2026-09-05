@@ -1,0 +1,51 @@
+{
+  "id": "A60",
+  "source_file": "promotion-hiv-clearance-sensitization-hiv-reservoirs.pdf",
+  "paper_title": "Promotion of HIV clearance by sensitization of HIV reservoirs to cell death",
+  "stats": { "figures_total": 6, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "SECH 方案示意图、治疗前后 HIV 病毒血症、CD4+ T 细胞 UMAP 聚类与 Gag+ 细胞通路富集",
+      "note": "A: diagram 流程示意；B: scatter x2（治疗前后病毒量散点）；C: scatter x3（UMAP）；D: horizontal-bar（通路富集 -Log10FDR）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "SECH 处理增强 Gag+ CD4+ T 细胞自噬：自噬基因差异表达与 LC3 免疫染色",
+      "note": "A: scatter x2（火山图）；B: violin x6；C/D: image（免疫荧光显微照片）+ scatter x2（LC3 puncta 定量散点）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "SECH 抗性 Gag+ CD4+ T 细胞糖酵解增强及糖酵解抑制剂对细胞死亡的影响",
+      "note": "A: other=ridgeline（GSEA NES 山脊图）；B: scatter（火山图）；C: violin x6；D: bar x2（细胞死亡百分比）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "SECH 抗性 Gag+ CD4+ T 细胞表观遗传信号升高",
+      "note": "A: other=circos（环形弦图，基因-功能类别关联）；B: scatter x2（火山图）；C: violin x10"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "靶向表观遗传修饰因子促进 HIV-1 感染 CD4+ T 细胞死亡，含 ChIP-PCR 结果",
+      "note": "A: bar；B: grouped-bar x2；C/D/E: image x3（ChIP-PCR 凝胶电泳图）；F: bar；G: grouped-bar（含处理组合矩阵）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "1-4 簇 CD4+ T 细胞抗凋亡基因高表达、促凋亡基因低表达，抵抗细胞死亡",
+      "note": "A: bubble（基因 x 簇气泡/点图）；B: heatmap；C: violin x7；D: scatter x14（UMAP feature plot）"
+    }
+  ],
+  "tables": []
+}

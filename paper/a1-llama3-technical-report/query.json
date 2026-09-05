@@ -1,0 +1,15 @@
+{
+  "id": "A1",
+  "category": "paper",
+  "query": "帮我读 llama3-technical-report.pdf，做一份中文图文解读报告，重点分析 Llama 3 在各 benchmark 上与竞品的对比表现，核心数据都要可视化呈现。",
+  "files": [
+    {
+      "file": "llama3-technical-report.pdf",
+      "source": ".cache/chart-data-corpus/papers/llama3-technical-report.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "grouped-bar"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "A67",
+  "category": "paper",
+  "query": "读 improved-insights-sabio-rk-database-visualization.pdf，这篇论文为 SABIO-RK 生化反应动力学数据库（逾 30 万个动力学参数、来自约 7500 篇文献）新增了可视化检索模块。做一份图文报告，分析该模块如何帮助用户概览多维条目数据、发现动力学参数的聚类与异常值，以及可视化如何辅助数据库的审编质检。",
+  "files": [
+    {
+      "file": "improved-insights-sabio-rk-database-visualization.pdf",
+      "source": ".cache/chart-data-corpus/papers/improved-insights-sabio-rk-database-visualization.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "parallel-coordinates",
+    "scatter-matrix",
+    "scatter",
+    "histogram"
+  ]
+}

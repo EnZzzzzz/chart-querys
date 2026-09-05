@@ -1,0 +1,17 @@
+{
+  "id": "A25",
+  "category": "paper",
+  "query": "读 effect-quality-control-circle-activities-damage.pdf，这是一篇品管圈（QCC）活动对内镜手术器械损坏率影响的前后对照研究，涉及改进前 3520 件、改进后 5213 件器械的数据。做一份图文分析报告，梳理这项质量改进活动的实施过程与时间安排，分析改进前后器械损坏情况、操作差错以及团队能力各维度有什么变化。",
+  "files": [
+    {
+      "file": "effect-quality-control-circle-activities-damage.pdf",
+      "source": ".cache/chart-data-corpus/papers/effect-quality-control-circle-activities-damage.pdf"
+    }
+  ],
+  "chart_forms": [
+    "gantt",
+    "radar",
+    "bar",
+    "line"
+  ]
+}

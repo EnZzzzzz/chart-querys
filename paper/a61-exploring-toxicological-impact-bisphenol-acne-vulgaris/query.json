@@ -1,0 +1,21 @@
+{
+  "id": "A61",
+  "category": "paper",
+  "query": "读 exploring-toxicological-impact-bisphenol-acne-vulgaris.pdf，这是一篇用网络毒理学、机器学习和分子模拟分析双酚 A（BPA）暴露与寻常痤疮关系的论文，基于两个公开转录组数据集（GSE6475、GSE53795）展开。做一份图文报告，把核心基因的筛选过程与验证结果、相关通路、免疫细胞浸润差异，以及 BPA 与靶点蛋白的结合强度和模拟稳定性讲清楚，关键数据关系都要可视化。",
+  "files": [
+    {
+      "file": "exploring-toxicological-impact-bisphenol-acne-vulgaris.pdf",
+      "source": ".cache/chart-data-corpus/papers/exploring-toxicological-impact-bisphenol-acne-vulgaris.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "heatmap",
+    "boxplot",
+    "stacked-bar",
+    "contour",
+    "surface-3d",
+    "venn"
+  ]
+}

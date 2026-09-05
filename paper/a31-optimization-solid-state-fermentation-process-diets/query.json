@@ -1,0 +1,25 @@
+{
+  "id": "A31",
+  "category": "paper",
+  "query": "读 optimization-solid-state-fermentation-process-diets.pdf，这是一篇 2026 年发表在 Animal Microbiome 的研究论文，用 4 株益生菌复配 11 种酶制剂优化猪饲料固态发酵工艺，并用 32 头生长猪做饲养验证。做一份图文报告，分析发酵条件与饲料营养、菌群结构、风味代谢物之间的关系，以及发酵饲料对猪生长性能和肠道功能的影响。",
+  "files": [
+    {
+      "file": "optimization-solid-state-fermentation-process-diets.pdf",
+      "source": ".cache/chart-data-corpus/papers/optimization-solid-state-fermentation-process-diets.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "grouped-bar",
+    "stacked-bar",
+    "horizontal-bar",
+    "boxplot",
+    "scatter",
+    "heatmap",
+    "radar",
+    "contour",
+    "surface-3d",
+    "network",
+    "venn"
+  ]
+}

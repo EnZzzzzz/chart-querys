@@ -1,0 +1,18 @@
+{
+  "id": "A38",
+  "category": "paper",
+  "query": "读 many-many-geographically-embedded-flow-visualisation.pdf，做一份图文报告：介绍这篇论文针对多地到多地地理流动数据（如州际人口迁移）提出的 MapTrix 可视化方法及其设计取舍，并分析两轮用户研究（百余名参与者，涵盖 AU/DE/NZ/US/CN 多个数据集与多类任务）中各可视化方法在准确率与响应时间上的表现差异。",
+  "files": [
+    {
+      "file": "many-many-geographically-embedded-flow-visualisation.pdf",
+      "source": ".cache/chart-data-corpus/papers/many-many-geographically-embedded-flow-visualisation.pdf"
+    }
+  ],
+  "chart_forms": [
+    "stacked-bar",
+    "boxplot",
+    "heatmap",
+    "flow-map",
+    "treemap"
+  ]
+}

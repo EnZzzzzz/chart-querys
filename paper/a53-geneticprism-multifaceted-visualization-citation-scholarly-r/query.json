@@ -1,0 +1,19 @@
+{
+  "id": "A53",
+  "category": "paper",
+  "query": "读 geneticprism-multifaceted-visualization-citation-scholarly-r.pdf，这是一篇可视化领域的论文（14 页），基于微软学术图谱 MAG 的论文引用数据，提出一套分析学者科研演变过程的可视分析系统。做一份图文报告，讲清楚系统的数据处理流水线、各项可视化设计分别表达什么信息，并结合文中两位图灵奖得主的案例，分析他们的研究主题如何随时间演变、主题之间的引用影响有什么规律。",
+  "files": [
+    {
+      "file": "geneticprism-multifaceted-visualization-citation-scholarly-r.pdf",
+      "source": ".cache/chart-data-corpus/papers/geneticprism-multifaceted-visualization-citation-scholarly-r.pdf"
+    }
+  ],
+  "chart_forms": [
+    "chord",
+    "streamgraph",
+    "flow-map",
+    "network",
+    "stacked-bar",
+    "3d-prism"
+  ]
+}

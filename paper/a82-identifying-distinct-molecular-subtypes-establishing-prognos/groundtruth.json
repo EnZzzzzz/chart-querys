@@ -1,0 +1,51 @@
+{
+  "id": "A82",
+  "source_file": "identifying-distinct-molecular-subtypes-establishing-prognos.pdf",
+  "paper_title": "Identifying Distinct Molecular Subtypes and Establishing a Prognostic Framework for DLBCL Patients via Multiomics Analysis and Machine Learning Approaches",
+  "stats": { "figures_total": 6, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 12,
+      "caption": "单细胞转录组识别 DLBCL 中 6 个恶性 B 细胞亚群",
+      "note": "A-K: UMAP/拟时序散点图共 11 个面板；L: sankey 图（亚群与细胞起源关系）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "DLBCL 肿瘤微环境中的细胞间通讯分析",
+      "note": "A: 环形条形图 ×7；B-C: chord/网络图 ×4；D-E: heatmap ×2；F: bubble 图"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 10,
+      "caption": "MB5 亚群 signature 作为 DLBCL 关键预后因子",
+      "note": "A/D: horizontal-bar（VIMP、GO 富集）；B: scatter；C: Kaplan-Meier 生存曲线；E/I/J: 网络图；F: line（软阈值拟合）；G: dendrogram；H: 气泡式 heatmap"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "高低 MB5 评分样本的突变模式与肿瘤负荷差异",
+      "note": "A-B: oncoplot（突变瀑布图）×2；C: forest plot；D: 共突变 heatmap 矩阵；E: lollipop 图；F: horizontal stacked-bar；G: bar（TMB 对比）；H: violin（增殖评分）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "机器学习预后模型的构建与验证",
+      "note": "A: heatmap（101 个模型组合的 C-index）；B: horizontal-bar（基因使用频次）；C/E: Kaplan-Meier 生存曲线 ×2；D/F: ROC 曲线 ×2"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "预后风险组的免疫微环境特征与药物敏感性分析",
+      "note": "A: violin ×6；B: bubble 图（相关性）；C: box ×5；D: 累积概率（ECDF）line ×5"
+    }
+  ],
+  "tables": []
+}

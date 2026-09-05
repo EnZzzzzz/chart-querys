@@ -1,0 +1,27 @@
+{
+  "id": "A76",
+  "category": "paper",
+  "query": "读 consumer-grade-wearable-sensors-classifying-pilot.pdf，这是一篇用消费级可穿戴设备（Polar H10 心率胸带和 Empatica 腕带）在 35 名飞行员的真实飞行训练中识别工作负荷与压力的研究。做一份可视化报告，讲清楚实验流程和标签构造方法，分析不同验证方式下各类模型与生理信号模态的分类表现有什么差异，以及哪些生理特征对分类最重要。",
+  "files": [
+    {
+      "file": "consumer-grade-wearable-sensors-classifying-pilot.pdf",
+      "source": ".cache/chart-data-corpus/papers/consumer-grade-wearable-sensors-classifying-pilot.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "forest-plot",
+    "dumbbell",
+    "hexbin",
+    "line",
+    "scatter",
+    "grouped-bar",
+    "horizontal-bar",
+    "stacked-bar",
+    "violin",
+    "boxplot",
+    "alluvial",
+    "beeswarm",
+    "density"
+  ]
+}

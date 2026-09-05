@@ -1,0 +1,26 @@
+{
+  "id": "A34",
+  "category": "paper",
+  "query": "读 integrative-single-cell-analysis-reveals-trim31.pdf，这是一篇结直肠癌单细胞转录组研究论文，做一份图文解读报告，梳理肿瘤细胞亚型的鉴定与功能特征、C4 TRIM31+ 肿瘤细胞与巨噬细胞的互作机制，以及预后风险模型的构建和验证过程，关键数据结论都要可视化。",
+  "files": [
+    {
+      "file": "integrative-single-cell-analysis-reveals-trim31.pdf",
+      "source": ".cache/chart-data-corpus/papers/integrative-single-cell-analysis-reveals-trim31.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "violin",
+    "scatter",
+    "boxplot",
+    "line",
+    "bar",
+    "stacked-bar",
+    "bubble",
+    "lollipop",
+    "forest-plot",
+    "wordcloud",
+    "chord",
+    "ridgeline"
+  ]
+}

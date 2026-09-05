@@ -1,0 +1,55 @@
+{
+  "id": "A56",
+  "source_file": "smplot-r-package-easy-elegant-data.pdf",
+  "paper_title": "smplot: An R Package for Easy and Elegant Data Visualization",
+  "stats": { "figures_total": 7, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "scatter",
+      "count": 3,
+      "caption": "相关性图对比：A 无 smplot，B 加 sm_corr_theme() 主题，C 加统计量与最优拟合回归线"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "bar",
+      "count": 2,
+      "caption": "条形图对比：A 用 ggplot2 stat_summary()，B 用 sm_bar()（含散点、误差棒、极简主题）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "box",
+      "count": 2,
+      "caption": "箱线图对比：A 用 geom_boxplot()，B 用 sm_boxplot()（叠加个体数据点）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "other",
+      "count": 2,
+      "note": "violin",
+      "caption": "小提琴图对比：A 用 geom_violin()，B 用 sm_violin()（含个体点与误差棒）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "count": 2,
+      "note": "slope",
+      "caption": "sm_slope() 绘制的坡度图：A 两个 x 水平，B 四个 x 水平"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "other",
+      "count": 4,
+      "note": "raincloud",
+      "caption": "sm_raincloud() 雨云图：A-D 展示 sep_level 与 which_side 参数组合及 4 个 x 水平的情形"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 3,
+      "note": "A slope chart, B scatter (correlation), C bland-altman",
+      "caption": "test-retest 可靠性案例：A 坡度图，B 相关性图（含 R/p 与回归线），C Bland-Altman 一致性图"
+    }
+  ],
+  "tables": []
+}

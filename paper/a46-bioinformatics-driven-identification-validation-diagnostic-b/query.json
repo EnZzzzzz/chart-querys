@@ -1,0 +1,25 @@
+{
+  "id": "A46",
+  "category": "paper",
+  "query": "读 bioinformatics-driven-identification-validation-diagnostic-b.pdf，这是一篇用两个 GEO 转录组数据集（合并后共 20 个大鼠脑组织样本）结合机器学习筛选脑缺血再灌注损伤诊断生物标志物的研究。做一份可视化报告，梳理从差异基因筛选、功能富集分析、诊断模型构建到动物实验验证的完整分析链条，关键数据结果都要讲清楚。",
+  "files": [
+    {
+      "file": "bioinformatics-driven-identification-validation-diagnostic-b.pdf",
+      "source": ".cache/chart-data-corpus/papers/bioinformatics-driven-identification-validation-diagnostic-b.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "heatmap",
+    "boxplot",
+    "line",
+    "bar",
+    "stacked-bar",
+    "chord",
+    "network",
+    "ridgeline",
+    "forest-plot",
+    "venn",
+    "nomogram"
+  ]
+}

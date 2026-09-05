@@ -1,0 +1,37 @@
+{
+  "id": "A69",
+  "source_file": "flexible-annotation-atlas-mouse-brain-combining.pdf",
+  "paper_title": "Flexible annotation atlas of the mouse brain: combining and dividing brain structures of the Allen Brain Atlas while maintaining anatomical hierarchy",
+  "stats": { "figures_total": 4, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "AIBS 资源预处理：脑模板/注释影像、AO 层级示意、叶节点尺寸分布、FAA 层级全貌",
+      "note": "a=脑影像 image + 层级树 diagram；b=层级树 diagram；c=scatter（节点尺寸 vs 归一化序号，log-y，3 个系列）；d=icicle 层级图（受控词表外）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "合并节点示例：层级合并示意、icicle 图、脑切片影像、静息态 FC 矩阵、FC 相关系数分布",
+      "note": "a=diagram；b=icicle 层级图；c=脑切片 image；d=heatmap（FC 矩阵）；e=histogram（两组相关系数分布叠加）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "按基因表达/纤维投射拆分节点：脑区三维渲染、拆分示意、表达能量与投射密度切片及阈值分布、拆分后层级",
+      "note": "a=3D 脑渲染 image；b=层级树 diagram ×2；c/d=脑切片 image ×6 + histogram ×2（体素计数 vs 表达能量/投射密度）；e=icicle 层级图；f=脑切片 image"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "跨解剖层级与皮层层级的静息态 FC：FC 矩阵、分组比较、概念示意、层级网络可视化、皮层分层 FC",
+      "note": "a=heatmap（FC 矩阵）；b=bar ×2（两组条形比较并带显著性标记点）；c=概念 diagram；d=层级网络 node-link 可视化（节点大小/颜色编码 FC 强度，受控词表外 network-graph）；e=heatmap（SSp-bfd 层间 FC 矩阵）"
+    }
+  ],
+  "tables": []
+}

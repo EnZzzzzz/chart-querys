@@ -1,0 +1,40 @@
+{
+ "id": "A57",
+ "source_file": "hemi-2-0-online-service.pdf",
+ "paper_title": "HemI 2.0: an online service for heatmap illustration",
+ "stats": {
+  "figures_total": 4,
+  "tables_total": 0
+ },
+ "figures": [
+  {
+   "label": "Figure 1",
+   "chart_type": "mixed",
+   "count": 1,
+   "caption": "HemI 2.0 的实现概览：新功能、聚类方法与距离度量、富集分析资源、可视化样式",
+   "note": "A: 2.0 与 1.0 的功能对比表格（嵌在图内）；B/C: 聚类方法、距离度量与富集分析资源的功能示意图；D: 五种可视化样式缩略图（heatmap、bubble chart、coxcomb/rose、pie chart、word cloud）"
+  },
+  {
+   "label": "Figure 2",
+   "chart_type": "image",
+   "count": 4,
+   "caption": "HemI 2.0 的使用流程：数据上传、显示设置、富集分析、结果可视化",
+   "note": "A-D 均为网页服务界面截图；截图内嵌有 heatmap（B）与 bubble chart（D）"
+  },
+  {
+   "label": "Figure 3",
+   "chart_type": "heatmap",
+   "count": 2,
+   "caption": "HemI 2.0 绘制的聚类热图：36 个酵母菌株自噬表型（A）；COVID-19 的 195 个差异表达蛋白（B）",
+   "note": "两个面板均为带行列层次聚类树的 heatmap"
+  },
+  {
+   "label": "Figure 4",
+   "chart_type": "mixed",
+   "count": 5,
+   "caption": "富集分析结果的五种可视化：ATG 基因的 GO 富集（A）及 COVID-19 DEPs 富集的四种样式（B-E）",
+   "note": "A: wordcloud；B: coxcomb/rose；C: pie；D: horizontal-bar；E: bubble"
+  }
+ ],
+ "tables": []
+}

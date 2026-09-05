@@ -1,0 +1,100 @@
+{
+  "id": "A13",
+  "source_file": "multifaceted-visualization-scientific-impact-evolutions.pdf",
+  "paper_title": "GeneticPrism: Multifaceted Visualization of Scientific Impact Evolutions",
+  "stats": { "figures_total": 10, "tables_total": 3 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "GeneticPrism 系统界面截图：控制面板、学者统计、主题弦图、主视图与论文列表面板",
+      "note": "系统界面截图，内含 chord diagram 与 3D prism 网络视图"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "GeneticPrism 数据处理流程：预处理、GF 图构建、主题建模、可视化设计"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "GeneticPrism 设计及备选方案：俯视图、侧视图、三种备选布局、主题交互弦图",
+      "note": "以 node-link network 图为主（a-f），(g) 为 chord diagram"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "GeneticScroll 设计及备选：中心 GF 子图 + 左右 influx/efflux streamgraph + 引用影响力流图",
+      "note": "(a) streamgraph + node-link network + sankey 式 flow map；(b)(c) 备选含 pie glyph 与 stacked-bar"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "从原始 GF 子图布局到 GeneticScroll 视图的四个步骤",
+      "note": "node-link network 逐步加影响力边、边捆绑与 sankey 式 flow map 背景层"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "Pat Hanrahan 跨学科影响力案例：完整 GF 图与各主题的 GeneticScroll 视图",
+      "note": "node-link network + streamgraph + flow map 组合，(f) 为论文详情界面截图"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "Michael Stonebraker 学术生涯案例：database、storage、visualization 三主题视图",
+      "note": "三个 GeneticScroll 视图：node-link network + streamgraph + flow map"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "GD 会议案例：学者统计、弦图、GeneticPrism 视图与两主题 GeneticScroll 视图",
+      "note": "(b) chord diagram；(c) 3D prism 网络；(d)(e) network + streamgraph + flow map"
+    },
+    {
+      "label": "Appendix Figure 1",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "附录：从原始 GF 子图布局到 GeneticScroll 视图的步骤（正文 Fig.5 详版）",
+      "note": "node-link network + 边捆绑 + sankey 式 flow map + streamgraph"
+    },
+    {
+      "label": "Appendix Figure 2",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "附录：不同优化目标下内部/外部交叉数，用肘部法确定最优权重 α",
+      "note": "双 y 轴折线图（带数据点标记）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table I",
+      "data_form": "comparison",
+      "rows": 13,
+      "cols": 7,
+      "caption": "科学影响力可视化相关工作的对比分析"
+    },
+    {
+      "label": "Table II",
+      "data_form": "statistics",
+      "rows": 7,
+      "cols": 6,
+      "caption": "本工作使用的 GF 图统计：获奖者、各子领域学者与会议的作者/主题/论文/引用链接数"
+    },
+    {
+      "label": "Appendix Table 1",
+      "data_form": "other",
+      "rows": 11,
+      "cols": 5,
+      "caption": "附录：布局算法中节点、边与交叉的类型描述及代价定义"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "A63",
+  "category": "paper",
+  "query": "读 prognostic-value-ubiquitination-related-differentially-expre.pdf，这是一篇用 TCGA-ESCC、GSE20347 等三个数据集筛选食管鳞癌泛素化相关预后基因的生信研究，做一份图文分析报告，梳理五个关键基因（BUB1B、CHEK1、DNMT1、IRAK1、PRKDC）的差异表达、预后价值、突变与拷贝数变异、功能富集和免疫浸润这几方面的分析结果。",
+  "files": [
+    {
+      "file": "prognostic-value-ubiquitination-related-differentially-expre.pdf",
+      "source": ".cache/chart-data-corpus/papers/prognostic-value-ubiquitination-related-differentially-expre.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "bar",
+    "stacked-bar",
+    "heatmap",
+    "boxplot",
+    "bubble",
+    "forest-plot",
+    "survival-curve",
+    "waterfall",
+    "network",
+    "venn"
+  ]
+}

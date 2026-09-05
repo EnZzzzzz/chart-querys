@@ -1,0 +1,72 @@
+{
+  "id": "A42",
+  "source_file": "multiomics-integration-reveals-coexpression-regulatory-netwo.pdf",
+  "paper_title": "Multiomics Integration Reveals Coexpression Regulatory Networks in Osteoporosis and Osteosarcoma",
+  "stats": { "figures_total": 9, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: stacked-bar; B: violin; C: pie; D: horizontal-bar; E: Kaplan-Meier survival curves (line with CI bands); F: UpSet-style bar",
+      "caption": "骨质疏松与骨肉瘤队列的临床特征与多组学数据概览"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: volcano plot (scatter); B: heatmap; C: PCA scatter with confidence ellipses; D: MA plot (scatter); E: bidirectional horizontal-bar; F: Manhattan-style scatter",
+      "caption": "GSE56815 血液单核细胞低/高 BMD 组差异表达分析"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: ridgeline; B: PCA scatter; C: bar (CNV 频率); D: overlapping histogram/density; E: volcano-style scatter; F: box",
+      "caption": "TARGET-OS 骨肉瘤多组学景观：表达分布、PCA、CNV、甲基化"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: line (scale-free fit); B: line (connectivity vs power); C: dendrogram (diagram); D: lollipop; E: heatmap (module-trait correlation); F: scatter (GS vs MM)",
+      "caption": "共表达网络分析：软阈值选择、聚类树状图、模块-性状相关性"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: dot/bubble plot (hub genes by module); B: force-directed network; C: horizontal-bar; D: line (ranked connectivity, log scale); E: heatmap; F: heatmap",
+      "caption": "hub 基因鉴定、共表达网络结构与模块功能富集"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: venn; B: heatmap; C: scatter; D: grouped-bar; E: divergent horizontal-bar; F: ROC curves (line with CI band)",
+      "caption": "骨质疏松与骨肉瘤跨疾病转录组特征比较及诊断分类器"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: PCA scatter; B: volcano scatter; C: heatmap; D: horizontal-bar (probe types, log scale; 正文称 donut 但实际渲染为条形); E: scatter with trend line; F: grouped-bar",
+      "caption": "骨肉瘤 DNA 甲基化分析：PCA、差异甲基化、探针分布与生存结局"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: GISTIC-style mirrored area (genome-wide CNV frequency); B: bar (per-sample CNV burden, ranked); C: lollipop (caption 称 heatmap 但实际渲染为 lollipop); D: volcano-style scatter; E: grouped-bar (chromosome arm); F: grouped-bar",
+      "caption": "骨肉瘤拷贝数变异景观：GISTIC 频率、CNV 负荷与生存比较"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "A: stacked-bar (immune scores per sample); B: box; C: correlation heatmap; D: bubble; E: grouped-bar with error bars (qRT-PCR); F: scatter (single-cell SVD clusters)",
+      "caption": "免疫细胞富集评分与骨肉瘤单细胞分析"
+    }
+  ],
+  "tables": []
+}

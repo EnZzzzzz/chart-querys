@@ -1,0 +1,199 @@
+{
+  "id": "A31",
+  "source_file": "optimization-solid-state-fermentation-process-diets.pdf",
+  "paper_title": "Optimization of solid-state fermentation process of diets and its effects on growth performance and intestinal function in growing pigs",
+  "stats": { "figures_total": 9, "tables_total": 18 },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "grouped-bar",
+      "count": 1,
+      "caption": "不同混菌组合与发酵条件对抗营养因子（Glycinin、TI、β-conglycinin）含量的影响"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "发酵条件（水分/接种量/时间/温度）对 TCA-SP 与粗纤维的影响及响应面优化",
+      "note": "A-D 双轴折线图 ×4；E-G 每组含 3D 响应曲面 + 等高线图（surface-3d + contour ×3）"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "固态发酵饲料表面结构与 SDS-PAGE 蛋白分子量变化",
+      "note": "A 分组柱状图；B 扫描电镜照片（image）；C SDS-PAGE 凝胶图（image）"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "饲料菌群多样性、门/属水平相对丰度与 KEGG 功能预测",
+      "note": "A 箱线图 ×4（alpha 多样性）；B 散点图（PCoA）；C Venn 图；D/E 堆积柱状图 ×2（门/属组成）；F 横向柱状图（LDA）；G 柱状图（KEGG 1 级通路）；H 热图式网格（3 级通路）"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "饲料风味代谢物变化（色谱、PLS-DA、Venn、雷达图、ROAV、火山图、关联网络）",
+      "note": "A 3D 色谱曲面图（surface-3d）；B 散点图（PLS-DA）；C Venn 图；D 雷达图；E 散点图（ROAV）；F 雷达图（感官风味）；G 散点图（火山图）；H 网络图（network，感官特征-代谢物关联）"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "heatmap",
+      "count": 2,
+      "caption": "环境因子-微生物、微生物-代谢物互作分析",
+      "note": "caption 称 interaction network diagram，实际渲染为带聚类的相关性热图（correlation heatmap）×2"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "mixed",
+      "count": 2,
+      "caption": "菌酶固态发酵饲料对生长猪肠道屏障功能的影响",
+      "note": "A H&E 染色组织切片照片 ×4（image）；B Western blot 条带图（image）+ 分组柱状图"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "肌肉发育相关差异基因分析",
+      "note": "A 分组柱状图（MYOD/MYOG/MYF5 表达）；B 散点图（火山图）；C 柱状图（上下调基因数）；D 热图（差异基因表达，带聚类）；E 横向柱状图（KEGG 通路富集，跨页续图）"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "heatmap",
+      "count": 2,
+      "caption": "生长性能/免疫指标-微生物、微生物-代谢物互作分析",
+      "note": "caption 称 interaction network diagram，实际渲染为带聚类的相关性热图（correlation heatmap）×2"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "hyperparameters",
+      "rows": 4,
+      "cols": 5,
+      "caption": "L9(3^4) 正交试验因素水平设计（4 株菌比例）"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "hyperparameters",
+      "rows": 4,
+      "cols": 4,
+      "caption": "响应面（RSM）试验因素与水平设计"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "other",
+      "rows": 11,
+      "cols": 4,
+      "caption": "饲用复合酶制剂特性（温度范围、添加量、酶活）",
+      "note": "11 种酶的参数清单"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "statistics",
+      "rows": 25,
+      "cols": 2,
+      "caption": "基础饲粮原料组成与营养水平"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "statistics",
+      "rows": 16,
+      "cols": 9,
+      "caption": "4 菌混合发酵对 TCA-SP 的影响（正交试验结果，含 K/k/R 与最优组合）"
+    },
+    {
+      "label": "Table 6",
+      "data_form": "statistics",
+      "rows": 7,
+      "cols": 7,
+      "caption": "正交试验方差分析（TCA-SP，SS/df/MS/F/P/显著性）"
+    },
+    {
+      "label": "Table 7",
+      "data_form": "statistics",
+      "rows": 16,
+      "cols": 9,
+      "caption": "4 菌混合发酵对粗纤维（CF）的影响（正交试验结果）"
+    },
+    {
+      "label": "Table 8",
+      "data_form": "statistics",
+      "rows": 7,
+      "cols": 7,
+      "caption": "正交试验方差分析（CF）"
+    },
+    {
+      "label": "Table 9",
+      "data_form": "statistics",
+      "rows": 15,
+      "cols": 7,
+      "caption": "响应面方差分析结果（模型、一次项、交互项、二次项）"
+    },
+    {
+      "label": "Table 10",
+      "data_form": "statistics",
+      "rows": 6,
+      "cols": 2,
+      "caption": "二次回归方程方差分析（Std.Dev./C.V./R² 等拟合指标）"
+    },
+    {
+      "label": "Table 11",
+      "data_form": "comparison",
+      "rows": 7,
+      "cols": 3,
+      "caption": "固态发酵饲料营养品质（Ctrl vs SSF）"
+    },
+    {
+      "label": "Table 12",
+      "data_form": "comparison",
+      "rows": 6,
+      "cols": 3,
+      "caption": "发酵饲料抗营养因子含量（Ctrl vs SSF）"
+    },
+    {
+      "label": "Table 13",
+      "data_form": "comparison",
+      "rows": 5,
+      "cols": 4,
+      "caption": "发酵饲料毒素含量（DON/ZEN/AFB1/TS，含安全标准列）"
+    },
+    {
+      "label": "Table 14",
+      "data_form": "comparison",
+      "rows": 5,
+      "cols": 3,
+      "caption": "发酵饲料对生长猪生长性能的影响（体重/ADG/ADFI/FCR）"
+    },
+    {
+      "label": "Table 15",
+      "data_form": "comparison",
+      "rows": 10,
+      "cols": 3,
+      "caption": "发酵饲料对生长猪血清生化指标的影响"
+    },
+    {
+      "label": "Table 16",
+      "data_form": "comparison",
+      "rows": 12,
+      "cols": 3,
+      "caption": "发酵饲料对血清免疫与抗氧化指标的影响"
+    },
+    {
+      "label": "Table 17",
+      "data_form": "comparison",
+      "rows": 9,
+      "cols": 3,
+      "caption": "发酵液态饲料对肉品质的影响（剪切力/滴水损失/pH/肉色）"
+    },
+    {
+      "label": "Table 18",
+      "data_form": "comparison",
+      "rows": 8,
+      "cols": 4,
+      "caption": "发酵饲料对小肠组织形态的影响（十二指肠/空肠绒毛高度、隐窝深度）"
+    }
+  ]
+}

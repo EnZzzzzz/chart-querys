@@ -1,0 +1,24 @@
+{
+  "id": "A21",
+  "category": "paper",
+  "query": "读 optimizing-solar-wind-forecasting-ihow-optimization.pdf，这篇论文用 iHow 优化算法和多尺度注意力网络预测法国电网的太阳能与风力发电量。做一份可视化分析报告，梳理风电和光电出力的时序规律与互补关系，并比较各深度学习模型和优化算法在预测精度、特征选择效果和计算开销上的差异。",
+  "files": [
+    {
+      "file": "optimizing-solar-wind-forecasting-ihow-optimization.pdf",
+      "source": ".cache/chart-data-corpus/papers/optimizing-solar-wind-forecasting-ihow-optimization.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "bar",
+    "grouped-bar",
+    "boxplot",
+    "violin",
+    "density",
+    "heatmap",
+    "radar",
+    "parallel-coordinates",
+    "contour"
+  ]
+}

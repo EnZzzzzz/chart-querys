@@ -1,0 +1,28 @@
+{
+  "id": "A22",
+  "category": "paper",
+  "query": "读 integrated-multi-omics-machine-learning-highlight.pdf，这是一篇整合多组学与机器学习筛选子宫内膜癌 PTM 相关生物标志物的论文（18 页，12 个图），做一份图文解读报告，梳理从差异基因筛选、机器学习建模、亚型分析到孟德尔随机化与实验验证的完整分析链路，各环节的关键数据结果都要可视化呈现。",
+  "files": [
+    {
+      "file": "integrated-multi-omics-machine-learning-highlight.pdf",
+      "source": ".cache/chart-data-corpus/papers/integrated-multi-omics-machine-learning-highlight.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "boxplot",
+    "violin",
+    "bubble",
+    "heatmap",
+    "bar",
+    "horizontal-bar",
+    "line",
+    "pie",
+    "lollipop",
+    "waterfall",
+    "forest-plot",
+    "funnel",
+    "beeswarm",
+    "venn"
+  ]
+}

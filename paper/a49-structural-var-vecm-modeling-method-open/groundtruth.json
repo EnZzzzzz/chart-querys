@@ -1,0 +1,26 @@
+{
+  "id": "A49",
+  "source_file": "structural-var-vecm-modeling-method-open.pdf",
+  "paper_title": "A Structural VAR and VECM Modeling Method for Open-High-Low-Close Data Contained in Candlestick Chart",
+  "stats": { "figures_total": 10, "tables_total": 6 },
+  "figures": [
+    { "label": "Fig. 1", "chart_type": "line", "count": 3, "caption": "忽略 OHLC 内在约束导致的无意义建模结果（三个失败场景，含置信区间）" },
+    { "label": "Fig. 2", "chart_type": "mixed", "count": 1, "caption": "日内蜡烛图示例及单根蜡烛的构成示意", "note": "左侧为 candlestick 序列，右侧为蜡烛结构示意图（diagram）" },
+    { "label": "Fig. 3", "chart_type": "diagram", "count": 1, "caption": "基于 VAR 与 VECM 的 OHLC 数据统一建模流程图" },
+    { "label": "Fig. 4", "chart_type": "other", "count": 1, "caption": "Scenario 2 下的仿真 OHLC 数据序列", "note": "candlestick" },
+    { "label": "Fig. 5", "chart_type": "diagram", "count": 1, "caption": "滚动分段预测方法示意（时间轴分段）" },
+    { "label": "Fig. 6", "chart_type": "line", "count": 12, "caption": "Scenario 1 中 MAPE/SD/RMSE 随 q、m 变化（4 变量 × 3 指标共 12 面板）" },
+    { "label": "Fig. 7", "chart_type": "line", "count": 2, "caption": "Scenario 1 中 RMSEH 与 AR 随 q、m 变化（2 面板）" },
+    { "label": "Fig. 8", "chart_type": "line", "count": 8, "caption": "Scenario 2/3 中 MAPE 随 q、m 变化（两行共 8 面板）" },
+    { "label": "Fig. 9", "chart_type": "bar", "count": 4, "caption": "50ETF 四个变换后时间序列变量的 ACF 图", "note": "ACF correlogram（stem 式竖线柱形）" },
+    { "label": "Fig. 10", "chart_type": "other", "count": 6, "caption": "三只标的真实值与预测值对比（上排真实、下排预测，共 6 面板）", "note": "candlestick" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "other", "rows": 4, "cols": 3, "caption": "文献综述汇总：模型输入/输出/方法与参考文献" },
+    { "label": "Table 2", "data_form": "statistics", "rows": 18, "cols": 10, "caption": "Scenario 1 在 q=40/50/70、m=1/2/3 下的仿真结果（MAPE/SD/RMSE/RMSEH/AR）" },
+    { "label": "Table 3", "data_form": "comparison", "rows": 20, "cols": 10, "caption": "贵州茅台 OHLC 数据上 VAR/VECM 结果（Naive/Yes/No 三种变换方式对比）" },
+    { "label": "Table 4", "data_form": "comparison", "rows": 20, "cols": 10, "caption": "中证100指数 OHLC 数据上 VAR/VECM 结果（同 Table 3 结构）" },
+    { "label": "Table 5", "data_form": "comparison", "rows": 20, "cols": 10, "caption": "50ETF OHLC 数据上 VAR/VECM 结果（同 Table 3 结构）" },
+    { "label": "Table 6", "data_form": "comparison", "rows": 14, "cols": 7, "caption": "SVR 在三只标的 OHLC 数据上的预测结果（是否使用无约束变换对比）" }
+  ]
+}

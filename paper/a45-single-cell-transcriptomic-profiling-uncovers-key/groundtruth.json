@@ -1,0 +1,74 @@
+{
+  "id": "A45",
+  "source_file": "single-cell-transcriptomic-profiling-uncovers-key.pdf",
+  "paper_title": "Single-cell transcriptomic profiling uncovers key molecular signatures in glioma pathogenesis",
+  "stats": { "figures_total": 7, "tables_total": 2 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "单细胞RNA测序质控与初始聚类：QC分布、高变基因、PCA与UMAP",
+      "note": "A violin; B 带边缘直方图的密度散点; C 高变基因散点; D PCA密度散点; E PCA载荷heatmap; F UMAP聚类散点"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "细胞亚群异质性的多维基因表达分析",
+      "note": "A t-SNE密度散点; B treemap(亚群大小); C UMAP特征表达散点×3; D violin; E ridge plot; F marker基因dot plot"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "细胞类型注释与各亚群质量指标",
+      "note": "A marker基因表达heatmap; B stacked-bar(细胞类型构成); C box plot; D UMI-基因数hexbin密度散点; E horizontal-bar(转录复杂度); F 对数坐标密度散点"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "差异表达、共表达网络、通路富集与qRT-PCR实验验证",
+      "note": "A 火山图散点; B 基因共表达网络图; C 三维PCA散点; D 通路富集dot plot; E 细胞类型相关性heatmap; F grouped-bar(qRT-PCR)"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "单细胞表达特征与基因调控网络架构分析",
+      "note": "A bar(各亚群平均基因检测数); B 误差棒点图; C hexbin密度图; D 火山图散点; E 基因共表达网络图; F 三维UMAP散点"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "单细胞RNA测序质量控制与初始聚类",
+      "note": "A violin×2; B 测序深度-线粒体比例散点; C 高变基因散点; D PCA散点; E top基因heatmap; F UMAP聚类散点"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "基因表达模式与细胞亚群特征刻画",
+      "note": "A UMAP特征表达散点×4; B violin×2; C ridge plot×2; D marker基因dot plot; E 基因表达heatmap; F 细胞复杂度散点"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 5,
+      "cols": 3,
+      "caption": "RT-qPCR 引物序列（Plp1、Fth1、Gm42418、GAPDH）",
+      "note": "引物序列表"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "statistics",
+      "rows": 4,
+      "cols": 4,
+      "caption": "候选生物标志物的 qRT-PCR 验证结果（mean ± SD）"
+    }
+  ]
+}

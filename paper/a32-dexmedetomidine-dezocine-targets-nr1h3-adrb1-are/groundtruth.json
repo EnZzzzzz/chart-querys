@@ -1,0 +1,58 @@
+{
+  "id": "A32",
+  "source_file": "dexmedetomidine-dezocine-targets-nr1h3-adrb1-are.pdf",
+  "paper_title": "Dexmedetomidine and dezocine targets (NR1H3 and ADRB1) are potential prognostic biomarkers for breast cancer",
+  "stats": { "figures_total": 7, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "DD 靶点与 BRCA 差异基因的鉴定：火山图、聚类热图、Venn 图",
+      "note": "A: volcano plot (scatter); B: hierarchical clustering heatmap; C: Venn diagram"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 17,
+      "caption": "MR 分析结果：IVW 森林图、SNP 散点回归、漏斗图、leave-one-out",
+      "note": "A: forest plot (table-style); B: scatter with regression lines x4; C: forest plot x4; D: funnel plot x4; E: leave-one-out forest plot x4"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "预后风险模型构建：Cox 森林图、LASSO、风险评分分布、热图、K-M、ROC",
+      "note": "A: univariate Cox forest plot; B: LASSO coefficient/deviance lines x2; C: risk score distribution line; D: survival status scatter; E: heatmap; F: K-M survival curve; G: ROC curve"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "GSE42568 外部验证：风险评分分布、生存状态、热图、K-M、ROC、GEPIA 生存",
+      "note": "A: risk score distribution scatter; B: survival status scatter (caption calls it mosaic plot); C: heatmap; D: K-M curve; E: ROC curve; F/G: K-M curves (GEPIA)"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "独立预后价值与临床效用：单/多因素 Cox 森林图、列线图、DCA、校准",
+      "note": "A/B: forest plot; C: nomogram; D: DCA decision curves (line); E: calibration plot (line)"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "免疫浸润特征：ssGSEA 免疫细胞箱线图、相关网络、检查点箱线图、相关热图",
+      "note": "A: grouped boxplot (28 immune cell types); B: Spearman correlation network overlaid on heatmap; C: grouped boxplot (checkpoint genes); D: correlation heatmap"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "预后标志物表达验证：HPA 免疫组化图像与 GSE42568/TCGA 表达箱线图",
+      "note": "A/B: IHC tissue images with small boxplots; C/D: boxplots (BRCA vs normal expression)"
+    }
+  ],
+  "tables": []
+}

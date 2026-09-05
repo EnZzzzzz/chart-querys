@@ -1,0 +1,22 @@
+{
+  "id": "A27",
+  "category": "paper",
+  "query": "读 time-series-information-visualization-review-approaches.pdf，这是一篇 33 页的综述论文，系统梳理了时间序列信息可视化的各类方法、交互技术与工具库。做一份图文综述报告，分析不同可视化方法各自适合什么数据形态和分析任务、有什么优缺点，并对比文中提到的可视化工具与库。",
+  "files": [
+    {
+      "file": "time-series-information-visualization-review-approaches.pdf",
+      "source": ".cache/chart-data-corpus/papers/time-series-information-visualization-review-approaches.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "area",
+    "boxplot",
+    "heatmap",
+    "calendar-heatmap",
+    "sankey",
+    "streamgraph",
+    "spiral-chart"
+  ]
+}

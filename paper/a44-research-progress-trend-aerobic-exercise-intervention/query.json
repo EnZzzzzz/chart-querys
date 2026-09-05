@@ -1,0 +1,24 @@
+{
+  "id": "A44",
+  "category": "paper",
+  "query": "读 research-progress-trend-aerobic-exercise-intervention.pdf，这是一篇基于 Web of Science 273 篇文献（2016-2024 年）的文献计量学研究，主题是有氧运动干预膝骨关节炎。做一份可视化图文报告，梳理该领域的发文量变化、国家/机构/作者合作格局、高被引文献情况，以及研究热点随时间的演变规律。",
+  "files": [
+    {
+      "file": "research-progress-trend-aerobic-exercise-intervention.pdf",
+      "source": ".cache/chart-data-corpus/papers/research-progress-trend-aerobic-exercise-intervention.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "stacked-area",
+    "scatter",
+    "pie",
+    "radar",
+    "rose",
+    "heatmap",
+    "map",
+    "network",
+    "chord",
+    "horizontal-bar"
+  ]
+}

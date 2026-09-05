@@ -1,0 +1,22 @@
+{
+  "id": "A24",
+  "source_file": "anteater-interactive-visualization-program-execution-values.pdf",
+  "paper_title": "Anteater: Interactive Visualization of Program Execution Values in Context",
+  "stats": { "figures_total": 9, "tables_total": 3 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "对比手工插桩、调试器与 Anteater 三种排查 bug 的工作流程" },
+    { "label": "Figure 2", "chart_type": "mixed", "count": 1, "caption": "Anteater UI 总览：递归 Fibonacci 的执行结构与变量 val 的取值", "note": "UI screenshot containing icicle plot (GCT, 2 panels) + scatterplot" },
+    { "label": "Figure 3", "chart_type": "diagram", "count": 1, "caption": "Anteater 系统架构：前端、插桩器、trace 生成与可视化流程" },
+    { "label": "Figure 4", "chart_type": "mixed", "count": 1, "caption": "从源代码到可视化的流程：trace JSON、SQL 表、Vega-lite spec 与成图", "note": "pipeline panels: code/trace/SQL tables/Vega-lite spec + a scatterplot" },
+    { "label": "Figure 5", "chart_type": "mixed", "count": 1, "caption": "按循环实例拆分数据：每个 for 循环迭代一个箱线分布", "note": "UI screenshot: icicle plot (GCT) + boxplot panel" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 3, "caption": "用 Anteater 调试梯度下降：发现 NaN、过滤后看到取值震荡发散", "note": "3 panels, each with icicle plot (GCT); plots are histogram (A) and scatterplots (B, C)" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 1, "caption": "修复 bug 后的梯度下降：变量 x 随时间快速收敛", "note": "UI screenshot: icicle plot (GCT) + scatterplot" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 2, "caption": "对比两次梯度下降运行：交点数与最小交叉角的变化规律", "note": "2 groups, each with icicle plot (GCT) + line-connected scatterplot" },
+    { "label": "Figure 9", "chart_type": "mixed", "count": 3, "caption": "调试最长加权路径：定位 barrier 节点、路径权重与输入数据", "note": "3 panels, each with icicle plot (GCT); plots are bar plot (A, C) and histogram (B)" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "comparison", "rows": 9, "cols": 8, "caption": "Anteater 与现有调试可视化工具在支持的视图和特性上的对比" },
+    { "label": "Table 2", "data_form": "other", "rows": 5, "cols": 3, "caption": "数据类型、可视化形式与对应 SQL 查询关键字的映射" },
+    { "label": "Table 3", "data_form": "statistics", "rows": 3, "cols": 8, "caption": "三个程序的 trace 信息与插桩带来的执行开销" }
+  ]
+}

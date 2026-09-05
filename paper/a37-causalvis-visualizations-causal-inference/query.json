@@ -1,0 +1,19 @@
+{
+  "id": "A37",
+  "category": "paper",
+  "query": "读 causalvis-visualizations-causal-inference.pdf，这是一篇 CHI 2023 论文，提出了面向因果推断的 Python 可视化包 Causalvis，并用学生成绩数据集做演示、请了 11 位专家评估。做一份图文报告，梳理因果推断的三步工作流程，分析四个可视化模块各自支撑哪些分析任务，以及专家评估的主要发现。",
+  "files": [
+    {
+      "file": "causalvis-visualizations-causal-inference.pdf",
+      "source": ".cache/chart-data-corpus/papers/causalvis-visualizations-causal-inference.pdf"
+    }
+  ],
+  "chart_forms": [
+    "dot-plot",
+    "icicle",
+    "histogram",
+    "violin",
+    "boxplot",
+    "network"
+  ]
+}

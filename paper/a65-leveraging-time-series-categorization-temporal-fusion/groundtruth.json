@@ -1,0 +1,56 @@
+{
+  "id": "A65",
+  "source_file": "leveraging-time-series-categorization-temporal-fusion.pdf",
+  "paper_title": "Leveraging Time Series Categorization and Temporal Fusion Transformers to Improve Cryptocurrency Price Forecasting",
+  "stats": { "figures_total": 5, "tables_total": 2 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "所提方法总览：从 OHLCV 提取到趋势预测的 10 个模块流程图"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "scatter",
+      "count": 4,
+      "caption": "不同行为的聚类：(a) 聚类散点 1 幅，(b) 同类别的子序列散点 3 个面板"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "line",
+      "count": 2,
+      "caption": "BTC-USDT 7 个连续时刻子序列：价格与波动率两条曲线（TradingView 截图）",
+      "note": "TradingView 截图，上下两个折线面板"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "line",
+      "count": 1,
+      "caption": "斜率相同但行为不同的两条子序列（上行/下行各一条曲线）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "count": 2,
+      "caption": "加速度相同的两段子序列的蜡烛图：(a) 上行 (b) 下行",
+      "note": "candlestick"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 3,
+      "cols": 3,
+      "caption": "LSTM、TFT 与所提方法的 Accuracy / Precision 对比"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 7,
+      "cols": 2,
+      "caption": "LTC 两周模拟交易期末资产（USDT）的盈利性对比"
+    }
+  ]
+}

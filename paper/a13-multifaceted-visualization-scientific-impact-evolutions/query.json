@@ -1,0 +1,20 @@
+{
+  "id": "A13",
+  "category": "paper",
+  "query": "读 multifaceted-visualization-scientific-impact-evolutions.pdf，这是一篇关于学者学术影响力演化可视化的论文，基于微软学术图谱（MAG）数据提出了 GeneticPrism 方法，并做了图灵奖得主和学术会议的案例分析。帮我做一份可视化报告，讲清论文的可视化设计思路与数据处理流程，以及案例中学者在不同研究主题间影响力的演化规律。",
+  "files": [
+    {
+      "file": "multifaceted-visualization-scientific-impact-evolutions.pdf",
+      "source": ".cache/chart-data-corpus/papers/multifaceted-visualization-scientific-impact-evolutions.pdf"
+    }
+  ],
+  "chart_forms": [
+    "chord",
+    "network",
+    "streamgraph",
+    "flow-map",
+    "sankey",
+    "stacked-bar",
+    "line"
+  ]
+}

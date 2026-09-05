@@ -1,0 +1,31 @@
+{
+  "id": "A51",
+  "category": "paper",
+  "query": "读 machine-learning-driven-prognostic-model-sphingolipid.pdf，这是一篇用上百种机器学习算法组合构建鞘脂相关基因胰腺癌预后模型的论文（TCGA 150 例训练 + GEO 69 例验证，另整合单细胞转录组数据）。做一份可视化图文报告，讲清楚模型是怎么从众多算法组合里选出来的，以及高低风险组患者在生存情况、基因突变、免疫浸润和细胞通讯上各有什么差异。",
+  "files": [
+    {
+      "file": "machine-learning-driven-prognostic-model-sphingolipid.pdf",
+      "source": ".cache/chart-data-corpus/papers/machine-learning-driven-prognostic-model-sphingolipid.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "bar",
+    "horizontal-bar",
+    "stacked-bar",
+    "line",
+    "scatter",
+    "boxplot",
+    "bubble",
+    "violin",
+    "pie",
+    "sunburst",
+    "forest-plot",
+    "survival-curve",
+    "lollipop",
+    "density",
+    "dot-plot",
+    "network",
+    "oncoplot"
+  ]
+}

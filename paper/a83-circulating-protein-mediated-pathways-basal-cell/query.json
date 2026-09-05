@@ -1,0 +1,20 @@
+{
+  "id": "A83",
+  "category": "paper",
+  "query": "读 circulating-protein-mediated-pathways-basal-cell.pdf，这是一篇用孟德尔随机化分析循环蛋白与基底细胞癌（BCC）因果关系的论文，数据来自 UK Biobank 和冰岛人群两套 pQTL 队列。做一份可视化报告，解读 UKB pQTL、BD pQTL 与 BCC 之间的因果关联和中介通路，以及富集分析和敏感性分析的结果。",
+  "files": [
+    {
+      "file": "circulating-protein-mediated-pathways-basal-cell.pdf",
+      "source": ".cache/chart-data-corpus/papers/circulating-protein-mediated-pathways-basal-cell.pdf"
+    }
+  ],
+  "chart_forms": [
+    "forest-plot",
+    "funnel",
+    "heatmap",
+    "network",
+    "scatter",
+    "horizontal-bar",
+    "bubble"
+  ]
+}

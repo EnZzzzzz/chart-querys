@@ -1,0 +1,21 @@
+{
+  "id": "A78",
+  "category": "paper",
+  "query": "读 optimized-detection-cyber-attacks-iot-networks.pdf，这是一篇用混合深度学习模型检测 IoT 网络攻击的论文，在 NSL-KDD、UNSW-NB15、CICIoT2023 三个入侵检测数据集上做了实验。做一份可视化报告，讲清楚论文的模型框架与训练流程、各数据集的流量特征与攻击类型分布、模型在不同数据集上的表现以及与已有方法的对比。",
+  "files": [
+    {
+      "file": "optimized-detection-cyber-attacks-iot-networks.pdf",
+      "source": ".cache/chart-data-corpus/papers/optimized-detection-cyber-attacks-iot-networks.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "line",
+    "grouped-bar",
+    "bar",
+    "histogram",
+    "scatter",
+    "parallel-coordinates",
+    "surface-3d"
+  ]
+}

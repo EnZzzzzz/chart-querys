@@ -1,0 +1,18 @@
+{
+  "id": "A87",
+  "category": "paper",
+  "query": "读 itemcomplex-python-visualization-framework-ex-post.pdf，这篇论文介绍了 ItemComplex——一个用 Python 对四个队列研究的多条目心理测量问卷数据做事后组织与整合的可视化框架。做一份图文报告，讲清这个框架的处理流程与核心功能，并分析它如何呈现跨研究、跨问卷的条目层级结构以及条目之间的语义相似关系。",
+  "files": [
+    {
+      "file": "itemcomplex-python-visualization-framework-ex-post.pdf",
+      "source": ".cache/chart-data-corpus/papers/itemcomplex-python-visualization-framework-ex-post.pdf"
+    }
+  ],
+  "chart_forms": [
+    "sunburst",
+    "treemap",
+    "network",
+    "heatmap",
+    "scatter"
+  ]
+}

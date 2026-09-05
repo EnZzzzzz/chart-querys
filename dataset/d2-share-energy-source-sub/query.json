@@ -1,0 +1,15 @@
+{
+  "id": "D2",
+  "category": "dataset",
+  "query": "分析 share-energy-source-sub.csv（各国能源结构宽表），做一份主要国家能源结构演变的可视化报告，支持按国家查看。",
+  "files": [
+    {
+      "file": "share-energy-source-sub.csv",
+      "source": ".cache/chart-data-corpus/datasets/owid/share-energy-source-sub.csv"
+    }
+  ],
+  "chart_forms": [
+    "stacked-area",
+    "interactive"
+  ]
+}

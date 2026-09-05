@@ -1,0 +1,19 @@
+{
+  "id": "A57",
+  "category": "paper",
+  "query": "读 hemi-2-0-online-service.pdf，这是一篇介绍生物医学数据可视化在线服务 HemI 2.0 的论文（正文约 5 页）。做一份图文报告，讲清楚这个工具相对 1.0 版本新增了哪些功能、支持哪些聚类方法与距离度量、富集分析怎么用，以及论文里两个真实数据案例（36 个酵母菌株的自噬表型、COVID-19 的 195 个差异表达蛋白）展示了什么规律。",
+  "files": [
+    {
+      "file": "hemi-2-0-online-service.pdf",
+      "source": ".cache/chart-data-corpus/papers/hemi-2-0-online-service.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "bubble",
+    "rose",
+    "wordcloud",
+    "pie",
+    "horizontal-bar"
+  ]
+}

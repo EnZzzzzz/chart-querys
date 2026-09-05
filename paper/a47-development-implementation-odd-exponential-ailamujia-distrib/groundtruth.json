@@ -1,0 +1,35 @@
+{
+  "id": "A47",
+  "source_file": "development-implementation-odd-exponential-ailamujia-distrib.pdf",
+  "paper_title": "The development and implementation of odd-exponential-ailamujia distribution in python: properties and application in reliability engineering",
+  "stats": { "figures_total": 14, "tables_total": 11 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "line", "count": 4, "caption": "不同参数下 OEA 的 PDF/HRF/RF/RHRF 曲线，4 个面板" },
+    { "label": "Figure 2", "chart_type": "line", "count": 3, "caption": "不同参数下 OEA 的 CHF/MRLT/MWT 曲线，3 个面板" },
+    { "label": "Figure 3", "chart_type": "heatmap", "count": 1, "caption": "OEA 各可靠性指标的相关性热力图" },
+    { "label": "Figure 4", "chart_type": "other", "count": 4, "note": "3d-surface", "caption": "PDF/RF/CHRF/RHRF 等可靠性指标组合的三维曲面，4 个面板" },
+    { "label": "Figure 5", "chart_type": "other", "count": 8, "note": "violin（内嵌 boxplot 与散点）", "caption": "生成数据集及 PDF/HRF/RF/CHRF/RHRF/MRLF/MWTF 的小提琴图，8 个面板" },
+    { "label": "Figure 6", "chart_type": "image", "count": 1, "caption": "OEA MLE 优化结果的控制台输出截图" },
+    { "label": "Figure 7", "chart_type": "other", "count": 2, "note": "3d-surface", "caption": "OEA 似然函数的三维曲面可视化，2 个面板" },
+    { "label": "Figure 8", "chart_type": "line", "count": 1, "caption": "OEA 与 Gamma 分布间 KL 散度随 λ 变化" },
+    { "label": "Figure 9", "chart_type": "line", "count": 1, "caption": "OEA 分布 Shannon 熵随 λ 变化" },
+    { "label": "Figure 10", "chart_type": "mixed", "count": 2, "note": "a: histogram + 多分布 PDF 拟合曲线叠加; b: Q-Q 图（散点+参考线）", "caption": "风挡失效数据的拟合优度对比与 OEA 的 Q-Q 图" },
+    { "label": "Figure 11", "chart_type": "scatter", "count": 6, "note": "q-q plot", "caption": "EAD/Ailamujia/QR/Log-Normal/Exponential/Ramos Weibull 等分布的 Q-Q 图，6 个面板" },
+    { "label": "Figure 12", "chart_type": "mixed", "count": 2, "note": "a: 数据序列折线图; b: 可靠性指标相关性热力图", "caption": "OEA 模型应用于风挡数据：序列图与指标相关性热力图" },
+    { "label": "Figure 13", "chart_type": "other", "count": 5, "note": "violin（内嵌 boxplot 与散点）", "caption": "风挡数据下 OEA 的 PDF/RF/CHRF/MRLF/MWTF 小提琴图，5 个面板" },
+    { "label": "Figure 14", "chart_type": "other", "count": 2, "note": "3d-surface", "caption": "风挡数据下各可靠性指标关系的三维曲面，2 个面板" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 20, "cols": 8, "caption": "不同参数组合下 OEA 分布的 HRF 数值结果" },
+    { "label": "Table 2", "data_form": "statistics", "rows": 20, "cols": 8, "caption": "不同参数组合下 OEA 分布的 MWTF 数值结果" },
+    { "label": "Table 3", "data_form": "statistics", "rows": 20, "cols": 8, "caption": "不同参数组合下 OEA 分布的 CHRF 数值结果" },
+    { "label": "Table 4", "data_form": "statistics", "rows": 20, "cols": 8, "caption": "不同参数组合下 OEA 分布的 RHRF 数值结果" },
+    { "label": "Table 5", "data_form": "other", "rows": 24, "cols": 2, "caption": "OEA 分布 MLE 的优化结果（收敛信息、估计值、置信区间等）" },
+    { "label": "Table 6", "data_form": "statistics", "rows": 14, "cols": 3, "caption": "OEA 分布的矩、矩母函数与特征函数取值" },
+    { "label": "Table 7", "data_form": "comparison", "rows": 2, "cols": 2, "caption": "Gamma 与 OEA、两个 OEA 分布间的 KL 散度值" },
+    { "label": "Table 8", "data_form": "statistics", "rows": 1, "cols": 2, "caption": "指定参数下 OEA 分布的 Shannon 熵值" },
+    { "label": "Table 9", "data_form": "examples", "rows": 5, "cols": 15, "caption": "飞机风挡失效时间数据集（原始数据列表）" },
+    { "label": "Table 10", "data_form": "comparison", "rows": 7, "cols": 4, "caption": "风挡失效数据上各分布拟合优度（KS、AD 统计量）对比" },
+    { "label": "Table 11", "data_form": "other", "rows": 26, "cols": 2, "caption": "风挡数据上 OEA 的 MLE 优化结果" }
+  ]
+}

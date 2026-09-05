@@ -1,0 +1,44 @@
+{
+  "id": "A75",
+  "source_file": "il-21-enhances-cytotoxicity-intratumoral-cd8.pdf",
+  "paper_title": "IL-21 enhances the cytotoxicity of intratumoral CD8+ T cells, improving radiation efficacy",
+  "stats": { "figures_total": 5, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 27,
+      "caption": "IL21 表达与放疗预后及 CD8+ T 细胞浸润的相关性（TCGA/生存分析+免疫荧光）",
+      "note": "25 个 Kaplan-Meier 生存曲线面板（HNSC 12、BRCA 12、肺腺癌 1），1 个相关性散点图（D），1 组多重免疫荧光照片（E）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "外源 IL-21 与放疗协同增强抗肿瘤效果（多肿瘤模型生长/生存/影像）",
+      "note": "肿瘤生长曲线、个体生长 spaghetti 图、荧光定量曲线、KM 生存曲线等折线类面板约 8 个（B-D、G-I），2 个实验流程示意图（A、E），1 组 CT 影像（F）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 11,
+      "caption": "IL-21 联合放疗重塑 TME 并增加 CD8+ T 细胞浸润（scRNA-Seq 分析）",
+      "note": "2 个 t-SNE 散点（B、F），1 个南丁格尔玫瑰图+热图组合（C），小提琴图面板（D、J 共约 9 个），2 个肿瘤生长折线（E、K），1 个拟时序轨迹图（G），1 个比例堆积条图（H），1 个 GSEA 富集水平条图（I），1 个示意图（A）"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 24,
+      "caption": "IL-21 联合放疗增强 TME 中 CD8+ T 细胞的细胞毒性（流式细胞术定量）",
+      "note": "8 个流式细胞术散点/密度图（A 上），16 个带散点叠加的分组柱状图（A 下及 B-D，4 个肿瘤模型各 4 个指标）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 14,
+      "caption": "IL-21 直接增强 CD8+ T 细胞的活化与细胞毒性（体外+人源化小鼠+患者样本）",
+      "note": "8 个带散点叠加的柱状图（A、B、D、E），6 个流式细胞术散点图（A、B 内嵌），1 个肿瘤生长折线+示意图（C），1 组免疫荧光照片（F），1 个相关性散点图（G）"
+    }
+  ],
+  "tables": []
+}

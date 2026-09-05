@@ -1,0 +1,18 @@
+{
+  "id": "A24",
+  "category": "paper",
+  "query": "读 anteater-interactive-visualization-program-execution-values.pdf，这是一篇介绍 Anteater 的论文——一个把 Python 程序执行过程中的变量取值自动追踪并做交互式可视化的调试工具。做一份图文报告，讲清它的系统架构与执行轨迹的组织方式，并分析文中三个实际调试场景里变量取值有什么规律。",
+  "files": [
+    {
+      "file": "anteater-interactive-visualization-program-execution-values.pdf",
+      "source": ".cache/chart-data-corpus/papers/anteater-interactive-visualization-program-execution-values.pdf"
+    }
+  ],
+  "chart_forms": [
+    "icicle",
+    "boxplot",
+    "scatter",
+    "histogram",
+    "bar"
+  ]
+}

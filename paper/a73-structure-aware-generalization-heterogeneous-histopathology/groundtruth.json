@@ -1,0 +1,114 @@
+{
+  "id": "A73",
+  "source_file": "structure-aware-generalization-heterogeneous-histopathology.pdf",
+  "paper_title": "Structure-aware generalization for heterogeneous histopathology via prototype-based multiple instance learning",
+  "stats": { "figures_total": 8, "tables_total": 7 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "鲁棒性与泛化全景：OOD ROC 曲线、性能下降箱线分析、染色扰动/数据效率/内外部校准分析",
+      "note": "line ×5（a ROC 曲线、c 染色扰动、d 数据效率、e/f 校准曲线），boxplot ×1（b 稳定性分析）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 6,
+      "caption": "困难 Gleason 分级的临床精度分析：混淆矩阵、难分类别敏感度、t-SNE 特征空间、安全感知分布",
+      "note": "heatmap ×2（a/b 混淆矩阵），grouped-bar ×1（c），scatter ×2（d/e t-SNE），f 为 split violin plot"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 12,
+      "caption": "StructMIL 可解释性机制与鲁棒性的可视化：组织掩膜、图网格、注意力对比、边界不确定性",
+      "note": "WSI 拼图/掩膜/注意力叠加等医学影像面板 ×10，底部 patch 级概率与熵 heatmap 瓦片 ×2"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "视觉消融与原型推理：有无图模块的注意力对比、学习到的原型、亲和力矩阵与图结构",
+      "note": "影像/注意力面板 ×7，feature affinity matrix heatmap ×1，节点-连边图结构 diagram ×1"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "形态异质性与失败模式分析：不同 Gleason 亚型的图拓扑、过渡带置信度与不确定性剖面、失败案例",
+      "note": "带图叠加/标注的病理影像 ×7，line ×2（置信度剖面、熵剖面）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 9,
+      "caption": "效率分析与临床部署可行性：训练收敛、10% 数据下的注意力覆盖、推理效率-精度全景",
+      "note": "line ×2（训练损失/验证精度），注意力 heatmap 叠加 ×6（含 3 个稳定性演化小图），气泡图 ×1（推理效率 vs 精度）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "乳腺癌 Camelyon16 上的定量与定性泛化分析：ROC/FROC、跨中心鲁棒性、微转移检测与图拓扑",
+      "note": "line ×2（a ROC、b FROC），c 为 slope chart（域内→域外性能变化），d/e 为 WSI heatmap 对比与图拓扑叠加 ×4"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "StructMIL 框架总览：双流视觉-结构编码器、原型驱动池化与域泛化模块的架构图"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "benchmark-scores",
+      "rows": 6,
+      "cols": 8,
+      "caption": "多分类 Gleason 分级性能（Kappa 与 AUC）在域内与跨域设定下的方法对比"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 5,
+      "cols": 3,
+      "caption": "CLAM 基线与 StructMIL 在不同组织学场景下注意力机制与失败模式的定性对比"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "ablation",
+      "rows": 4,
+      "cols": 5,
+      "caption": "OOD Radboud 数据集上结构编码器/原型池化/域泛化各组件贡献的消融实验"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "comparison",
+      "rows": 5,
+      "cols": 6,
+      "caption": "计算效率与资源占用对比：参数量、FLOPs、训练时长、推理速度、显存峰值"
+    },
+    {
+      "label": "Table 5",
+      "data_form": "benchmark-scores",
+      "rows": 5,
+      "cols": 6,
+      "caption": "Camelyon16 乳腺癌数据集上的泛化分析：AUC、准确率、F1 与跨中心性能下降"
+    },
+    {
+      "label": "Table 6",
+      "data_form": "comparison",
+      "rows": 4,
+      "cols": 7,
+      "caption": "StructMIL 与大规模病理基础模型（CHIEF/Virchow/UNI）在训练规模、可解释性与性能上的对比"
+    },
+    {
+      "label": "Table 7",
+      "data_form": "other",
+      "rows": 9,
+      "cols": 2,
+      "caption": "StructMIL 中使用的数学符号与定义"
+    }
+  ]
+}

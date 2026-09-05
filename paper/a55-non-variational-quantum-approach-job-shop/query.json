@@ -1,0 +1,19 @@
+{
+  "id": "A55",
+  "category": "paper",
+  "query": "读 non-variational-quantum-approach-job-shop.pdf，这是一篇用量子算法求解作业车间调度问题的论文，在 IonQ 量子处理器上测试了 24 到 97 量子比特规模的多个问题实例。做一份图文报告，分析 Iterative-QAOA、LR-QAOA、VarQITE 等不同算法找到最优解的效果与问题规模之间的关系，以及量子求解与经典求解的时间开销对比。",
+  "files": [
+    {
+      "file": "non-variational-quantum-approach-job-shop.pdf",
+      "source": ".cache/chart-data-corpus/papers/non-variational-quantum-approach-job-shop.pdf"
+    }
+  ],
+  "chart_forms": [
+    "histogram",
+    "line",
+    "scatter",
+    "heatmap",
+    "bar",
+    "gantt"
+  ]
+}

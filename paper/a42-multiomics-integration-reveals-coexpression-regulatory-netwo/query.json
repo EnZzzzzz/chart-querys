@@ -1,0 +1,31 @@
+{
+  "id": "A42",
+  "category": "paper",
+  "query": "读 multiomics-integration-reveals-coexpression-regulatory-netwo.pdf，这是一篇整合骨质疏松（GSE56815，80 例血液单核细胞）与骨肉瘤（TARGET-OS，88 例肿瘤样本）多组学数据的研究。做一份可视化图文报告，梳理两个队列的临床特征、差异表达分析结果、共表达网络模块与 hub 基因、DNA 甲基化和拷贝数变异情况，以及两种疾病转录组特征之间有什么关系。",
+  "files": [
+    {
+      "file": "multiomics-integration-reveals-coexpression-regulatory-netwo.pdf",
+      "source": ".cache/chart-data-corpus/papers/multiomics-integration-reveals-coexpression-regulatory-netwo.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "line",
+    "bar",
+    "grouped-bar",
+    "stacked-bar",
+    "horizontal-bar",
+    "pie",
+    "heatmap",
+    "boxplot",
+    "violin",
+    "bubble",
+    "dot-plot",
+    "network",
+    "area",
+    "histogram",
+    "ridgeline",
+    "lollipop",
+    "venn"
+  ]
+}

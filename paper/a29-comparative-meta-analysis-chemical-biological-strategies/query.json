@@ -1,0 +1,19 @@
+{
+  "id": "A29",
+  "category": "paper",
+  "query": "读 comparative-meta-analysis-chemical-biological-strategies.pdf，这是一篇关于小麦条锈病化学防治与生物防治的荟萃分析论文，汇总了 60 多个田间试验。做一份图文报告，分析两类防治策略对病情严重度和产量的效果差异，以及不同药剂成分、菌种和品种间的表现规律。",
+  "files": [
+    {
+      "file": "comparative-meta-analysis-chemical-biological-strategies.pdf",
+      "source": ".cache/chart-data-corpus/papers/comparative-meta-analysis-chemical-biological-strategies.pdf"
+    }
+  ],
+  "chart_forms": [
+    "forest-plot",
+    "funnel",
+    "bar",
+    "horizontal-bar",
+    "dumbbell",
+    "boxplot"
+  ]
+}

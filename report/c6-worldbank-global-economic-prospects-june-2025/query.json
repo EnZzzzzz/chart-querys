@@ -1,0 +1,15 @@
+{
+  "id": "C6",
+  "category": "report-en",
+  "query": "读 worldbank-global-economic-prospects-june-2025.pdf，做一份全球经济展望报告，分析各经济体 GDP 增速预测、贸易趋势与风险情景。",
+  "files": [
+    {
+      "file": "worldbank-global-economic-prospects-june-2025.pdf",
+      "source": ".cache/chart-data-corpus/reports-en/worldbank-global-economic-prospects-june-2025.pdf"
+    }
+  ],
+  "chart_forms": [
+    "bar",
+    "line"
+  ]
+}

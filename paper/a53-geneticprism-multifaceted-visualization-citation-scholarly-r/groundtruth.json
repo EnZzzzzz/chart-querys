@@ -1,0 +1,86 @@
+{
+  "id": "A53",
+  "source_file": "geneticprism-multifaceted-visualization-citation-scholarly-r.pdf",
+  "paper_title": "GeneticPrism: Multifaceted Visualization of Citation-based Scholarly Research Evolution",
+  "stats": { "figures_total": 9, "tables_total": 2 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "GeneticPrism 系统界面截图：控制面板、学者统计、主题间引用影响概览、主视图与论文列表",
+      "note": "系统界面截图，内含 chord diagram、3D prism 视图与论文列表面板"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "GeneticPrism 数据处理流水线：预处理、GF 图分析、主题建模、可视化设计四阶段"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "GeneticPrism 设计：学者 Andrew Y. Ng 的 3D 棱镜视图、俯视图与侧视图及四种备选设计",
+      "note": "面板 a-g：3D prism 设计图、chord diagram、层次 node-link 子图，备选设计含 force-directed 布局、temporal-topical flow matrix、stacked bar"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "GeneticScroll 设计：DNN 主题的中部论文子图、上下 influx/efflux 条与两侧主题动态及流向展示",
+      "note": "自研组合设计：streamgraph × 2 + flow map + 层次 node-link + 六边形 glyph"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "other",
+      "count": 4,
+      "caption": "从原始 GF 子图布局到 GeneticScroll 视图的四个布局演化步骤",
+      "note": "node-link graph（网络图）布局步骤示意，4 个面板"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "案例研究 Pat Hanrahan：完整 GF 图、两个主题的 GeneticScroll 视图与论文引用详情",
+      "note": "node-link GF 图 + GeneticScroll（streamgraph/flow map）+ 引用信息面板"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "案例研究 Michael Stonebraker：database、storage、visualization 三个主题的 GeneticScroll 视图",
+      "note": "GeneticScroll（层次 node-link + streamgraph + flow map）同构面板 × 3"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "GD 会议案例：学者统计、主题关系概览、GeneticPrism 视图与两个主题的 GeneticScroll 视图",
+      "note": "含 chord diagram、3D prism 与 GeneticScroll（streamgraph + node-link）"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "stacked-bar",
+      "count": 2,
+      "caption": "GeneticFlow 与 GeneticPrism 在 7 项评估问题上的用户评分分布对比",
+      "note": "diverging horizontal stacked bar（Likert 五级评分），2 个面板"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "comparison",
+      "rows": 14,
+      "cols": 7,
+      "caption": "学术影响力可视化相关工作的对比分析（各方法在多维能力上的支持情况）"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "statistics",
+      "rows": 8,
+      "cols": 6,
+      "caption": "本工作使用的 GF 图统计：图灵奖/ACM Fellow、12 个 CS 子领域顶尖学者与 GD 会议的规模数据"
+    }
+  ]
+}

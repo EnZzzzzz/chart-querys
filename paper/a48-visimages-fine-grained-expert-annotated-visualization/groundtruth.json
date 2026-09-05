@@ -1,0 +1,26 @@
+{
+  "id": "A48",
+  "source_file": "visimages-fine-grained-expert-annotated-visualization.pdf",
+  "paper_title": "VisImages: A Fine-Grained Expert-Annotated Visualization Dataset",
+  "stats": { "figures_total": 10, "tables_total": 6 },
+  "figures": [
+    { "label": "Fig. 1", "chart_type": "diagram", "count": 1, "caption": "VisImages 数据结构（论文-图像-可视化三层树状结构）" },
+    { "label": "Fig. 2", "chart_type": "image", "count": 4, "caption": "可视化论文中的新颖设计示例截图（OpinionSeer、pixel bar charts、TPFlow、Lex 等）" },
+    { "label": "Fig. 3", "chart_type": "diagram", "count": 3, "caption": "数据标注流程：图像样本、类型多数投票、边界框标注" },
+    { "label": "Fig. 4", "chart_type": "image", "count": 4, "caption": "边界框绘制规范的带框示例截图（独立图、同坐标多子类型、连接/覆盖情形）" },
+    { "label": "Fig. 5", "chart_type": "diagram", "count": 2, "caption": "标注质量度量示意：IoU 计算与 recall/precision/F1 公式" },
+    { "label": "Fig. 6", "chart_type": "area", "count": 29, "note": "horizon charts，29 个小倍数面板", "caption": "horizon chart 展示 1996-2018 各可视化子类型每篇论文平均边界框数量" },
+    { "label": "Fig. 7", "chart_type": "image", "count": 4, "caption": "使用场景界面截图：图可视化论文调研与地图设计灵感" },
+    { "label": "Fig. 8", "chart_type": "image", "count": 4, "caption": "VisImages Explorer 系统界面（搜索面板、图像画廊、分布视图、词云视图）" },
+    { "label": "Fig. 9", "chart_type": "mixed", "count": 2, "note": "A 为 confusion matrix 热力矩阵，B 为 heatmap/word cloud/Sankey 示例截图", "caption": "ResNet-101 从 Beagle 迁移到 VisImages 的混淆矩阵及两数据集样例对比" },
+    { "label": "Fig. 10", "chart_type": "mixed", "count": 2, "note": "A 为 14 个 VA 系统界面定位结果截图，B 为 6 个空间分布热力图", "caption": "可视化定位结果与各类可视化在 VA 系统中的空间分布" }
+  ],
+  "tables": [
+    { "label": "TABLE 1", "data_form": "comparison", "rows": 8, "cols": 9, "caption": "可视化社区已有图像数据集对比（受众、布局、标注量、标签类型等）" },
+    { "label": "TABLE 2", "data_form": "other", "rows": 13, "cols": 2, "caption": "可视化分类体系：13 个大类与 34 个子类型" },
+    { "label": "TABLE 3", "data_form": "statistics", "rows": 35, "cols": 6, "caption": "各可视化子类型的边界框数与图像数分布" },
+    { "label": "TABLE 4", "data_form": "comparison", "rows": 13, "cols": 6, "caption": "VisImages 与 MassVis 四个来源的可视化类型分布对比" },
+    { "label": "TABLE 5", "data_form": "benchmark-scores", "rows": 4, "cols": 5, "caption": "不同模型在可视化分类上的 top-1/top-3 准确率" },
+    { "label": "TABLE 6", "data_form": "benchmark-scores", "rows": 9, "cols": 4, "caption": "不同 IoU 阈值下各子类型的定位 AP 及 mAP" }
+  ]
+}

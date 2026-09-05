@@ -1,0 +1,21 @@
+{
+  "id": "A75",
+  "category": "paper",
+  "query": "读 il-21-enhances-cytotoxicity-intratumoral-cd8.pdf，这是一篇 18 页的肿瘤免疫学论文，研究细胞因子 IL-21 与放疗联用的效果，包含患者生存数据、多种小鼠肿瘤模型实验、单细胞测序和流式细胞术结果。做一份图文分析报告，梳理 IL-21 表达水平与放疗预后、肿瘤微环境中免疫细胞浸润的关系，以及不同处理方式下各肿瘤模型的实验结果有什么规律。",
+  "files": [
+    {
+      "file": "il-21-enhances-cytotoxicity-intratumoral-cd8.pdf",
+      "source": ".cache/chart-data-corpus/papers/il-21-enhances-cytotoxicity-intratumoral-cd8.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "bar",
+    "violin",
+    "heatmap",
+    "rose",
+    "survival-curve",
+    "stacked-bar"
+  ]
+}

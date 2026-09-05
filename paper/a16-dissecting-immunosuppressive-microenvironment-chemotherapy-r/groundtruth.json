@@ -1,0 +1,90 @@
+{
+  "id": "A16",
+  "source_file": "dissecting-immunosuppressive-microenvironment-chemotherapy-r.pdf",
+  "paper_title": "Dissecting immunosuppressive microenvironment in chemotherapy-resistant colorectal cancer through single-cell transcriptomic analysis",
+  "stats": { "figures_total": 11, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Fig. 1",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "单细胞数据质控与降维：QC 指标小提琴图、UMI 与基因检测相关性 hexbin 密度图、线粒体含量小提琴图、PCA 方差解释图、UMAP 密度轮廓图、嵌套环形图、华夫图",
+      "note": "A/C violin, B hexbin, D PCA scree line, E/F UMAP scatter+density contour, G nested donut, H waffle"
+    },
+    {
+      "label": "Fig. 2",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "细胞类型注释与组成分析：UMAP 注释、标志基因点图、CD20 表达山脊图、基因表达热图、细胞类型比例华夫图、高变基因条形图、差异表达火山图、细胞群变化蝴蝶图",
+      "note": "A UMAP scatter, B dot-plot, C ridgeline, D heatmap, E waffle, F horizontal-bar, G volcano scatter, H butterfly (back-to-back bar)"
+    },
+    {
+      "label": "Fig. 3",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "功能富集与通路分析：GSEA 富集图、火山图、通路互作网络、GO 生物学过程旭日图、基因相关性弦图、通路效应量森林图、GO 层级旭日图、基因表达平行坐标图",
+      "note": "A GSEA running-score line, B volcano scatter, C network, D/G sunburst, E chord, F forest-plot, H parallel-coordinates"
+    },
+    {
+      "label": "Fig. 4",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "细胞互作与轨迹分析：细胞通讯弦图、拟时序轨迹流图、敏感/耐药互作分裂热图、UMAP 分群空间分布、标志基因气泡矩阵、基因相关性聚类热图、基因网络图、细胞群层级矩形树图",
+      "note": "A chord, B streamgraph (stacked area over pseudotime), C/F heatmap, D UMAP scatter, E bubble/dot matrix, G network, H treemap"
+    },
+    {
+      "label": "Fig. 5",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "耐药相关分子与细胞程序多维分析：差异基因交集 UpSet 图、功能特征雷达图、细胞组成变迁桑基图、关键基因表达箱线图、簇构成马赛克图、细胞比例变化斜率图、基因互作弦图、簇大小极坐标条形图",
+      "note": "A UpSet, B radar, C sankey, D boxplot, E mosaic, F slope, G chord, H polar bar"
+    },
+    {
+      "label": "Fig. 6",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "耐药微环境细胞分布与功能状态多维刻画：归一化堆叠条形图、UMAP 密度热图、标志基因箱线图、嵌套环形图、拟时序表达动态连线散点图、细胞排名变化 bump 图、功能状态三元图、免疫抑制综合热图",
+      "note": "A normalized stacked-bar, B density heatmap, C boxplot, D nested donut, E connected scatter/line, F bump-chart, G ternary plot, H heatmap"
+    },
+    {
+      "label": "Fig. 7",
+      "chart_type": "grouped-bar",
+      "count": 2,
+      "caption": "耐药结直肠癌细胞免疫抑制基因转录上调：HCT116 与 SW480 两株细胞 PD-L1/TGF-β1/IDO1/IL-10 qPCR 分组对比（A、B 两个面板）"
+    },
+    {
+      "label": "Fig. 8",
+      "chart_type": "grouped-bar",
+      "count": 2,
+      "caption": "耐药细胞免疫抑制蛋白分泌增强：PD-L1/TGF-β1/IDO1/IL-10 ELISA 定量，两株细胞系分组对比（A、B 两个面板）"
+    },
+    {
+      "label": "Fig. 9",
+      "chart_type": "mixed",
+      "count": 5,
+      "caption": "Navitoclax 抑制奥沙利铂耐药细胞免疫抑制蛋白表达：PD-L1/TGF-β1 免疫荧光染色、Western blot 条带、三种蛋白表达定量对比（C-E 条形图）",
+      "note": "A immunofluorescence image, B western blot image, C-E bar"
+    },
+    {
+      "label": "Fig. 10",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "CD44 与 SOX2 免疫荧光分析：六种实验条件下绿/红/蓝/合并通道荧光显微图网格"
+    },
+    {
+      "label": "Fig. 11",
+      "chart_type": "image",
+      "count": 1,
+      "caption": "CD74 与 MMP9 免疫荧光分析：六种实验条件下绿/红/蓝/合并通道荧光显微图网格"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "statistics",
+      "rows": 20,
+      "cols": 5,
+      "caption": "GSE132465 患者临床与病理特征：化疗敏感组 vs 耐药组的年龄、性别、肿瘤部位、TNM 分期、MSI/MMR 状态、化疗方案、疗效及细胞/基因/UMI 统计"
+    }
+  ]
+}

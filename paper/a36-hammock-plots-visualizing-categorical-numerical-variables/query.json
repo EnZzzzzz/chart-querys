@@ -1,0 +1,20 @@
+{
+  "id": "A36",
+  "category": "paper",
+  "query": "读 hammock-plots-visualizing-categorical-numerical-variables.pdf，这是一篇 JCGS 论文，提出并讲解 hammock plot 这类同时展示分类变量与数值变量的多变量可视化方法，并用哮喘患者数据和莎士比亚戏剧数据两个案例做对比分析。做一份图文科普报告，梳理这类方法的发展脉络、各自的适用范围，结合案例分析不同方法在联合展示多变量时的表现差异。",
+  "files": [
+    {
+      "file": "hammock-plots-visualizing-categorical-numerical-variables.pdf",
+      "source": ".cache/chart-data-corpus/papers/hammock-plots-visualizing-categorical-numerical-variables.pdf"
+    }
+  ],
+  "chart_forms": [
+    "hammock",
+    "parallel-sets",
+    "parallel-coordinates",
+    "sankey",
+    "alluvial",
+    "mosaic",
+    "clustergram"
+  ]
+}

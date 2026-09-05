@@ -1,0 +1,39 @@
+{
+  "id": "A16",
+  "category": "paper",
+  "query": "读 dissecting-immunosuppressive-microenvironment-chemotherapy-r.pdf，这是一篇用单细胞转录组分析化疗耐药结直肠癌免疫抑制微环境的论文（23 例患者、13380 个细胞，另有 qPCR、ELISA 和免疫荧光验证实验）。做一份图文报告，讲清楚耐药组与敏感组在细胞组成、信号通路和免疫抑制分子表达上有哪些差异，关键数据关系都要可视化。",
+  "files": [
+    {
+      "file": "dissecting-immunosuppressive-microenvironment-chemotherapy-r.pdf",
+      "source": ".cache/chart-data-corpus/papers/dissecting-immunosuppressive-microenvironment-chemotherapy-r.pdf"
+    }
+  ],
+  "chart_forms": [
+    "violin",
+    "hexbin",
+    "donut",
+    "waffle",
+    "scatter",
+    "dot-plot",
+    "heatmap",
+    "bar",
+    "grouped-bar",
+    "line",
+    "chord",
+    "sankey",
+    "sunburst",
+    "forest-plot",
+    "radar",
+    "boxplot",
+    "slope",
+    "treemap",
+    "area",
+    "upset",
+    "mosaic",
+    "ternary",
+    "network",
+    "parallel-coordinates",
+    "bump-chart",
+    "ridgeline"
+  ]
+}

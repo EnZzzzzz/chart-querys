@@ -1,0 +1,19 @@
+{
+  "id": "B2",
+  "category": "report-zh",
+  "query": "对比 cnnic-internet-report-49.pdf 和 cnnic-internet-report-56.pdf，做一份三年变迁报告，分析网民规模、普及率及各类应用使用率的变化。",
+  "files": [
+    {
+      "file": "cnnic-internet-report-49.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/cnnic-internet-report-49.pdf"
+    },
+    {
+      "file": "cnnic-internet-report-56.pdf",
+      "source": ".cache/chart-data-corpus/reports-zh/cnnic-internet-report-56.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "comparison-bar"
+  ]
+}

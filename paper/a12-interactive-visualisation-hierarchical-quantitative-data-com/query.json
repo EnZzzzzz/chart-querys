@@ -1,0 +1,18 @@
+{
+  "id": "A12",
+  "category": "paper",
+  "query": "读 interactive-visualisation-hierarchical-quantitative-data-com.pdf，这是一篇用 12 人受控实验比较几种层级量化数据可视化设计方案的论文。做一份图文报告，分析各方案在任务正确率、完成时间和用户偏好上有什么差异，关键实验数据都要可视化。",
+  "files": [
+    {
+      "file": "interactive-visualisation-hierarchical-quantitative-data-com.pdf",
+      "source": ".cache/chart-data-corpus/papers/interactive-visualisation-hierarchical-quantitative-data-com.pdf"
+    }
+  ],
+  "chart_forms": [
+    "treemap",
+    "icicle",
+    "sunburst",
+    "stacked-bar",
+    "bar"
+  ]
+}

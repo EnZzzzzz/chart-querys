@@ -1,0 +1,15 @@
+{
+  "id": "A48",
+  "category": "paper",
+  "query": "读 visimages-fine-grained-expert-annotated-visualization.pdf，做一份图文报告，介绍 VisImages 这个可视化论文图像数据集（1,397 篇 IEEE InfoVis/VAST 论文、12,267 张图、35,096 个标注框）的构建流程与标注体系，并分析各类可视化在历年论文中的使用分布有什么规律，以及用它做分类和定位基准实验的效果如何。",
+  "files": [
+    {
+      "file": "visimages-fine-grained-expert-annotated-visualization.pdf",
+      "source": ".cache/chart-data-corpus/papers/visimages-fine-grained-expert-annotated-visualization.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "horizon-chart"
+  ]
+}

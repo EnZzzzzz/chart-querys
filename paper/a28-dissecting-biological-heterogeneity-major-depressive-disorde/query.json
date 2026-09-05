@@ -1,0 +1,22 @@
+{
+  "id": "A28",
+  "category": "paper",
+  "query": "读 dissecting-biological-heterogeneity-major-depressive-disorde.pdf，这篇论文基于 327 名重性抑郁患者和 480 名健康对照的神经影像与多组学数据做亚型分析，做一份图文报告，讲清楚三种亚型在脑功能、炎症因子、代谢物和遗传易感性上各有什么差异和关联规律。",
+  "files": [
+    {
+      "file": "dissecting-biological-heterogeneity-major-depressive-disorde.pdf",
+      "source": ".cache/chart-data-corpus/papers/dissecting-biological-heterogeneity-major-depressive-disorde.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "boxplot",
+    "violin",
+    "scatter",
+    "line",
+    "bar",
+    "grouped-bar",
+    "rose",
+    "lollipop"
+  ]
+}

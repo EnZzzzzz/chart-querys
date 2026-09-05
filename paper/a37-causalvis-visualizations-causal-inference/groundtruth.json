@@ -1,0 +1,23 @@
+{
+  "id": "A37",
+  "source_file": "causalvis-visualizations-causal-inference.pdf",
+  "paper_title": "Causalvis: Visualizations for Causal Inference",
+  "stats": { "figures_total": 14, "tables_total": 0 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "image", "count": 3, "caption": "The Causalvis visualization modules corresponding to the three steps of the causal inference workflow.", "note": "3 个模块界面截图：DAG 编辑器、CohortEvaluator（直方图+点图）、TreatmentEffectExplorer（小提琴+箱线图）" },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 4, "caption": "Common variable types and their relationship to the treatment and outcome variables.", "note": "4 个小型 DAG 示意图（confounder / mediator / collider / prognostic）" },
+    { "label": "Figure 3", "chart_type": "diagram", "count": 1, "caption": "The causal inference workflow begins with some observational data and consists of 3 main steps.", "note": "因果推断三步工作流流程图" },
+    { "label": "Figure 4", "chart_type": "image", "count": 1, "caption": "The DAG module initialized with a networkx graph.", "note": "DAG 模块 UI 截图，主体为节点-链接 DAG 网络图，带 5 处标注" },
+    { "label": "Figure 5", "chart_type": "diagram", "count": 1, "caption": "The DAG of the causal relationships in the student learning data set, refined from Figure 4.", "note": "学生成绩数据集的因果 DAG 节点-链接图（模块导出的图片）" },
+    { "label": "Figure 6", "chart_type": "mixed", "count": 1, "caption": "The CohortEvaluator module initialized with both adjusted and unadjusted cohort arguments.", "note": "模块截图内含：倾向得分镜像直方图、aSMD 点图（dot plot 带置信区间）、协变量明细小提琴图+箱线图" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 1, "caption": "The cohort of selected students after refinement.", "note": "精炼后队列的倾向得分直方图 + aSMD 点图（所有协变量调整后 aSMD 低于 0.1）" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 1, "caption": "The TreatmentEffectExplorer module.", "note": "个体处理效应分布：镜像密度/小提琴图 + 箱线图，右侧为按变量分面的亚组面板与阈值滑块" },
+    { "label": "Figure 9", "chart_type": "mixed", "count": 1, "caption": "The VersionHistory module.", "note": "icicle 层级图（3 个 DAG 版本 × 各队列）+ 各队列 ATE 估计值点图（dot plot）" },
+    { "label": "Figure 10", "chart_type": "diagram", "count": 1, "caption": "A summary of the causal inference process.", "note": "因果推断流程总结图，三步细分活动，右侧嵌各模块缩略图" },
+    { "label": "Figure A1", "chart_type": "image", "count": 1, "caption": "A screenshot of the DAGitty application visualizing a DAG of a subset of variables from the UCI machine learning data set.", "note": "附录；第三方工具 DAGitty 截图，内容为 DAG 网络图" },
+    { "label": "Figure A2", "chart_type": "image", "count": 1, "caption": "A screenshot of the Causalnex package visualizing a DAG of the variables in the UCI machine learning data set.", "note": "附录；Causalnex 截图，内容为 DAG 网络图 + Jupyter 代码单元" },
+    { "label": "Figure A3", "chart_type": "image", "count": 1, "caption": "A screenshot of the causallib package visualizing the aSMD plot and propensity score distribution for a cohort after covariate adjustment using IPW.", "note": "附录；causallib 截图，内含 aSMD 点图 + 倾向得分直方图" },
+    { "label": "Figure A4", "chart_type": "image", "count": 1, "caption": "A screenshot of the Cobalt package visualizing the individual covariate distributions, aSMD plot and propensity score distribution for a cohort after covariate adjustment using Matching.", "note": "附录；Cobalt 截图，内含密度曲线、比例柱状图、aSMD 点图等多个静态面板" }
+  ],
+  "tables": []
+}

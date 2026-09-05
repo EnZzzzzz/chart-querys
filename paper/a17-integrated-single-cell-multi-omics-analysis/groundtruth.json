@@ -1,0 +1,65 @@
+{
+  "id": "A17",
+  "source_file": "integrated-single-cell-multi-omics-analysis.pdf",
+  "paper_title": "Integrated Single-Cell Multi-Omics Analysis Reveals That a CD8+ TPex-Monocyte Interaction Axis Coordinates Immune Infiltration in Alzheimer's Disease",
+  "stats": { "figures_total": 8, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "UMAP scatter ×4 (A,C,E,F)；sankey ×2 (B,D，细胞亚群相对丰度)",
+      "caption": "AD 脑脊液与血液单细胞转录组图谱：UMAP 聚类与各细胞亚群相对丰度"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "UMAP scatter ×4 (A,C)；heatmap ×3 (B,D,F)；轨迹示意图 (E)；GO 富集 dot plot ×2 (G,H)",
+      "caption": "CD8TEMRA/CD8TEM 亚群重聚类、标志基因、伪时序轨迹与模块功能富集"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 8,
+      "note": "dendrogram (A)；表达 dot plot ×2 (B,F)；PPI 网络图+伪时序 line ×2 (C)；UMAP scatter ×4 (D,E)；violin (G)；stacked-bar (H)",
+      "caption": "血液 hdWGCNA 共表达模块、hub 基因与帕金森病转录组验证"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "基因组浏览器轨道图 ×2 (A，ATAC 覆盖度轨道+共可及性弧线)；TF motif 富集/表达 heatmap ×2 (B)",
+      "caption": "AD 血液 scATAC-seq：hub 基因峰共可及性与转录因子 motif 富集"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "CellChat 弦图/圆形网络图 (A)；配受体 dot plot (B)；信号模式 heatmap ×2（含侧边 bar）(C,D)；MIF 角色 heatmap (E)；violin ×4 (F)",
+      "caption": "血液细胞亚群间相互作用分析：MIF 信号通路的发送/接收/介导角色"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 7,
+      "note": "UMAP scatter ×2 (A)；sankey (B)；火山图 scatter ×2 (C)；GO 富集 dot plot ×2 (D,E)；共表达网络图 (F)；相关性 heatmap (G)",
+      "caption": "AD 血液单核细胞重聚类、差异基因火山图与 MIF 相关基因相关性"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 6,
+      "note": "UMAP scatter ×2 (A)；sankey (B)；标志基因 feature plot ×4 (C)；环形 dumbbell (D)；GO 富集 dot plot (E)；轨迹示意图 (F)",
+      "caption": "脑脊液单核细胞亚群、差异基因环形哑铃图与血-脑脊液轨迹"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 3,
+      "note": "TF 富集 heatmap (A)；TF footprinting line ×6 (B)；TF-基因调控径向网络图 (C)",
+      "caption": "AD 血液染色质可及性：TF 富集、footprinting 与调控网络"
+    }
+  ],
+  "tables": []
+}

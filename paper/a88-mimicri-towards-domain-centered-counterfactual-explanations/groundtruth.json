@@ -1,0 +1,17 @@
+{
+  "id": "A88",
+  "source_file": "mimicri-towards-domain-centered-counterfactual-explanations.pdf",
+  "paper_title": "MiMICRI: Towards Domain-Centered Counterfactual Explanations of Cardiovascular Image Classification Models",
+  "stats": { "figures_total": 6, "tables_total": 1 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "MiMICRI 框架高层流程：分割、特征选择、图像重组生成反事实" },
+    { "label": "Figure 2", "chart_type": "mixed", "count": 1, "caption": "MiMICRI 详细框架与可视化模块，含界面截图与 MRI 图像网格", "note": "workflow diagram 嵌 UI 截图和 MRI 图像网格" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 1, "caption": "Selector 模块界面：目标影像、人口学过滤、icicle 图与单元可视化、源图像浏览", "note": "系统截图拼贴，内含 histogram（年龄/BMI 分布滑杆）与 icicle plot + unit visualization" },
+    { "label": "Figure 4", "chart_type": "image", "count": 3, "caption": "源/目标心脏 MRI 帧及重组后帧（3 张影像）" },
+    { "label": "Figure 5", "chart_type": "image", "count": 4, "caption": "四组重组 MRI 及其分割结果的专家反馈示例（4 组影像对）" },
+    { "label": "Figure 6", "chart_type": "image", "count": 13, "caption": "一对源/目标 MRI 及不同段替换组合生成的重组图像与分割（约 13 个面板）" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 7, "cols": 4, "caption": "23226 张重组图像中各段替换组合产生的反事实数量与比例" }
+  ]
+}

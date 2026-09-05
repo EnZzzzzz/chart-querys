@@ -1,0 +1,16 @@
+{
+  "id": "D4",
+  "category": "dataset",
+  "query": "分析 spotify_songs.csv（3.3 万首歌的音频特征），做一份\"流行音乐配方\"数据分析报告，看看哪些特征决定了流行度、流派之间有什么差异。",
+  "files": [
+    {
+      "file": "spotify_songs.csv",
+      "source": ".cache/chart-data-corpus/datasets/tidytuesday/spotify_songs.csv"
+    }
+  ],
+  "chart_forms": [
+    "histogram",
+    "scatter-matrix",
+    "boxplot"
+  ]
+}

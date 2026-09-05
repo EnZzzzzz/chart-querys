@@ -1,0 +1,30 @@
+{
+  "id": "A12",
+  "source_file": "interactive-visualisation-hierarchical-quantitative-data-com.pdf",
+  "paper_title": "Interactive Visualisation of Hierarchical Quantitative Data: An Evaluation",
+  "stats": { "figures_total": 3, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "image",
+      "count": 4,
+      "caption": "用户研究中四种可视化方案的最终形态，均含概览+细节视图",
+      "note": "四个面板分别为 icicle plot、sundown chart（半圆 sunburst 变体）、treemap、sunburst chart 的工具截图"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "各任务表现：(a) 回答正确/错误百分比；(b) 完成时间的 95% 置信区间",
+      "note": "(a) 4 个 Q1-Q4 面板的 stacked-bar（Correct/Wrong 占比，IP/SD/TM 三方案）；(b) 4 个 Q1-Q4 面板的 bar + 误差线（95% CI 时间）"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "stacked-bar",
+      "count": 3,
+      "caption": "参与者偏好排名（第 1/2/3 名占比）：(a) 美观性 (b) 易用性 (c) 总体",
+      "note": "3 个面板，每面板为 IP/SD/TM 三根 100% 堆叠条，分段为 1st/2nd/3rd 排名占比"
+    }
+  ],
+  "tables": []
+}

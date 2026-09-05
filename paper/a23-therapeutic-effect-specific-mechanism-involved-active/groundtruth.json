@@ -1,0 +1,86 @@
+{
+  "id": "A23",
+  "source_file": "therapeutic-effect-specific-mechanism-involved-active.pdf",
+  "paper_title": "The therapeutic effect and specific mechanism involved active Chinese medicine component biochaninA in glioma",
+  "stats": { "figures_total": 11, "tables_total": 0 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "diagram",
+      "count": 1,
+      "caption": "整体研究流程图：单细胞测序、网络药理学与细胞实验三条主线"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "UMAP scatter + pie + stacked-bar + box + violin + bubble/dot 多面板组合",
+      "caption": "胶质瘤单细胞图谱：五类细胞的分布、比例、细胞周期与标志基因表达"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "circular clustering + heatmap + box + stacked-bar + violin + wordcloud + GSEA line",
+      "caption": "八个胶质瘤细胞亚群图谱：聚类、标志基因、Ro/e 组织偏好与通路富集"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "monocle trajectory scatter + UMAP + ridgeline(density) + heatmap + box + line 动态趋势",
+      "caption": "胶质瘤细胞亚群拟时序分析：发育轨迹与干性基因动态表达"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "network + heatmap + violin + bubble + chord(circle plot) + scatter",
+      "caption": "C2 亚群与其他细胞的通讯及转录因子：PTN 通路、互作强度与 top TF"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "PPI network + bar + heatmap + survival-curve(KM)",
+      "caption": "BioA 相关基因：PPI 网络、通路评分、表达热图与 GSTP1 高低组生存"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "显微/染色照片(image) + line(增殖曲线) + flow-cytometry scatter + grouped-bar",
+      "caption": "GSTP1 敲除抑制胶质瘤细胞增殖迁移并诱导凋亡（划痕/Transwell/CCK-8/流式）"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "克隆形成照片(image) + grouped-bar + line(细胞活力)",
+      "caption": "BioA 以 ROS 依赖方式诱导氧化应激并抑制胶质瘤细胞增殖"
+    },
+    {
+      "label": "Figure 9",
+      "chart_type": "bar",
+      "count": 6,
+      "note": "6 个带散点的分组柱状图（SLC7A11/HMOX1/NQO1 × 两株细胞）",
+      "caption": "GSTP1 敲低削弱 BioA 对氧化应激应答基因的转录激活（qPCR）"
+    },
+    {
+      "label": "Figure 10",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "ROC line + box + forest-plot + scatter-matrix + stacked-bar + violin + lollipop",
+      "caption": "独立预后与免疫浸润分析：ROC、COX 回归、免疫细胞比例与 TIDE"
+    },
+    {
+      "label": "Figure 11",
+      "chart_type": "mixed",
+      "count": 1,
+      "note": "volcano scatter + heatmap + horizontal-bar + bubble + GSEA line + waterfall(oncoplot) + violin + scatter + survival-curve + box",
+      "caption": "GSTP1 高低组富集分析、突变瀑布与药物敏感性（IC50）差异"
+    }
+  ],
+  "tables": [],
+  "notes": "PDF 正文无任何 Table；第 21 页仅列出 Supplementary Figure 1-4 的图注文字，附图本身不在本 PDF 内（托管于 Frontiers 官网），故不计入。"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "A35",
+  "category": "paper",
+  "query": "读 deep-learning-model-simulate-human-stock.pdf，这篇论文用深度学习模型模仿人工看行情图选股，并在韩国和美国两个市场做了回测。做一份图文报告，分析模型在不同标签和阈值设置下的表现有什么规律，以及它与市场指数、基准方法相比如何。",
+  "files": [
+    {
+      "file": "deep-learning-model-simulate-human-stock.pdf",
+      "source": ".cache/chart-data-corpus/papers/deep-learning-model-simulate-human-stock.pdf"
+    }
+  ],
+  "chart_forms": [
+    "boxplot",
+    "grouped-bar",
+    "candlestick"
+  ]
+}

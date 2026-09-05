@@ -1,0 +1,16 @@
+{
+  "id": "A72",
+  "category": "paper",
+  "query": "读 highly-efficient-encoding-job-shop-scheduling.pdf，做一份图文报告，介绍这篇面向量子计算机的车间作业调度编码论文：分析新编码方案所需量子比特数随问题规模的变化规律，以及与 time indexed 编码的对比，还有量子算法在不同规模随机算例上的收敛表现。",
+  "files": [
+    {
+      "file": "highly-efficient-encoding-job-shop-scheduling.pdf",
+      "source": ".cache/chart-data-corpus/papers/highly-efficient-encoding-job-shop-scheduling.pdf"
+    }
+  ],
+  "chart_forms": [
+    "line",
+    "scatter",
+    "gantt"
+  ]
+}

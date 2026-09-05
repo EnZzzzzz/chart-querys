@@ -1,0 +1,27 @@
+{
+  "id": "A89",
+  "source_file": "odt-flow-scalable-platform-extracting-analyzing.pdf",
+  "paper_title": "ODT FLOW: A Scalable Platform for Extracting, Analyzing, and Sharing Multi-source Multi-scale Human Mobility",
+  "stats": { "figures_total": 16, "tables_total": 1 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "The system architecture of the ODT Flow platform." },
+    { "label": "Figure 2", "chart_type": "diagram", "count": 1, "caption": "Illustration of Origin-Destination-Time Cube for big OD data query analytics." },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 1, "caption": "Four application scenarios of ODT cube operations for exploring big mobility data.", "note": "concept diagram embedding choropleth map, line chart, flow map and data table thumbnails" },
+    { "label": "Figure 4", "chart_type": "image", "count": 1, "caption": "User interface of the interactive spatial web portal.", "note": "portal UI screenshot embedding choropleth map and line chart" },
+    { "label": "Figure 5", "chart_type": "map", "count": 4, "caption": "SafeGraph/Twitter-derived population flows to New York County and England around COVID-19 onset.", "note": "choropleth" },
+    { "label": "Figure 6", "chart_type": "map", "count": 2, "caption": "County-level population flows 01/01-01/05/2020 from Twitter and SafeGraph.", "note": "flow map" },
+    { "label": "Figure 7", "chart_type": "mixed", "count": 4, "caption": "Daily population movement trends at country, county and census-tract scales, 2019-2020.", "note": "4 portal screenshots, each combining a map panel and a time-series line chart" },
+    { "label": "Figure 8", "chart_type": "mixed", "count": 3, "caption": "Downloaded global daily flows visualized in kepler.gl.", "note": "(a) portal screenshot, (b) flow map, (c) point density map" },
+    { "label": "Figure 9", "chart_type": "diagram", "count": 1, "caption": "KNIME workflow of human mobility intensity trends visualization." },
+    { "label": "Figure 10", "chart_type": "mixed", "count": 3, "caption": "U.S. intra-state mobility before vs during early COVID-19, March 2020.", "note": "2 choropleth maps + 1 multi-series line chart" },
+    { "label": "Figure 11", "chart_type": "diagram", "count": 1, "caption": "KNIME workflow for correlation analysis of mobility and COVID-19 infections." },
+    { "label": "Figure 12", "chart_type": "line", "count": 1, "caption": "Daily correlation coefficients between New York outflows and COVID-19 cases (Twitter vs SafeGraph)." },
+    { "label": "Figure 13", "chart_type": "image", "count": 1, "caption": "Sample code for reading boundary file and obtaining mobility data via the ODT Flow API.", "note": "code screenshot" },
+    { "label": "Figure 14", "chart_type": "map", "count": 12, "caption": "Monthly mobility change rates in 13 French administrative regions, 2020.", "note": "choropleth small multiples, 12 monthly panels" },
+    { "label": "Figure 15", "chart_type": "line", "count": 1, "caption": "Daily COVID-19 new cases in France in 2020." },
+    { "label": "Figure 16", "chart_type": "mixed", "count": 2, "caption": "Python code extracting world OD flow matrix and visualizing it as interactive flow map with kepler.gl.", "note": "code snippet + kepler.gl flow map" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 10, "cols": 3, "caption": "Statistics of derived daily OD flows from Twitter and SafeGraph data across geographic scales." }
+  ]
+}

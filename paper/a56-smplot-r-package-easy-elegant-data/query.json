@@ -1,0 +1,20 @@
+{
+  "id": "A56",
+  "category": "paper",
+  "query": "读 smplot-r-package-easy-elegant-data.pdf，这是一篇介绍 R 可视化包 smplot 的短文（10 页，含 7 组示例图）。做一份图文报告，梳理这个包针对哪些常见绘图需求提供了什么函数、默认主题与 ggplot2 原生效果有什么差别，以及文末 test-retest 可靠性案例是怎么用数据说明问题的。",
+  "files": [
+    {
+      "file": "smplot-r-package-easy-elegant-data.pdf",
+      "source": ".cache/chart-data-corpus/papers/smplot-r-package-easy-elegant-data.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "bar",
+    "boxplot",
+    "violin",
+    "slope",
+    "raincloud",
+    "bland-altman"
+  ]
+}

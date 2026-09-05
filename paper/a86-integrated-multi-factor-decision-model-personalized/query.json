@@ -1,0 +1,20 @@
+{
+  "id": "A86",
+  "category": "paper",
+  "query": "读 integrated-multi-factor-decision-model-personalized.pdf，这是一篇基于 533 名孕妇 NIPT 数据、用 BMI 分层做个性化最佳检测时机决策模型的论文。做一份可视化报告，分析孕周、BMI 等因素与 Y 染色体浓度的关系，以及不同 BMI 分组下最佳检测时机、检测风险与分类模型效果的规律。",
+  "files": [
+    {
+      "file": "integrated-multi-factor-decision-model-personalized.pdf",
+      "source": ".cache/chart-data-corpus/papers/integrated-multi-factor-decision-model-personalized.pdf"
+    }
+  ],
+  "chart_forms": [
+    "scatter",
+    "scatter-matrix",
+    "heatmap",
+    "boxplot",
+    "bar",
+    "grouped-bar",
+    "line"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "A26",
+  "source_file": "state-digital-health-32-countries-who.pdf",
+  "paper_title": "State of Digital Health in 32 Countries of the WHO African Region: A Multi-Country Maturity Assessment with Short-Term Longitudinal Comparisons Across Leadership, Policy, and Health Systems Domains (2023 - 2025)",
+  "stats": { "figures_total": 8, "tables_total": 4 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "bar + radar",
+      "caption": "整体成熟度阶段国家分布（A: 各阶段国家数）与 7 类指标的区域均值画像（B: 按年份）"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "map",
+      "count": 1,
+      "caption": "非洲各国最新评估整体成熟度阶段的 choropleth 地图，未评估国家灰色斜线"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "map",
+      "count": 7,
+      "caption": "7 个 GDHM 维度各自的分国别成熟度 choropleth 地图"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "map",
+      "count": 3,
+      "caption": "2023/2024/2025 三个评估周期的整体成熟度地图对比（样本量分别为 29/17/4）"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "slopegraph + heatmap",
+      "caption": "17 个重复评估国家的整体阶段轨迹（A: slope graph）与维度级阶段变化（B: heatmap）"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "correlation heatmap + dendrogram",
+      "caption": "7 类指标得分的 Spearman 相关矩阵（A）与 Ward 层次聚类树状图（B）"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "radar",
+      "count": 1,
+      "caption": "3 个国家聚类原型在 7 个指标上的雷达画像（3 条簇均值曲线）"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 2,
+      "note": "stacked bar + horizontal bar",
+      "caption": "各指标维度的阶段构成（A: 百分比堆积条）与 32 个国家的国内成熟度差距（B: 横向条形）"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "statistics",
+      "rows": 24,
+      "cols": 8,
+      "caption": "按评估年份（2023-2025）× 7 类指标的 N、均值/中位阶段、IQR、范围与均值得分汇总"
+    },
+    {
+      "label": "Table 2",
+      "data_form": "comparison",
+      "rows": 32,
+      "cols": 5,
+      "caption": "32 国按整体成熟度阶段与综合得分的排名（含评估年份）"
+    },
+    {
+      "label": "Table 3",
+      "data_form": "statistics",
+      "rows": 17,
+      "cols": 11,
+      "caption": "17 个重复评估国家的整体及各维度阶段变化量与 big movers 标注"
+    },
+    {
+      "label": "Table 4",
+      "data_form": "statistics",
+      "rows": 3,
+      "cols": 16,
+      "caption": "3 个国家聚类的规模与各维度均值得分/中位阶段汇总"
+    }
+  ]
+}

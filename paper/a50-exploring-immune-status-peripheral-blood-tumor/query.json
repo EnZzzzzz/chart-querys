@@ -1,0 +1,21 @@
+{
+  "id": "A50",
+  "category": "paper",
+  "query": "读 exploring-immune-status-peripheral-blood-tumor.pdf，这是一项基于 67 例多器官转移性结直肠癌患者血样的探索性研究，做一份可视化报告，分析外周血和肿瘤组织中各类免疫细胞指标与患者生存情况的关系。",
+  "files": [
+    {
+      "file": "exploring-immune-status-peripheral-blood-tumor.pdf",
+      "source": ".cache/chart-data-corpus/papers/exploring-immune-status-peripheral-blood-tumor.pdf"
+    }
+  ],
+  "chart_forms": [
+    "correlogram",
+    "scatter-matrix",
+    "survival-curve",
+    "boxplot",
+    "dot-plot",
+    "density",
+    "histogram",
+    "forest-plot"
+  ]
+}

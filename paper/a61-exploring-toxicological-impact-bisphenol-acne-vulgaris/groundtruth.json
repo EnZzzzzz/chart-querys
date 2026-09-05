@@ -1,0 +1,70 @@
+{
+  "id": "A61",
+  "source_file": "exploring-toxicological-impact-bisphenol-acne-vulgaris.pdf",
+  "paper_title": "Exploring the Toxicological Impact of Bisphenol A on Acne Vulgaris via the PLA2G2A-Arachidonic Acid Pathway",
+  "stats": { "figures_total": 8, "tables_total": 1 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 7,
+      "caption": "BPA 诱导痤疮潜在靶点识别：PCA、火山图、DEG/模块-性状关系、软阈值分析、聚类树、Venn 交集",
+      "note": "scatter×2(PCA、火山图) + heatmap×2(DEG、模块-性状) + line×2(软阈值拟合/连通度) + dendrogram×1 + venn×1"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "scatter",
+      "count": 4,
+      "caption": "95 个交集基因的 GO(BP/CC/MF) 与 KEGG 富集分析，气泡大小为基因数、颜色为 -log10(FDR)",
+      "note": "bubble plot（气泡图，散点变体）×4"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 4,
+      "caption": "机器学习筛选核心基因：LASSO 交叉验证与系数路径、SVM-RFE 变量重要性、Venn 交集",
+      "note": "line×3(LASSO CV、系数路径、SVM-RFE 重要性) + venn×1"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "line",
+      "count": 3,
+      "caption": "三个核心基因（CTSL/PLA2G2A/PTTG1）的 GSEA 富集得分曲线"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "box",
+      "count": 3,
+      "caption": "独立数据集 GSE53795 中三个核心基因在痤疮与正常皮肤组织间的表达差异"
+    },
+    {
+      "label": "Figure 6",
+      "chart_type": "mixed",
+      "count": 3,
+      "caption": "免疫浸润分析：22 种免疫细胞相对丰度、与核心基因的相关性、痤疮与对照组差异",
+      "note": "stacked-bar×1(丰度) + heatmap×1(Spearman 相关) + grouped box×1(22 种细胞组间比较)"
+    },
+    {
+      "label": "Figure 7",
+      "chart_type": "image",
+      "count": 3,
+      "caption": "BPA 与三个核心靶点（CTSL/PLA2G2A/PTTG1）的分子对接 3D 构象可视化"
+    },
+    {
+      "label": "Figure 8",
+      "chart_type": "mixed",
+      "count": 8,
+      "caption": "BPA-PLA2G2A 复合物分子动力学模拟：自由能景观与 RMSD/RMSF/Rg/H-bonds/SASA 轨迹",
+      "note": "contour×1(2D FEL) + surface-3d×1(3D FEL) + line×6(动力学参数轨迹)"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1",
+      "data_form": "other",
+      "rows": 3,
+      "cols": 3,
+      "caption": "BPA 与三个受体蛋白的对接结合能（kcal/mol）"
+    }
+  ]
+}

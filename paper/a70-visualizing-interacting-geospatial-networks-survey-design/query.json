@@ -1,0 +1,19 @@
+{
+  "id": "A70",
+  "category": "paper",
+  "query": "读 visualizing-interacting-geospatial-networks-survey-design.pdf，这是一篇覆盖 95 篇论文的地理空间网络可视化综述。做一份图文报告，梳理论文提出的设计空间各个维度，分析不同可视化与交互技术各自的取舍和适用场景。",
+  "files": [
+    {
+      "file": "visualizing-interacting-geospatial-networks-survey-design.pdf",
+      "source": ".cache/chart-data-corpus/papers/visualizing-interacting-geospatial-networks-survey-design.pdf"
+    }
+  ],
+  "chart_forms": [
+    "flow-map",
+    "map",
+    "network",
+    "heatmap",
+    "chord",
+    "sankey"
+  ]
+}

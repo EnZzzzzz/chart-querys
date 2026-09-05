@@ -1,0 +1,17 @@
+{
+  "id": "A88",
+  "category": "paper",
+  "query": "读 mimicri-towards-domain-centered-counterfactual-explanations.pdf（一篇 14 页的论文，提出面向心脏 MRI 分类模型的反事实解释框架 MiMICRI），做一份图文解读报告，梳理该框架从形态特征选择到图像重组再到反事实检视的完整流程，并分析 23226 张重组图像产生反事实的规律以及专家评估中的主要发现。",
+  "files": [
+    {
+      "file": "mimicri-towards-domain-centered-counterfactual-explanations.pdf",
+      "source": ".cache/chart-data-corpus/papers/mimicri-towards-domain-centered-counterfactual-explanations.pdf"
+    }
+  ],
+  "chart_forms": [
+    "diagram",
+    "image",
+    "icicle",
+    "histogram"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "A89",
+  "category": "paper",
+  "query": "读 odt-flow-scalable-platform-extracting-analyzing.pdf，这篇论文介绍了 ODT FLOW 人类移动性数据平台，基于约 27 亿条地理标记推文和 1.6 亿条 SafeGraph 记录提取了全球多尺度的每日人口流动数据。做一份可视化报告，讲清平台的架构与数据规模，并分析 2020 年新冠疫情期间不同空间尺度下人口流动的变化规律，以及人口流动与疫情传播的关系。",
+  "files": [
+    {
+      "file": "odt-flow-scalable-platform-extracting-analyzing.pdf",
+      "source": ".cache/chart-data-corpus/papers/odt-flow-scalable-platform-extracting-analyzing.pdf"
+    }
+  ],
+  "chart_forms": [
+    "choropleth",
+    "flow-map",
+    "line",
+    "point-density-map"
+  ]
+}

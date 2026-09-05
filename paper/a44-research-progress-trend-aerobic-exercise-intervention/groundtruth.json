@@ -1,0 +1,30 @@
+{
+  "id": "A44",
+  "source_file": "research-progress-trend-aerobic-exercise-intervention.pdf",
+  "paper_title": "Research progress and trend of aerobic exercise intervention in patients with knee osteoarthritis: A knowledge mapping study based on bibliometrics",
+  "stats": { "figures_total": 17, "tables_total": 3 },
+  "figures": [
+    { "label": "Figure 1", "chart_type": "diagram", "count": 1, "caption": "Flow chart for screening publications." },
+    { "label": "Figure 2", "chart_type": "line", "count": 2, "caption": "Line chart of annual publications and cumulative publications.", "note": "正文图注与图片错位：该图实际渲染在第 5 页顶部，2 个面板（年度发文量 + 累计发文量）" },
+    { "label": "Figure 3", "chart_type": "mixed", "count": 3, "caption": "Country synthesis analysis: country clustering, cooperation network, chord diagram.", "note": "A=scatter（国家聚类散点）, B=network（国家合作网络）, C=chord diagram" },
+    { "label": "Figure 4", "chart_type": "map", "count": 1, "caption": "Publication and cooperation in high-yield countries (top 20).", "note": "世界地图上加合作网络连线（地理合作图）" },
+    { "label": "Figure 5", "chart_type": "mixed", "count": 2, "caption": "National publication time and heat map (2019-2021).", "note": "A=VOSviewer 年份叠加网络图, B=density heatmap（国家发文密度热力）" },
+    { "label": "Figure 6", "chart_type": "other", "count": 1, "caption": "Author co-occurrence diagram.", "note": "network（CiteSpace 作者共现网络）" },
+    { "label": "Figure 7", "chart_type": "other", "count": 1, "caption": "Rose chart of the author's number of publications.", "note": "rose（南丁格尔玫瑰图/极坐标条形），作者发文量" },
+    { "label": "Figure 8", "chart_type": "radar", "count": 1, "caption": "Radar chart of the institution.", "note": "机构发文量雷达图，实际渲染在第 4 页顶部" },
+    { "label": "Figure 9", "chart_type": "other", "count": 1, "caption": "Institutional co-occurrence map.", "note": "network（CiteSpace 机构共现网络）" },
+    { "label": "Figure 10", "chart_type": "horizontal-bar", "count": 1, "caption": "Citation outburst statistics chart: top 20 references with strongest citation bursts.", "note": "CiteSpace 突现检测：文献列表 + 时间轴红色突现条段" },
+    { "label": "Figure 11", "chart_type": "mixed", "count": 2, "caption": "Co-occurrence network and evolution trend of cited literature across research fields.", "note": "A=期刊双图叠加（dual-map overlay 网络）, B=共被引时间线网络" },
+    { "label": "Figure 12", "chart_type": "mixed", "count": 4, "caption": "Keywords synthesis diagram: distribution, proportions, heatmap, radar.", "note": "A=关键词密度分布图, B=pie（关键词占比）, C=heatmap（关键词热力）, D=polar/rose（图注称 radar）" },
+    { "label": "Figure 13", "chart_type": "other", "count": 1, "caption": "Keywords co-occurrence map.", "note": "network（VOSviewer 关键词共现网络）" },
+    { "label": "Figure 14", "chart_type": "other", "count": 1, "caption": "Keywords cluster map.", "note": "network（CiteSpace 关键词聚类视图，9 个聚类）" },
+    { "label": "Figure 15", "chart_type": "other", "count": 1, "caption": "Keywords time chart.", "note": "timeline network（CiteSpace 关键词时间线视图）" },
+    { "label": "Figure 16", "chart_type": "area", "count": 9, "caption": "Keywords mountain map.", "note": "ridgeline/mountain map：9 个聚类各一条面积山脊，按 2016-2024 时间展开" },
+    { "label": "Figure 17", "chart_type": "mixed", "count": 4, "caption": "Keywords development trend: attention, growth rate, citation bursts, time-weighted evolution.", "note": "A/B=stacked area（关注度与增长率）, C=horizontal-bar 突现条, D=multi-line" }
+  ],
+  "tables": [
+    { "label": "Table 1", "data_form": "statistics", "rows": 10, "cols": 2, "caption": "Top 10 countries by number of publications." },
+    { "label": "Table 2", "data_form": "statistics", "rows": 10, "cols": 2, "caption": "Top 10 authors with the largest number of publications." },
+    { "label": "Table 3", "data_form": "statistics", "rows": 10, "cols": 2, "caption": "Top 10 institutions by number of publications." }
+  ]
+}

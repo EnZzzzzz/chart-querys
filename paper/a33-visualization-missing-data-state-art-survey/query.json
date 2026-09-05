@@ -1,0 +1,26 @@
+{
+  "id": "A33",
+  "category": "paper",
+  "query": "读 visualization-missing-data-state-art-survey.pdf，这是一篇缺失数据可视化方向的综述，盘点了 25 篇代表性论文的技术、工具与评估研究。做一份图文报告，梳理这个领域的研究方法分类、代表性工具各自怎么处理缺失值，以及评估研究得出了什么结论。",
+  "files": [
+    {
+      "file": "visualization-missing-data-state-art-survey.pdf",
+      "source": ".cache/chart-data-corpus/papers/visualization-missing-data-state-art-survey.pdf"
+    }
+  ],
+  "chart_forms": [
+    "heatmap",
+    "bar",
+    "line",
+    "scatter",
+    "histogram",
+    "boxplot",
+    "sankey",
+    "parallel-coordinates",
+    "mosaic",
+    "upset",
+    "violin",
+    "map",
+    "spinogram"
+  ]
+}

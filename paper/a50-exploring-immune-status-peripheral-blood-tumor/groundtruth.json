@@ -1,0 +1,61 @@
+{
+  "id": "A50",
+  "source_file": "exploring-immune-status-peripheral-blood-tumor.pdf",
+  "paper_title": "Exploring immune status in peripheral blood and tumor tissue in association with survival in patients with multi-organ metastatic colorectal cancer",
+  "stats": { "figures_total": 5, "tables_total": 2 },
+  "figures": [
+    {
+      "label": "Figure 1",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "研究子队列构成与各队列 OS 分布总览",
+      "note": "(a) 子队列流程示意图(diagram); (b) 4 条 OS 密度分布曲线(density plot, 填充面积)"
+    },
+    {
+      "label": "Figure 2",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "循环免疫细胞绝对数量与患者生存的关系",
+      "note": "(a) 相关性气泡矩阵(correlogram); (b) 散点图矩阵(对角线直方图+密度); (c-e) Kaplan-Meier 生存曲线共 6 面板; (f,g) 箱线图+抖动散点各 1"
+    },
+    {
+      "label": "Figure 3",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "循环免疫细胞比例与患者生存的关系",
+      "note": "(a) 相关性气泡矩阵(correlogram); (b) 散点图矩阵; (c,e,f) Kaplan-Meier 生存曲线各 2 面板; (d) 箱线图+散点(对比健康人正常范围)"
+    },
+    {
+      "label": "Figure 4",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "原发 CRC 肿瘤 T 细胞浸润(IHC)与生存的关系",
+      "note": "(a,d) 散点图矩阵(含相关系数格); (b,c,e) Kaplan-Meier 生存曲线各 2 面板"
+    },
+    {
+      "label": "Figure 5",
+      "chart_type": "mixed",
+      "count": 1,
+      "caption": "肝转移灶淋巴细胞浸润(mIF)与生存的关系",
+      "note": "(a) mIF 显微图像(image); (b) 相关性气泡矩阵(correlogram); (c) 3 组散点图矩阵; (d) Kaplan-Meier 生存曲线 2 面板; (e) 散点图矩阵"
+    }
+  ],
+  "tables": [
+    {
+      "label": "Table 1A",
+      "data_form": "statistics",
+      "rows": 16,
+      "cols": 5,
+      "caption": "所选变量与 PFS 的风险比(中位分组: 高 vs 低)",
+      "note": "表内嵌森林图(forest plot)列展示 HR(95% CI)"
+    },
+    {
+      "label": "Table 2B",
+      "data_form": "statistics",
+      "rows": 16,
+      "cols": 5,
+      "caption": "所选变量与 OS 的风险比(中位分组: 高 vs 低)",
+      "note": "表内嵌森林图(forest plot)列; 正文引用作 Table 1B, PDF 实际印刷标签为 Table 2B"
+    }
+  ]
+}
