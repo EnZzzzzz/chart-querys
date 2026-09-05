@@ -1,0 +1,19 @@
+{
+  "id": "E12",
+  "category": "special-form",
+  "query": "请分析 us-sector-employment.csv。143412 条美国月度就业记录包含月份 Month、序列代码 Series_ID、行业名称 Title 和就业人数 Employed，时间覆盖 1939 年至 2019 年。分析各行业就业规模的长期变化、周期性和相对位置变化，做一份可视化报告。",
+  "files": [
+    {
+      "file": "us-sector-employment.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/fpp3/us_employment.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/fpp3/us_employment.html",
+      "rows": 143412,
+      "sha256": "6ae447949016bc0ca65041f35fbf8c74f1426fe6f5ea766ca1b0738a0509242c",
+      "note": "就业序列包含总量及细分行业，不能假设所有序列互斥。"
+    }
+  ],
+  "chart_forms": [
+    "horizon-chart",
+    "bump-chart"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "E17",
+  "category": "special-form",
+  "query": "请分析 painting-elements.csv。403 集绘画节目的记录包含集号、季号、标题及 67 个元素或特征的出现标记（1 为出现、0 为未出现）。分析常见元素的共同出现与独有组合，以及题材随季数的变化，做一份可视化报告。",
+  "files": [
+    {
+      "file": "painting-elements.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/fivethirtyeight/bob_ross.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/fivethirtyeight/bob_ross.html",
+      "rows": 403,
+      "sha256": "a9e71b26c3c022e94cf78372d500ea8041a288ad488a8c96831d94f366804ce3",
+      "note": "共 71 个数据字段，另有 Rdatasets 的 rownames 索引列。"
+    }
+  ],
+  "chart_forms": [
+    "upset"
+  ]
+}

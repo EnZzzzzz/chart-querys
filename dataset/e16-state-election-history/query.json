@@ -1,0 +1,19 @@
+{
+  "id": "E16",
+  "category": "special-form",
+  "query": "请分析 state-election-history.csv。1097 条记录包含州名 state、年份 year、民主党总统候选人的得票百分比 demVote 和南方州标记 south。分析各州得票比例及其相对位置随时间的变化，并比较不同州的变化幅度，做一份可视化报告。",
+  "files": [
+    {
+      "file": "state-election-history.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/pscl/presidentialElections.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/pscl/presidentialElections.html",
+      "rows": 1097,
+      "sha256": "ca94c59fd590f3981cd08c15444cc642926aa2cb9207e4bd68fdcbc06dbfb594",
+      "note": "行数以下载的 CSV 为准；上游文档 Note 中的 1047 行是旧说明。"
+    }
+  ],
+  "chart_forms": [
+    "bump-chart",
+    "slope"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "E13",
+  "category": "special-form",
+  "query": "请分析 melbourne-pedestrians.csv。1976 条记录包含 2019-01-01 至 2024-05-29 的日期 Date 和各传感器日行人总量的平均值 Count。分析行人活动的长期变化、周内与年度规律及异常时段，做一份可视化报告。",
+  "files": [
+    {
+      "file": "melbourne-pedestrians.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/fpp3/melb_walkers.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/fpp3/melb_walkers.html",
+      "rows": 1976,
+      "sha256": "6f2b1685a86e6193930081f1af1eb8f7597db36d85bb46b26687c8221c7c7784",
+      "note": "Count 为传感器日总量的平均值，不是全市行人总数。"
+    }
+  ],
+  "chart_forms": [
+    "calendar-heatmap"
+  ]
+}

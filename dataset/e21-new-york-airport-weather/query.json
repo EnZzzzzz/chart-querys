@@ -1,0 +1,18 @@
+{
+  "id": "E21",
+  "category": "special-form",
+  "query": "请分析 new-york-airport-weather.csv。26115 条纽约三个机场的逐小时天气记录包含站点 origin、时间、温度 temp（华氏度）、风向 wind_dir（度）、风速 wind_speed 和阵风 wind_gust（英里/小时）等字段。分析各站点的风向与风速分布、季节变化，以及站点间的差异，做一份可视化报告。",
+  "files": [
+    {
+      "file": "new-york-airport-weather.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/nycflights13/weather.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/nycflights13/weather.html",
+      "rows": 26115,
+      "sha256": "e69580cc3c18070692b6bf2f52e890803a313507c23283b15f06dbbae86451cf"
+    }
+  ],
+  "chart_forms": [
+    "rose",
+    "radial-bar"
+  ]
+}

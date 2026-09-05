@@ -24,7 +24,7 @@ cross-source/F=跨源综合。
 
 ## 图表类型覆盖
 
-目前共 **132 条 query**（paper 89 / report 20 / dataset 18 / cross-source 5）。
+目前共 **148 条 query**（paper 89 / report 20 / dataset 34 / cross-source 5）。
 89 条 paper 类 query 均附带 groundtruth，
 覆盖其源论文中的 **1349 个 Figure 与 475 个 Table**。
 

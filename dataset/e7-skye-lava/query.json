@@ -1,0 +1,18 @@
+{
+  "id": "E7",
+  "category": "special-form",
+  "query": "请分析 skye-lava.csv。23 个熔岩样本的 A、F、M 分别是钠钾氧化物、氧化铁、氧化镁在三组分中的百分比。分析样本的成分构成、集中程度和差异，做一份可视化报告。",
+  "files": [
+    {
+      "file": "skye-lava.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/MASS/Skye.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/MASS/Skye.html",
+      "rows": 23,
+      "sha256": "f736a720c5d1832118ba2f0200dda9cc40e930470ee9b0bb4cf356d56ead45f2",
+      "note": "经典成分数据，原始数据仅 23 行；保留完整样本，不复制扩充。"
+    }
+  ],
+  "chart_forms": [
+    "ternary"
+  ]
+}

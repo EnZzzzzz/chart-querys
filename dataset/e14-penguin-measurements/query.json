@@ -1,0 +1,19 @@
+{
+  "id": "E14",
+  "category": "special-form",
+  "query": "请分析 penguin-measurements.csv。344 条企鹅记录包含物种、岛屿、性别、年份、喙长与喙深（毫米）、鳍长（毫米）和体重（克）。分析不同物种和性别的体型分布、个体差异及各项测量之间的关系，做一份可视化报告。",
+  "files": [
+    {
+      "file": "penguin-measurements.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/palmerpenguins/penguins.html",
+      "rows": 344,
+      "sha256": "3c4c14fd9d1b3466dff2e046627cc32814ab6226c0e228c55f24e896a93a89b1"
+    }
+  ],
+  "chart_forms": [
+    "raincloud",
+    "beeswarm",
+    "correlogram"
+  ]
+}

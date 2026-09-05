@@ -1,0 +1,19 @@
+{
+  "id": "E10",
+  "category": "special-form",
+  "query": "请分析 respiratory-followups.csv。444 条记录来自 111 位患者的四次随访，包含中心 center、患者 id、治疗 treat（P 为安慰剂、A 为活性治疗）、性别、年龄、基线状态 baseline、随访 visit 和呼吸状态 outcome（1 为良好、0 为较差）。分析患者状态在基线及随访期间的迁移，以及不同治疗下的差异，做一份可视化报告。",
+  "files": [
+    {
+      "file": "respiratory-followups.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/geepack/respiratory.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/geepack/respiratory.html",
+      "rows": 444,
+      "sha256": "035875079fb7990f29880b6cffa144615e50d9eb7259752b343aa4365f5e0ecb",
+      "note": "患者身份由 center 与 id 共同确定；原始文件保留不变。"
+    }
+  ],
+  "chart_forms": [
+    "alluvial",
+    "parallel-sets"
+  ]
+}

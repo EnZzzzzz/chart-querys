@@ -1,0 +1,19 @@
+{
+  "id": "E8",
+  "category": "special-form",
+  "query": "请分析 iron-measurements.csv。53 个炉渣样本的 chemical、magnetic 是化学法和磁性法对同一样本铁含量的测量结果。分析两种方法的一致性、差异大小及其与测量水平的关系，做一份可视化报告。",
+  "files": [
+    {
+      "file": "iron-measurements.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/DAAG/ironslag.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/ironslag.html",
+      "rows": 53,
+      "sha256": "6df7bfa132509d5294b2e35ccac85d67075ebda4629072525b0f6d0ad248824b",
+      "note": "经典配对测量数据，原始数据仅 53 行；保留完整样本，不复制扩充。"
+    }
+  ],
+  "chart_forms": [
+    "bland-altman",
+    "dumbbell"
+  ]
+}

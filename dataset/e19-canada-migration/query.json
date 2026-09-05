@@ -1,0 +1,19 @@
+{
+  "id": "E19",
+  "category": "special-form",
+  "query": "请分析 canada-migration.csv。90 条记录包含 1966–1971 年加拿大省际迁移的出发省 source、到达省 destination、人数 migrants、省际距离 distance 以及两端省份在 1966 和 1971 年的人口。分析省际人口迁移的联系、方向差异，以及迁移规模与距离和人口的关系，做一份可视化报告。",
+  "files": [
+    {
+      "file": "canada-migration.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/carData/Migration.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/carData/Migration.html",
+      "rows": 90,
+      "sha256": "a690cd065df9e72feab7b0e2602e8c5a20793b9381e05cba3bbb809911b858f2",
+      "note": "经典迁移数据，10 省之间排除省内迁移后为 90 条有向联系；保留完整记录。"
+    }
+  ],
+  "chart_forms": [
+    "od-matrix-heatmap",
+    "chord"
+  ]
+}

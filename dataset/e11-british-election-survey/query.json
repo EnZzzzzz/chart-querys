@@ -1,0 +1,19 @@
+{
+  "id": "E11",
+  "category": "special-form",
+  "query": "请分析 british-election-survey.csv。1525 位受访者的记录包含政党选择 vote、年龄、性别、国家及家庭经济状况评价、三位政党领袖评价、欧洲一体化态度和政治知识。经济状况与领袖评价为 1–5 分，Europe 越高表示越怀疑欧洲一体化，political.knowledge 为 0–3 分。分析政党选择与受访者特征和态度的关系，做一份可视化报告。",
+  "files": [
+    {
+      "file": "british-election-survey.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/carData/BEPS.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/carData/BEPS.html",
+      "rows": 1525,
+      "sha256": "50fa4b894ee0083a784617b006364df8433190d14bd18ce2b0e515e71c2fe96d"
+    }
+  ],
+  "chart_forms": [
+    "parallel-sets",
+    "mosaic",
+    "diverging-bar"
+  ]
+}

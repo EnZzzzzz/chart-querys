@@ -1,0 +1,18 @@
+{
+  "id": "E9",
+  "category": "special-form",
+  "query": "请分析 laboratory-assays.csv。252 条化学分析记录包含实验室 Lab、样本 Spc、批次 Bat 和浓度 Conc（g/kg），并包含重复测量。分析实验室之间的测量一致性，以及样本、批次和重复测量对应的差异，做一份可视化报告。",
+  "files": [
+    {
+      "file": "laboratory-assays.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/MASS/coop.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/MASS/coop.html",
+      "rows": 252,
+      "sha256": "4625e12da81130544735bba5dd61f9a71b727ea4abe24e0d974d7de261f2e6ad"
+    }
+  ],
+  "chart_forms": [
+    "bland-altman",
+    "error-bar"
+  ]
+}

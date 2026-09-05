@@ -1,0 +1,19 @@
+{
+  "id": "E15",
+  "category": "special-form",
+  "query": "请分析 cattle-growth.csv。660 条记录来自 60 头牛的 11 次体重测量，包含个体 animal、两种治疗 trt、试验天数 day 和体重 weight（千克）。分析两种治疗下不同时间的体重分布、个体差异和变化幅度，做一份可视化报告。",
+  "files": [
+    {
+      "file": "cattle-growth.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/agridat/kenward.cattle.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/agridat/kenward.cattle.html",
+      "rows": 660,
+      "sha256": "834b46d689b437d38c04729482f757749128c441012cd24cf873aaea36f6b6fa"
+    }
+  ],
+  "chart_forms": [
+    "raincloud",
+    "beeswarm",
+    "slope"
+  ]
+}

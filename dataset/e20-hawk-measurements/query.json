@@ -1,0 +1,18 @@
+{
+  "id": "E20",
+  "category": "special-form",
+  "query": "请分析 hawk-measurements.csv。908 条鹰类观测记录包含日期、物种 Species、年龄 Age、性别 Sex 及多项身体测量。Species 的 CH、RT、SS 分别表示库氏鹰、红尾鵟、条纹鹰；Age 的 A、I 分别表示成年和未成年。分析测量信息的完整性、哪些字段常同时缺失，以及不同物种和年份的完整性差异，做一份可视化报告。",
+  "files": [
+    {
+      "file": "hawk-measurements.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/Stat2Data/Hawks.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/Stat2Data/Hawks.html",
+      "rows": 908,
+      "sha256": "5c5f2cca3b3c7165c910abe076ac10e4a26279d4e5096a827ca788dbb72dd4be",
+      "note": "保留原始空白及缺失表示，不预先插补。"
+    }
+  ],
+  "chart_forms": [
+    "upset"
+  ]
+}

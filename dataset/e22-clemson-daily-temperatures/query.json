@@ -1,0 +1,18 @@
+{
+  "id": "E22",
+  "category": "special-form",
+  "query": "请分析 clemson-daily-temperatures.csv。33148 条逐日记录包含日期 date、最低温 tmin 与最高温 tmax，温度单位为华氏度。分析 Clemson 的温度季节性、不同年份的差异、日温差和异常时段，做一份可视化报告。",
+  "files": [
+    {
+      "file": "clemson-daily-temperatures.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/stevedata/clemson_temps.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/stevedata/clemson_temps.html",
+      "rows": 33148,
+      "sha256": "e71e67953c6060fc312100afee89d888354daab90fa62f5b0590230189474fab"
+    }
+  ],
+  "chart_forms": [
+    "calendar-heatmap",
+    "horizon-chart"
+  ]
+}

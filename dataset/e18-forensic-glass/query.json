@@ -1,0 +1,20 @@
+{
+  "id": "E18",
+  "category": "special-form",
+  "query": "请分析 forensic-glass.csv。214 个玻璃碎片样本包含折射率编码 RI、八项氧化物质量百分比及玻璃类别 type。分析不同类别的成分差异、指标之间的关系和样本相似性，做一份可视化报告。",
+  "files": [
+    {
+      "file": "forensic-glass.csv",
+      "source": "https://vincentarelbundock.github.io/Rdatasets/csv/MASS/fgl.csv",
+      "documentation": "https://vincentarelbundock.github.io/Rdatasets/doc/MASS/fgl.html",
+      "rows": 214,
+      "sha256": "628e5f64c5ed26a0a9e54a522a562b322771cd18b32b9794c2986cdaf466e135",
+      "note": "RI 保留上游编码，完整定义见 documentation；八项成分列为 Na、Mg、Al、Si、K、Ca、Ba、Fe。"
+    }
+  ],
+  "chart_forms": [
+    "parallel-coordinates",
+    "clustergram",
+    "correlogram"
+  ]
+}
