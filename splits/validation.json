@@ -1,0 +1,118 @@
+[
+  {
+    "id": "A11",
+    "query_file": "paper/a11-scene-centric-interaction-grammar-data-visualizations/query.json"
+  },
+  {
+    "id": "A16",
+    "query_file": "paper/a16-dissecting-immunosuppressive-microenvironment-chemotherapy-r/query.json"
+  },
+  {
+    "id": "A17",
+    "query_file": "paper/a17-integrated-single-cell-multi-omics-analysis/query.json"
+  },
+  {
+    "id": "A19",
+    "query_file": "paper/a19-repositioning-triazoles-phosphodiesterase-4-inhibitors-suppr/query.json"
+  },
+  {
+    "id": "A21",
+    "query_file": "paper/a21-optimizing-solar-wind-forecasting-ihow-optimization/query.json"
+  },
+  {
+    "id": "A23",
+    "query_file": "paper/a23-therapeutic-effect-specific-mechanism-involved-active/query.json"
+  },
+  {
+    "id": "A24",
+    "query_file": "paper/a24-anteater-interactive-visualization-program-execution-values/query.json"
+  },
+  {
+    "id": "A25",
+    "query_file": "paper/a25-effect-quality-control-circle-activities-damage/query.json"
+  },
+  {
+    "id": "A27",
+    "query_file": "paper/a27-time-series-information-visualization-review-approaches/query.json"
+  },
+  {
+    "id": "A3",
+    "query_file": "paper/a3-chinchilla-scaling-laws/query.json"
+  },
+  {
+    "id": "A35",
+    "query_file": "paper/a35-deep-learning-model-simulate-human-stock/query.json"
+  },
+  {
+    "id": "A44",
+    "query_file": "paper/a44-research-progress-trend-aerobic-exercise-intervention/query.json"
+  },
+  {
+    "id": "A48",
+    "query_file": "paper/a48-visimages-fine-grained-expert-annotated-visualization/query.json"
+  },
+  {
+    "id": "A52",
+    "query_file": "paper/a52-hyperloop-system-optimization-hops/query.json"
+  },
+  {
+    "id": "A56",
+    "query_file": "paper/a56-smplot-r-package-easy-elegant-data/query.json"
+  },
+  {
+    "id": "A62",
+    "query_file": "paper/a62-morphometric-trait-analysis-machine-learning-yield/query.json"
+  },
+  {
+    "id": "A64",
+    "query_file": "paper/a64-causal-association-molecular-mechanisms-periodontal-disease/query.json"
+  },
+  {
+    "id": "A73",
+    "query_file": "paper/a73-structure-aware-generalization-heterogeneous-histopathology/query.json"
+  },
+  {
+    "id": "A89",
+    "query_file": "paper/a89-odt-flow-scalable-platform-extracting-analyzing/query.json"
+  },
+  {
+    "id": "B10",
+    "query_file": "report/b10-safe-bop-report-2023/query.json"
+  },
+  {
+    "id": "B2",
+    "query_file": "report/b2-cnnic-internet-report-49/query.json"
+  },
+  {
+    "id": "C10",
+    "query_file": "report/c10-wef-global-risks-report-2025/query.json"
+  },
+  {
+    "id": "C5",
+    "query_file": "report/c5-wmo-state-of-global-climate-2024/query.json"
+  },
+  {
+    "id": "D12",
+    "query_file": "dataset/d12-measles/query.json"
+  },
+  {
+    "id": "D2",
+    "query_file": "dataset/d2-share-energy-source-sub/query.json"
+  },
+  {
+    "id": "D4",
+    "query_file": "dataset/d4-spotify-songs/query.json"
+  },
+  {
+    "id": "E10",
+    "query_file": "dataset/e10-respiratory-followups/query.json"
+  },
+  {
+    "id": "E18",
+    "query_file": "dataset/e18-forensic-glass/query.json"
+  },
+  {
+    "id": "E21",
+    "query_file": "dataset/e21-new-york-airport-weather/query.json"
+  }
+]

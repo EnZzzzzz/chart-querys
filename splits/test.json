@@ -1,0 +1,122 @@
+[
+  {
+    "id": "A12",
+    "query_file": "paper/a12-interactive-visualisation-hierarchical-quantitative-data-com/query.json"
+  },
+  {
+    "id": "A18",
+    "query_file": "paper/a18-ferroptosis-signature-correlates-ovarian-cancer-prognosis/query.json"
+  },
+  {
+    "id": "A2",
+    "query_file": "paper/a2-gpt4-technical-report/query.json"
+  },
+  {
+    "id": "A20",
+    "query_file": "paper/a20-visualising-geographically-embedded-origin-destination-flows/query.json"
+  },
+  {
+    "id": "A22",
+    "query_file": "paper/a22-integrated-multi-omics-machine-learning-highlight/query.json"
+  },
+  {
+    "id": "A31",
+    "query_file": "paper/a31-optimization-solid-state-fermentation-process-diets/query.json"
+  },
+  {
+    "id": "A40",
+    "query_file": "paper/a40-fabric-gc-project-management/query.json"
+  },
+  {
+    "id": "A45",
+    "query_file": "paper/a45-single-cell-transcriptomic-profiling-uncovers-key/query.json"
+  },
+  {
+    "id": "A5",
+    "query_file": "paper/a5-mmlu-paper/query.json"
+  },
+  {
+    "id": "A58",
+    "query_file": "paper/a58-securing-dark-matter-semantic-enhanced-neuro/query.json"
+  },
+  {
+    "id": "A65",
+    "query_file": "paper/a65-leveraging-time-series-categorization-temporal-fusion/query.json"
+  },
+  {
+    "id": "A67",
+    "query_file": "paper/a67-improved-insights-sabio-rk-database-visualization/query.json"
+  },
+  {
+    "id": "A71",
+    "query_file": "paper/a71-integrated-multi-omics-reveals-anaplerotic-rewiring/query.json"
+  },
+  {
+    "id": "A74",
+    "query_file": "paper/a74-early-detection-emergency-events-social-media/query.json"
+  },
+  {
+    "id": "A75",
+    "query_file": "paper/a75-il-21-enhances-cytotoxicity-intratumoral-cd8/query.json"
+  },
+  {
+    "id": "A82",
+    "query_file": "paper/a82-identifying-distinct-molecular-subtypes-establishing-prognos/query.json"
+  },
+  {
+    "id": "A86",
+    "query_file": "paper/a86-integrated-multi-factor-decision-model-personalized/query.json"
+  },
+  {
+    "id": "A88",
+    "query_file": "paper/a88-mimicri-towards-domain-centered-counterfactual-explanations/query.json"
+  },
+  {
+    "id": "B4",
+    "query_file": "report/b4-mee-eco-env-report-2024/query.json"
+  },
+  {
+    "id": "C2",
+    "query_file": "report/c2-wef-future-of-jobs-report-2025/query.json"
+  },
+  {
+    "id": "C6",
+    "query_file": "report/c6-worldbank-global-economic-prospects-june-2025/query.json"
+  },
+  {
+    "id": "C7",
+    "query_file": "report/c7-ipcc-ar6-synthesis-report-2023/query.json"
+  },
+  {
+    "id": "D6",
+    "query_file": "dataset/d6-seaborn-diamonds/query.json"
+  },
+  {
+    "id": "E11",
+    "query_file": "dataset/e11-british-election-survey/query.json"
+  },
+  {
+    "id": "E14",
+    "query_file": "dataset/e14-penguin-measurements/query.json"
+  },
+  {
+    "id": "E16",
+    "query_file": "dataset/e16-state-election-history/query.json"
+  },
+  {
+    "id": "E22",
+    "query_file": "dataset/e22-clemson-daily-temperatures/query.json"
+  },
+  {
+    "id": "E4",
+    "query_file": "dataset/e4-plotly-earthquakes-23k/query.json"
+  },
+  {
+    "id": "E9",
+    "query_file": "dataset/e9-laboratory-assays/query.json"
+  },
+  {
+    "id": "F4",
+    "query_file": "cross-source/f4-iea-global-ev-outlook-2025/query.json"
+  }
+]

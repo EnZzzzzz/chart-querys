@@ -1,0 +1,358 @@
+[
+  {
+    "id": "A1",
+    "query_file": "paper/a1-llama3-technical-report/query.json"
+  },
+  {
+    "id": "A10",
+    "query_file": "paper/a10-big-bench-paper/query.json"
+  },
+  {
+    "id": "A13",
+    "query_file": "paper/a13-multifaceted-visualization-scientific-impact-evolutions/query.json"
+  },
+  {
+    "id": "A14",
+    "query_file": "paper/a14-pyfi-toward-pyramid-like-financial-image/query.json"
+  },
+  {
+    "id": "A15",
+    "query_file": "paper/a15-behavior-tree-serverless-workflow-modeling-scheduling/query.json"
+  },
+  {
+    "id": "A26",
+    "query_file": "paper/a26-state-digital-health-32-countries-who/query.json"
+  },
+  {
+    "id": "A28",
+    "query_file": "paper/a28-dissecting-biological-heterogeneity-major-depressive-disorde/query.json"
+  },
+  {
+    "id": "A29",
+    "query_file": "paper/a29-comparative-meta-analysis-chemical-biological-strategies/query.json"
+  },
+  {
+    "id": "A30",
+    "query_file": "paper/a30-cararime-interactive-web-server-comprehensive-analysis/query.json"
+  },
+  {
+    "id": "A32",
+    "query_file": "paper/a32-dexmedetomidine-dezocine-targets-nr1h3-adrb1-are/query.json"
+  },
+  {
+    "id": "A33",
+    "query_file": "paper/a33-visualization-missing-data-state-art-survey/query.json"
+  },
+  {
+    "id": "A34",
+    "query_file": "paper/a34-integrative-single-cell-analysis-reveals-trim31/query.json"
+  },
+  {
+    "id": "A36",
+    "query_file": "paper/a36-hammock-plots-visualizing-categorical-numerical-variables/query.json"
+  },
+  {
+    "id": "A37",
+    "query_file": "paper/a37-causalvis-visualizations-causal-inference/query.json"
+  },
+  {
+    "id": "A38",
+    "query_file": "paper/a38-many-many-geographically-embedded-flow-visualisation/query.json"
+  },
+  {
+    "id": "A39",
+    "query_file": "paper/a39-general-approach-visualizing-uncertainty-statistical-graphic/query.json"
+  },
+  {
+    "id": "A4",
+    "query_file": "paper/a4-qwen25-technical-report/query.json"
+  },
+  {
+    "id": "A41",
+    "query_file": "paper/a41-triadic-werewolf-jester-role-multi-hop/query.json"
+  },
+  {
+    "id": "A42",
+    "query_file": "paper/a42-multiomics-integration-reveals-coexpression-regulatory-netwo/query.json"
+  },
+  {
+    "id": "A43",
+    "query_file": "paper/a43-artificial-intelligence-driven-integration-single-cell/query.json"
+  },
+  {
+    "id": "A46",
+    "query_file": "paper/a46-bioinformatics-driven-identification-validation-diagnostic-b/query.json"
+  },
+  {
+    "id": "A47",
+    "query_file": "paper/a47-development-implementation-odd-exponential-ailamujia-distrib/query.json"
+  },
+  {
+    "id": "A49",
+    "query_file": "paper/a49-structural-var-vecm-modeling-method-open/query.json"
+  },
+  {
+    "id": "A50",
+    "query_file": "paper/a50-exploring-immune-status-peripheral-blood-tumor/query.json"
+  },
+  {
+    "id": "A51",
+    "query_file": "paper/a51-machine-learning-driven-prognostic-model-sphingolipid/query.json"
+  },
+  {
+    "id": "A53",
+    "query_file": "paper/a53-geneticprism-multifaceted-visualization-citation-scholarly-r/query.json"
+  },
+  {
+    "id": "A54",
+    "query_file": "paper/a54-scpubr-user-friendly-r-package-generating/query.json"
+  },
+  {
+    "id": "A55",
+    "query_file": "paper/a55-non-variational-quantum-approach-job-shop/query.json"
+  },
+  {
+    "id": "A57",
+    "query_file": "paper/a57-hemi-2-0-online-service/query.json"
+  },
+  {
+    "id": "A59",
+    "query_file": "paper/a59-enhancing-underwater-sensor-network-security-qkd/query.json"
+  },
+  {
+    "id": "A6",
+    "query_file": "paper/a6-helm-benchmark/query.json"
+  },
+  {
+    "id": "A60",
+    "query_file": "paper/a60-promotion-hiv-clearance-sensitization-hiv-reservoirs/query.json"
+  },
+  {
+    "id": "A61",
+    "query_file": "paper/a61-exploring-toxicological-impact-bisphenol-acne-vulgaris/query.json"
+  },
+  {
+    "id": "A63",
+    "query_file": "paper/a63-prognostic-value-ubiquitination-related-differentially-expre/query.json"
+  },
+  {
+    "id": "A66",
+    "query_file": "paper/a66-multimodal-deepresearcher-generating-text-chart-interleaved/query.json"
+  },
+  {
+    "id": "A68",
+    "query_file": "paper/a68-merit-multilingual-semantic-retrieval-interleaved-multi/query.json"
+  },
+  {
+    "id": "A69",
+    "query_file": "paper/a69-flexible-annotation-atlas-mouse-brain-combining/query.json"
+  },
+  {
+    "id": "A7",
+    "query_file": "paper/a7-swe-bench/query.json"
+  },
+  {
+    "id": "A70",
+    "query_file": "paper/a70-visualizing-interacting-geospatial-networks-survey-design/query.json"
+  },
+  {
+    "id": "A72",
+    "query_file": "paper/a72-highly-efficient-encoding-job-shop-scheduling/query.json"
+  },
+  {
+    "id": "A76",
+    "query_file": "paper/a76-consumer-grade-wearable-sensors-classifying-pilot/query.json"
+  },
+  {
+    "id": "A77",
+    "query_file": "paper/a77-impact-bed-roughness-configurations-flow-dynamics/query.json"
+  },
+  {
+    "id": "A78",
+    "query_file": "paper/a78-optimized-detection-cyber-attacks-iot-networks/query.json"
+  },
+  {
+    "id": "A79",
+    "query_file": "paper/a79-vizcv-ai-assisted-visualization-researchers-publications/query.json"
+  },
+  {
+    "id": "A8",
+    "query_file": "paper/a8-gemini-technical-report/query.json"
+  },
+  {
+    "id": "A80",
+    "query_file": "paper/a80-ferroptosis-related-long-noncoding-rnas-prognostic/query.json"
+  },
+  {
+    "id": "A81",
+    "query_file": "paper/a81-state-state-influenza-outbreaks-oversee-markov/query.json"
+  },
+  {
+    "id": "A83",
+    "query_file": "paper/a83-circulating-protein-mediated-pathways-basal-cell/query.json"
+  },
+  {
+    "id": "A84",
+    "query_file": "paper/a84-hidden-markov-models-stock-market-prediction/query.json"
+  },
+  {
+    "id": "A85",
+    "query_file": "paper/a85-minimal-methanol-backstop-high-electrification-scenarios/query.json"
+  },
+  {
+    "id": "A87",
+    "query_file": "paper/a87-itemcomplex-python-visualization-framework-ex-post/query.json"
+  },
+  {
+    "id": "A9",
+    "query_file": "paper/a9-mixtral-of-experts/query.json"
+  },
+  {
+    "id": "B1",
+    "query_file": "report/b1-cnnic-internet-report-56/query.json"
+  },
+  {
+    "id": "B3",
+    "query_file": "report/b3-nda-digital-china-report-2024/query.json"
+  },
+  {
+    "id": "B5",
+    "query_file": "report/b5-cma-china-climate-bulletin-2024/query.json"
+  },
+  {
+    "id": "B6",
+    "query_file": "report/b6-mwr-water-resources-bulletin-2024/query.json"
+  },
+  {
+    "id": "B7",
+    "query_file": "report/b7-caict-cloud-computing-whitepaper-2022/query.json"
+  },
+  {
+    "id": "B8",
+    "query_file": "report/b8-questmobile-mobile-internet-covid-2020/query.json"
+  },
+  {
+    "id": "B9",
+    "query_file": "report/b9-iresearch-flexible-employment-report-2022/query.json"
+  },
+  {
+    "id": "C1",
+    "query_file": "report/c1-ericsson-mobility-report-june-2025/query.json"
+  },
+  {
+    "id": "C3",
+    "query_file": "report/c3-iea-global-ev-outlook-2025/query.json"
+  },
+  {
+    "id": "C4",
+    "query_file": "report/c4-undp-human-development-report-2025/query.json"
+  },
+  {
+    "id": "C8",
+    "query_file": "report/c8-ilo-weso-trends-2025/query.json"
+  },
+  {
+    "id": "C9",
+    "query_file": "report/c9-unctad-digital-economy-report-2024/query.json"
+  },
+  {
+    "id": "D1",
+    "query_file": "dataset/d1-owid-life-expectancy/query.json"
+  },
+  {
+    "id": "D10",
+    "query_file": "dataset/d10-children-per-woman-un/query.json"
+  },
+  {
+    "id": "D11",
+    "query_file": "dataset/d11-seaborn-titanic/query.json"
+  },
+  {
+    "id": "D3",
+    "query_file": "dataset/d3-sp500-returns-daily/query.json"
+  },
+  {
+    "id": "D5",
+    "query_file": "dataset/d5-nfl-2010-2017/query.json"
+  },
+  {
+    "id": "D7",
+    "query_file": "dataset/d7-mayo-pbc-liver-survival/query.json"
+  },
+  {
+    "id": "D8",
+    "query_file": "dataset/d8-plotly-finance-charts-apple/query.json"
+  },
+  {
+    "id": "D9",
+    "query_file": "dataset/d9-billboard/query.json"
+  },
+  {
+    "id": "E1",
+    "query_file": "dataset/e1-plotly-us-counties-geojson/query.json"
+  },
+  {
+    "id": "E12",
+    "query_file": "dataset/e12-us-sector-employment/query.json"
+  },
+  {
+    "id": "E13",
+    "query_file": "dataset/e13-melbourne-pedestrians/query.json"
+  },
+  {
+    "id": "E15",
+    "query_file": "dataset/e15-cattle-growth/query.json"
+  },
+  {
+    "id": "E17",
+    "query_file": "dataset/e17-painting-elements/query.json"
+  },
+  {
+    "id": "E19",
+    "query_file": "dataset/e19-canada-migration/query.json"
+  },
+  {
+    "id": "E2",
+    "query_file": "dataset/e2-vega-flare-hierarchy/query.json"
+  },
+  {
+    "id": "E20",
+    "query_file": "dataset/e20-hawk-measurements/query.json"
+  },
+  {
+    "id": "E3",
+    "query_file": "dataset/e3-vega-miserables-network/query.json"
+  },
+  {
+    "id": "E5",
+    "query_file": "dataset/e5-plotly-global-precipitation/query.json"
+  },
+  {
+    "id": "E6",
+    "query_file": "dataset/e6-vega-weather-multicity/query.json"
+  },
+  {
+    "id": "E7",
+    "query_file": "dataset/e7-skye-lava/query.json"
+  },
+  {
+    "id": "E8",
+    "query_file": "dataset/e8-iron-measurements/query.json"
+  },
+  {
+    "id": "F1",
+    "query_file": "cross-source/f1-cnnic-internet-report-56/query.json"
+  },
+  {
+    "id": "F2",
+    "query_file": "cross-source/f2-wef-future-of-jobs-report-2025/query.json"
+  },
+  {
+    "id": "F3",
+    "query_file": "cross-source/f3-chinchilla-scaling-laws/query.json"
+  },
+  {
+    "id": "F5",
+    "query_file": "cross-source/f5-wmo-state-of-global-climate-2024/query.json"
+  }
+]
